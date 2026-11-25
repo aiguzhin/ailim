@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ailim</title>
+  <meta name="description" content="Ailim — короткие уроки и практика, чтобы уверенно пользоваться искусственным интеллектом в учёбе, работе и жизни.">
+  <meta name="theme-color" content="#f6f4ee">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/fonts/inter-cyrillic-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/app.css">
+  <script src="/js/prefs-boot.js"></script>
+  <script type="module" src="/js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#app" data-i18n="a11y.skip">Перейти к содержимому</a>
+  <header class="site-header" id="site-header"></header>
+  <main id="app" tabindex="-1" aria-live="polite" aria-busy="true">
+    <div class="wrap loading-page" aria-hidden="true">
+      <div class="skeleton" style="height:48px;width:60%"></div>
+      <div class="skeleton" style="height:20px;width:40%"></div>
+      <div class="skeleton" style="height:220px"></div>
+    </div>
+    <noscript><div class="wrap page"><p>Для работы сайта включите JavaScript. / Please enable JavaScript.</p></div></noscript>
+  </main>
+  <footer class="site-footer" id="site-footer"></footer>
+  <div class="toasts" id="toasts" role="status" aria-live="polite"></div>
+</body>
+</html>
