@@ -1,0 +1,363 @@
+[
+  {
+    "id": "first-prompt",
+    "direction": "basics",
+    "level": 1,
+    "minutes": 7,
+    "title": "Your first good prompt",
+    "summary": "The four parts of a prompt that gets a useful answer on the first try.",
+    "goal": "Learn to write a prompt with a task, context, format and constraints.",
+    "steps": [
+      {
+        "title": "What a prompt is",
+        "body": [
+          "A prompt is the message you write to an AI. The AI doesn't know who you are, why you need the answer or what it should look like. It only has the text of your prompt.",
+          "That's why a short prompt like “tell me about space” gets a vague, general answer: the AI guesses what you need, and often guesses wrong."
+        ]
+      },
+      {
+        "title": "The four parts",
+        "body": ["A good prompt answers four questions:"],
+        "list": [
+          "Task: what to do (explain, shorten, invent, compare)",
+          "Context: who it's for and why (a 7th grader, a 3-minute talk)",
+          "Format: how to present it (a list, a table, 5 points, 100 words)",
+          "Constraints: what to avoid (no jargon, no made-up facts)"
+        ]
+      },
+      {
+        "title": "Before and after",
+        "body": ["Compare the two prompts. The second is longer, but it saves time because the answer fits straight away."],
+        "bad": "Tell me about space.",
+        "prompt": "Explain why the Moon has no atmosphere. It's for a 2-minute talk in 6th grade. Give 4 short points in simple words and one interesting comparison. If you're unsure about anything, say so."
+      },
+      {
+        "title": "Refine the answer",
+        "body": [
+          "The first answer is a draft. Keep the conversation going: “make it shorter”, “add a real-life example”, “explain point two in more detail”.",
+          "You can also ask the AI to question you first: “Before you answer, ask me 3 clarifying questions.”"
+        ],
+        "prompt": "Before you answer, ask me 3 clarifying questions about who this text is for and why I need it."
+      }
+    ],
+    "task": "Take a question you're curious about right now and write a four-part prompt. Send it to any chatbot, then ask it to make the answer shorter.",
+    "takeaway": "Task, context, format and constraints turn a random answer into a useful one. The first answer is a draft you can improve."
+  },
+  {
+    "id": "check-answers",
+    "direction": "basics",
+    "level": 1,
+    "minutes": 8,
+    "title": "How to check AI answers",
+    "summary": "Why AI makes confident mistakes and how to quickly verify important facts.",
+    "goal": "Tell a reliable answer from a doubtful one and check facts against sources.",
+    "steps": [
+      {
+        "title": "Why AI gets things wrong",
+        "body": [
+          "A language model produces plausible text. Usually it's correct, but sometimes the AI confidently invents dates, quotes, links and book titles. These mistakes are called “hallucinations”.",
+          "An answer that sounds convincing isn't necessarily right."
+        ]
+      },
+      {
+        "title": "What you must check",
+        "body": ["Check anything that affects your grade, money, health or how others see you:"],
+        "list": ["Dates, numbers and statistics", "Quotes and their authors", "Source links: open them", "Medical, legal and financial advice", "Facts about real people"]
+      },
+      {
+        "title": "Three ways to check",
+        "body": ["1. Find the same fact in two independent, reliable sources: a textbook, an official website, an encyclopedia.", "2. Ask the AI where it might be wrong and to name its sources.", "3. Ask the same question differently. If the answers contradict each other, that's a reason to check."],
+        "prompt": "Which statements in your answer do you consider least reliable? Mark them and tell me where I can check them."
+      },
+      {
+        "title": "Warning signs",
+        "body": ["Be extra careful when you see:"],
+        "list": ["Very precise figures with no source", "Links that don't open", "A quote that a search engine can't find", "Answers about very recent events"]
+      }
+    ],
+    "task": "Ask a chatbot for three facts about your city, with dates. Check each fact against two sources and write down what was confirmed.",
+    "takeaway": "AI is an assistant, not a source of truth. Check important facts against reliable sources, and open links yourself."
+  },
+  {
+    "id": "study-tutor",
+    "direction": "study",
+    "level": 1,
+    "minutes": 8,
+    "title": "AI as a tutor: understanding a hard topic",
+    "summary": "How to ask for explanations, examples and self-checks so you really understand a topic.",
+    "goal": "Use AI to understand a topic instead of just getting an answer.",
+    "steps": [
+      {
+        "title": "Ask for an explanation at your level",
+        "body": ["Say what you already know and what's unclear, so the explanation starts in the right place."],
+        "prompt": "I'm in 9th grade. I know what speed is, but I don't understand acceleration. Explain it in simple words with a real-life example."
+      },
+      {
+        "title": "Test your understanding",
+        "body": ["Ask the AI not to give the answer straight away but to quiz you one question at a time. This works better than rereading your notes."],
+        "prompt": "Ask me 5 questions about acceleration, one at a time. After each answer, tell me what's right and give a hint if I'm wrong. Don't show the answers in advance."
+      },
+      {
+        "title": "Explain it in your own words",
+        "body": ["Write down how you understood the topic and ask the AI to find mistakes. If you can explain it yourself, you've understood it."],
+        "prompt": "Here's how I understand the topic: [your summary]. Point out inaccuracies and explain how to fix them, but don't rewrite my text."
+      },
+      {
+        "title": "Fair rules",
+        "body": ["AI is a tutor, not someone who does your homework. Find out your school's or university's rules. If AI helped with your work, say so when the rules require it. Passing off generated text as your own is dishonest, and it means you learn to do that instead of learning the subject."]
+      }
+    ],
+    "task": "Pick a topic you're studying now. Ask for an explanation at your level, then answer 5 self-check questions.",
+    "takeaway": "AI helps most when it explains and asks questions, while you do the thinking and answering."
+  },
+  {
+    "id": "writing-edit",
+    "direction": "writing",
+    "level": 1,
+    "minutes": 7,
+    "title": "Editing your writing with AI",
+    "summary": "How to improve your text and keep your own voice.",
+    "goal": "Get specific edits from AI rather than someone else's rewritten text.",
+    "steps": [
+      {
+        "title": "Write it yourself first",
+        "body": ["A draft, even a rough one, is yours. AI works best as an editor: it spots repetition, long sentences and unclear passages."]
+      },
+      {
+        "title": "Say exactly what to improve",
+        "body": ["“Make it better” is too vague. Name the goal: shorten it, remove repetition, make the tone more polite, check the grammar."],
+        "prompt": "Edit this email: remove repetition and make the tone polite but not formal. Keep the length. Show the changes as a list: before → after.\n\n[your text]"
+      },
+      {
+        "title": "Keep your style",
+        "body": ["Ask the AI not to change your favourite phrases and structure. Accept edits one by one instead of taking a whole new text."],
+        "prompt": "Don't change my style or the order of my ideas. Suggest only the 5 most important edits and explain each in one sentence."
+      },
+      {
+        "title": "Reread the result",
+        "body": ["Read the final text aloud. Check names, dates and facts: the AI may have changed something by mistake."]
+      }
+    ],
+    "task": "Take one of your messages or an essay paragraph. Ask for 5 edits as a “before → after” list and accept only the ones you agree with.",
+    "takeaway": "Write it yourself and use AI as an editor with a clear brief. Accept edits deliberately."
+  },
+  {
+    "id": "slides-outline",
+    "direction": "slides",
+    "level": 2,
+    "minutes": 9,
+    "title": "A presentation structure in 15 minutes",
+    "summary": "From goal and audience to a slide outline and speaker notes.",
+    "goal": "Quickly build a logical presentation structure and notes for it.",
+    "steps": [
+      {
+        "title": "Goal and audience",
+        "body": ["Answer for yourself: who is listening, how many minutes you have, and what they should remember. This is the key context for your prompt."]
+      },
+      {
+        "title": "Slide outline",
+        "body": ["Ask for an outline, not finished slides. An outline is easier to check and fix."],
+        "prompt": "Create a 6-slide outline. Topic: “How plastic recycling works”. Audience: 7th grade, 5 minutes. For each slide give a title and 2–3 points. The last slide is a question for the class."
+      },
+      {
+        "title": "Speaker notes",
+        "body": ["Keep slides to short points and put the explanation in your talk. Ask for speaker notes for each slide."],
+        "prompt": "Write speaker notes for slides 2 and 3, 3–4 sentences each, in a conversational tone. Mark places that need an example or a figure I'll check myself."
+      },
+      {
+        "title": "Check and design",
+        "body": ["Check the numbers and facts. Design the slides yourself or with a presentation tool from the catalogue. Use images with a suitable licence."]
+      }
+    ],
+    "task": "Pick the topic of your next talk and get a 5–7 slide outline. Edit it: remove what's unnecessary and add your own example.",
+    "takeaway": "Goal and outline first, then slides. AI speeds up the structure; the content and fact-checking stay with you."
+  },
+  {
+    "id": "images-describe",
+    "direction": "images",
+    "level": 2,
+    "minutes": 8,
+    "title": "Describing an image for a generator",
+    "summary": "Five elements of a description that help you get the picture you want.",
+    "goal": "Write image descriptions that give predictable results.",
+    "steps": [
+      {
+        "title": "Five elements",
+        "body": ["Image generators understand specific descriptions better. Describe:"],
+        "list": ["Subject: who or what is in the frame", "Place and time: where, when, what weather", "Style: watercolour, photo, 3D, flat illustration", "Composition: close-up, top view, lots of empty space", "Light and mood: soft, bright, calm, dramatic"]
+      },
+      {
+        "title": "Example",
+        "body": ["Compare a general and a specific version."],
+        "bad": "A beautiful city.",
+        "prompt": "An old town on a riverbank early in the morning, light fog, view from a bridge, flat vector illustration, muted blue and beige colours, plenty of empty sky at the top for a headline."
+      },
+      {
+        "title": "Improve step by step",
+        "body": ["Change one detail at a time: style, light or angle. That way you'll see what affects the result. Save descriptions that work."]
+      },
+      {
+        "title": "Rights and honesty",
+        "body": ["Don't create images of real people without their consent, and don't present a generated photo as real. Check the tool's terms of use, especially for commercial projects. In school and work materials, note that the image was made with AI."]
+      }
+    ],
+    "task": "Describe a cover for your report using the five elements. Generate two versions, changing only the style.",
+    "takeaway": "Subject, place, style, composition and light are the backbone of a description. Change one detail at a time and respect rights."
+  },
+  {
+    "id": "video-script",
+    "direction": "video",
+    "level": 2,
+    "minutes": 8,
+    "title": "Scripting a short video",
+    "summary": "Use AI to come up with a hook, a structure and a shot list for a clip under a minute.",
+    "goal": "Prepare a script and shot list for a short video.",
+    "steps": [
+      {
+        "title": "A hook in the first seconds",
+        "body": ["In a short video, the first 2–3 seconds matter most. Ask for several opening lines and pick the best one."],
+        "prompt": "Suggest 5 opening lines for a 40-second video about making a healthy snack in 3 minutes. Audience: school students. No clickbait."
+      },
+      {
+        "title": "Structure",
+        "body": ["A simple pattern: hook, problem, 3 steps to solve it, wrap-up. Ask for a timed script."],
+        "prompt": "Write a 40-second script following “hook — problem — 3 steps — wrap-up”. For each part give the timing, the voice-over text and what's on screen."
+      },
+      {
+        "title": "Shot list and captions",
+        "body": ["A shot list helps you film without rushing. Captions make the video understandable without sound, and many editors create them automatically. Check captions for mistakes."]
+      },
+      {
+        "title": "Music and other people's material",
+        "body": ["Use music and footage you have the right to use: from the editor's library or under a free licence. Don't use a real person's voice or face without their consent."]
+      }
+    ],
+    "task": "Think of a video topic and get a 30–45 second timed script. Mark which shots you'll film yourself.",
+    "takeaway": "A hook, a clear structure and a shot list save time. Music rights and people's consent are a must."
+  },
+  {
+    "id": "audio-voice",
+    "direction": "audio",
+    "level": 2,
+    "minutes": 7,
+    "title": "Voice and sound: voice-over and podcasts",
+    "summary": "How to prepare a text for voice-over and use speech synthesis ethically.",
+    "goal": "Prepare a text that sounds good and voice it responsibly.",
+    "steps": [
+      {
+        "title": "Writing for the ear",
+        "body": ["Listeners take in text differently from readers. Use short sentences, simple words and repeat the main point."],
+        "prompt": "Rewrite this text for voice-over: short sentences, conversational style, no brackets or abbreviations, and repeat the main idea at the end. [text]"
+      },
+      {
+        "title": "Pronunciation and pauses",
+        "body": ["Spell tricky names and terms the way they're pronounced. Paragraphs and commas help speech synthesis pause. Listen to the whole result."]
+      },
+      {
+        "title": "Podcast outline",
+        "body": ["AI can help outline an episode: intro, topics, questions for a guest, wrap-up."],
+        "prompt": "Outline a 10-minute podcast about choosing your first career. Split it into 4 timed parts and give 5 questions for a guest."
+      },
+      {
+        "title": "Consent and honesty",
+        "body": ["Clone someone's voice only with their explicit consent. Tell listeners when a voice is synthetic. For music, follow the service's licence terms."]
+      }
+    ],
+    "task": "Take a paragraph from your report, rewrite it for voice-over and listen to it with speech synthesis, or read it aloud.",
+    "takeaway": "Text for the ear is simple and short. Use another person's voice only with their consent."
+  },
+  {
+    "id": "code-first",
+    "direction": "code",
+    "level": 2,
+    "minutes": 10,
+    "title": "First steps in coding with AI",
+    "summary": "How to describe a task, understand the code and deal with an error.",
+    "goal": "Use AI to learn programming, not just to copy code.",
+    "steps": [
+      {
+        "title": "Describe the task fully",
+        "body": ["State the language, the input, the expected output and an example."],
+        "prompt": "Python. Write a function that takes a list of grades from 1 to 5 and returns the average rounded to two decimals. Example: [5, 4, 4] → 4.33. Explain each line."
+      },
+      {
+        "title": "Go through the code line by line",
+        "body": ["Don't run code you don't understand. Ask for an explanation and ask what happens with unusual input, such as an empty list."],
+        "prompt": "What happens if I pass an empty list to the function? Fix the code so it reports a clear error."
+      },
+      {
+        "title": "Errors are clues",
+        "body": ["If the code fails, copy the full error message and the piece of code where it happened. Ask for the cause, not just a fix."],
+        "prompt": "Here's the error and the code. Explain in plain words why it happens and how I can find this kind of error myself next time.\n\n[error]\n[code]"
+      },
+      {
+        "title": "Security",
+        "body": ["Never paste passwords, API keys or users' personal data into a chat. Check code before running it, especially if it deletes files or sends data over the internet."]
+      }
+    ],
+    "task": "Ask the AI to write a small function for your task. Run it, test it with empty and unusual input, and ask for an explanation of one line you don't understand.",
+    "takeaway": "Describe the task with an example, understand every line and test edge cases. Keep secrets out of the chat."
+  },
+  {
+    "id": "planning-goals",
+    "direction": "planning",
+    "level": 1,
+    "minutes": 7,
+    "title": "Planning your week and big tasks",
+    "summary": "How to break a big goal into steps and build a realistic schedule.",
+    "goal": "Turn a big task into a clear plan with steps and deadlines.",
+    "steps": [
+      {
+        "title": "Break the goal into steps",
+        "body": ["A big task feels overwhelming. Ask for steps of 20–40 minutes each."],
+        "prompt": "My goal is to finish a biology project in 2 weeks. Break it into 30-minute steps in the right order and mark which ones can be done in parallel."
+      },
+      {
+        "title": "Account for your real time",
+        "body": ["Describe your schedule: when you're busy and when you're free. That makes the plan doable."],
+        "prompt": "On weekdays I'm free from 5 to 7 pm, on Saturday until lunch. Spread these steps over the days and keep one free evening a week."
+      },
+      {
+        "title": "Priorities",
+        "body": ["If you have many tasks, ask the AI to sort them into urgent and important. You still decide what matters most."]
+      },
+      {
+        "title": "Review the plan",
+        "body": ["Plans change, and that's normal. At the end of the week, tell the AI what you got done and ask it to update the plan without judgement."]
+      }
+    ],
+    "task": "Pick one goal for the next two weeks. Get a step-by-step plan and put it into your calendar.",
+    "takeaway": "Small steps, real time and regular reviews make a plan doable."
+  },
+  {
+    "id": "everyday-help",
+    "direction": "everyday",
+    "level": 1,
+    "minutes": 6,
+    "title": "AI for everyday tasks",
+    "summary": "Recipes, letters, checklists and comparing options without unnecessary risk.",
+    "goal": "Use AI for everyday tasks without sharing more personal data than needed.",
+    "steps": [
+      {
+        "title": "What to cook",
+        "body": ["List what you have at home and how much time you have."],
+        "prompt": "I have eggs, potatoes, onions, cheese and tomatoes. Suggest 3 dishes under 30 minutes with step-by-step recipes for 2 servings."
+      },
+      {
+        "title": "Lists and packing",
+        "body": ["AI is quick at checklists: what to take on a trip, what to buy for a party, what to do before moving."],
+        "prompt": "Make a packing list for a 3-day summer trip to the mountains. Group it by category and mark the essentials."
+      },
+      {
+        "title": "Comparing options",
+        "body": ["Describe what matters to you and ask for a comparison table. Check prices and availability on official websites: the AI may not have up-to-date information."]
+      },
+      {
+        "title": "What not to send",
+        "body": ["Everyday tasks don't need your address, phone number, ID or bank card details. If your text contains them, replace them with [address] or [phone] before sending."]
+      }
+    ],
+    "task": "Use AI for one everyday task this week: a recipe, a shopping list or a trip plan.",
+    "takeaway": "AI saves time on everyday tasks. Check prices yourself, and don't send personal data."
+  }
+]

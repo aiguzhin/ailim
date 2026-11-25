@@ -1,0 +1,71 @@
+{
+  "safety": {
+    "eyebrow": "Responsible use",
+    "title": "Safety and honesty",
+    "lead": "Six rules that protect you and others when you work with AI.",
+    "sections": [
+      {
+        "title": "Protect personal data",
+        "text": "AI services may store your conversations and use them to improve their models. Don't send anything you wouldn't tell a stranger.",
+        "items": ["Passwords, SMS codes and access keys", "Your home address and phone number", "ID numbers, passport and bank card details", "Other people's personal data without permission"]
+      },
+      {
+        "title": "AI can be wrong",
+        "text": "An answer can sound confident and still contain invented facts, dates and links.",
+        "items": ["Check important facts against two reliable sources", "Open links yourself", "Discuss medical, legal and financial questions with a professional"]
+      },
+      {
+        "title": "School and work rules",
+        "text": "Schools, universities and workplaces have their own AI rules. Find out what they are in advance.",
+        "items": ["If you're unsure what's allowed, ask your teacher or manager", "Say that you used AI when the rules require it", "Don't upload work documents to AI without permission"]
+      },
+      {
+        "title": "Copyright",
+        "text": "Texts, images and music belong to their authors, even if AI helped you find or rework them.",
+        "items": ["Use material with a suitable licence", "Read the service's terms before using results commercially", "Note when an image or voice was made with AI"]
+      },
+      {
+        "title": "Honesty",
+        "text": "AI helps you learn and work faster, but it shouldn't replace your work where you are the one being assessed.",
+        "items": ["Don't present generated text as your own", "Don't use AI to get around rules or checks", "Don't create fake photos, videos or voices of real people"]
+      },
+      {
+        "title": "Look after yourself",
+        "text": "AI doesn't replace people or professional help.",
+        "items": ["If things are hard, talk to someone close, a teacher or a counsellor", "Take breaks from the screen", "Make decisions that matter for your life yourself"]
+      }
+    ],
+    "footer": "If you spot a mistake or outdated information on the site, let us know. We update the materials regularly."
+  },
+  "privacy": {
+    "eyebrow": "Transparency",
+    "title": "What data we store",
+    "lead": "We collect only what the site needs to work, and we don't sell your data or share it with advertising services.",
+    "sections": [
+      {
+        "title": "Account",
+        "items": ["The name or nickname you entered", "Your email for signing in and password recovery", "Your password is stored only as a hash (scrypt). We can't read it"]
+      },
+      {
+        "title": "Learning",
+        "items": ["Completed lessons and the step where you stopped", "Completed practice exercises", "Bookmarked lessons and tools", "Viewing history (last 200 entries)", "Your learning plan from the starter quiz"]
+      },
+      {
+        "title": "What we don't store",
+        "items": ["Text you write in practice and the prompt builder. It stays in your browser", "We don't send anything to external AI services", "We don't use advertising trackers or third-party analytics"]
+      },
+      {
+        "title": "Settings",
+        "items": ["Language, theme, text size, motion and reminders", "Without an account, these settings are stored in your browser only"]
+      },
+      {
+        "title": "Your rights",
+        "items": ["Download all your data in Settings", "Change your name and password", "Delete your account: everything above is removed immediately and permanently"]
+      },
+      {
+        "title": "Technical details",
+        "items": ["Sign-in uses a secure session cookie that page scripts can't access", "A session lasts 30 days or until you sign out", "Data is stored in a PostgreSQL database over an encrypted connection"]
+      }
+    ]
+  }
+}

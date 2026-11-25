@@ -1,0 +1,46 @@
+{
+  "questions": [
+    {
+      "id": "goals",
+      "type": "multi",
+      "title": "What do you want to use AI for?",
+      "hint": "You can choose several.",
+      "options": [
+        { "value": "study", "label": "Study" },
+        { "value": "writing", "label": "Texts and emails" },
+        { "value": "slides", "label": "Presentations" },
+        { "value": "images", "label": "Images" },
+        { "value": "video", "label": "Video" },
+        { "value": "audio", "label": "Sound and voice-over" },
+        { "value": "code", "label": "Programming" },
+        { "value": "planning", "label": "Planning" },
+        { "value": "everyday", "label": "Everyday tasks" }
+      ]
+    },
+    {
+      "id": "experience",
+      "type": "single",
+      "title": "How familiar are you with AI?",
+      "options": [
+        { "value": "new", "label": "I've hardly tried it" },
+        { "value": "some", "label": "I sometimes ask a chatbot questions" },
+        { "value": "regular", "label": "I use it regularly" }
+      ]
+    },
+    {
+      "id": "pace",
+      "type": "single",
+      "title": "How much time can you give to learning?",
+      "options": [
+        { "value": "light", "label": "10 minutes whenever I can" },
+        { "value": "steady", "label": "15–20 minutes a few times a week" },
+        { "value": "intense", "label": "More — I want to learn fast" }
+      ]
+    }
+  ],
+  "pace": {
+    "light": "One lesson a week. Each lesson takes about 7–10 minutes, and you can stop at any point: your progress is saved.",
+    "steady": "Two or three lessons a week, plus one practice exercise after each lesson.",
+    "intense": "One lesson a day. Do a practice exercise after each lesson."
+  }
+}

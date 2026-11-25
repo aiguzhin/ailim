@@ -1,0 +1,108 @@
+{
+  "categories": {
+    "chat": "Chatbots",
+    "text": "Writing and translation",
+    "images": "Images",
+    "video": "Video",
+    "audio": "Sound and voice",
+    "code": "Programming",
+    "learning": "Study and work"
+  },
+  "text": {
+    "chatgpt": {
+      "purpose": "A general-purpose chat assistant: answers questions, explains topics, helps write and edit texts, and brainstorms ideas.",
+      "tasks": ["Explain a hard topic in plain words", "Draft a letter or essay", "Come up with names and ideas"],
+      "prompt": "Explain how photosynthesis works to an 8th grader. Use one everyday analogy and finish with three self-check questions."
+    },
+    "claude": {
+      "purpose": "A chat assistant that handles long texts and documents well: reads them, summarises them and helps with wording.",
+      "tasks": ["Summarise a long document", "Improve the structure of a text", "Compare two versions of a sentence"],
+      "prompt": "Below is my presentation text. Suggest a clearer 5-part structure and point out which paragraphs can be shortened. Don't change my style.\n\n[paste text]"
+    },
+    "gemini": {
+      "purpose": "Google's assistant. Works in the browser and in a mobile app and can be connected to Google services.",
+      "tasks": ["Plan a day or a trip", "Find ideas for a project", "Get to grips with a new topic"],
+      "prompt": "Make a 5-day plan to prepare for a history test, 40 minutes a day. Topic: [your topic]. Add a short self-test to each day."
+    },
+    "copilot": {
+      "purpose": "Microsoft's assistant. Available in the browser and in Windows, and built into Microsoft 365 apps in some plans.",
+      "tasks": ["Word an email", "Outline a document", "Make sense of a spreadsheet or report"],
+      "prompt": "Help me write a polite email to my teacher asking to move my deadline by two days. Reason: [your reason]. No more than 80 words."
+    },
+    "perplexity": {
+      "purpose": "Search with answers: it writes an answer to your question and shows links to sources you can open and check.",
+      "tasks": ["Find sources on a topic", "Quickly compare facts from several sites", "Build a reading list to verify"],
+      "prompt": "What popular-science sources discuss how sleep affects memory? Give 5 sources with links and describe each in one sentence."
+    },
+    "deepl": {
+      "purpose": "Translates texts and documents between many languages, and can suggest better wording for text you've written.",
+      "tasks": ["Translate an email or article", "Compare translations of a phrase", "Make foreign-language text sound more natural"],
+      "prompt": "Translate into Russian, keeping a formal tone: “Please confirm receipt of the documents by Friday.”"
+    },
+    "grammarly": {
+      "purpose": "Checks English writing for grammar, punctuation, clarity and tone, with suggestions as you type.",
+      "tasks": ["Proofread an English essay", "Make a business email clearer", "Find repetition and overly long sentences"],
+      "prompt": "Make this paragraph clearer for a B1-level reader without changing the meaning: [paste paragraph]"
+    },
+    "midjourney": {
+      "purpose": "Creates images from text descriptions. Good for artistic illustrations, concepts and inspiration.",
+      "tasks": ["Illustrate a story", "Explore a visual style for a project", "Generate concept variations"],
+      "prompt": "Watercolour illustration: a yurt at dawn on the steppe, soft warm light, mountains in the distance, lots of open sky, calm mood."
+    },
+    "firefly": {
+      "purpose": "Adobe's image generation and editing. Some features are built into Photoshop and other Adobe apps.",
+      "tasks": ["Extend a photo's background", "Create a texture or backdrop", "Generate illustration variations"],
+      "prompt": "Flat vector illustration: a student at a desk with a laptop, calm green and beige colours, simple background."
+    },
+    "canva": {
+      "purpose": "An online design editor with AI features for presentations, posters, social posts and image editing.",
+      "tasks": ["Make a poster or card quickly", "Design a presentation", "Remove a photo background"],
+      "prompt": "Poster for a school robotics club: headline “Build your first robot”, date and place, minimal text, one bright accent colour."
+    },
+    "runway": {
+      "purpose": "A set of AI video tools: generating short clips from text or images and helping with editing.",
+      "tasks": ["Animate a still image", "Make a background or transition for a video", "Try ideas for a clip"],
+      "prompt": "Slow camera flight over snowy mountains at sunset, cinematic shot, no people, 5 seconds."
+    },
+    "capcut": {
+      "purpose": "A video editor for phone and computer with automatic captions and other AI editing features.",
+      "tasks": ["Add captions to a video", "Edit a short clip for social media", "Pick an editing template"],
+      "prompt": "Editing plan: 3 scenes of 5 seconds each, a large caption in every scene, a call to subscribe at the end."
+    },
+    "elevenlabs": {
+      "purpose": "Speech synthesis: reads text aloud in different voices and languages and helps with dubbing.",
+      "tasks": ["Voice a presentation or video", "Listen to a text instead of reading it", "Make an audio version of a lesson"],
+      "prompt": "Read this text in a calm, friendly voice at a medium pace, with a pause after each paragraph: [text]"
+    },
+    "suno": {
+      "purpose": "Creates songs and music clips from a text description of genre, mood and theme.",
+      "tasks": ["Make a short tune for a video", "Write a birthday song", "Experiment with genres"],
+      "prompt": "A cheerful acoustic song about the first day of the holidays, light rhythm, guitar and hand claps, no explicit lyrics."
+    },
+    "github-copilot": {
+      "purpose": "An AI assistant in your code editor: suggests code, explains it and helps fix bugs.",
+      "tasks": ["Explain unfamiliar code", "Write tests for a function", "Find the cause of an error"],
+      "prompt": "Explain line by line what this function does and suggest two tests for edge cases: [paste code]"
+    },
+    "cursor": {
+      "purpose": "A code editor with built-in AI: ask questions about your project and request changes across several files.",
+      "tasks": ["Understand a project's structure", "Make a small change in many files", "Rewrite a function more clearly"],
+      "prompt": "Find where the project checks a user's login and explain the steps in plain words. Don't change the code yet."
+    },
+    "notebooklm": {
+      "purpose": "Answers questions based on materials you upload (notes, articles, PDFs) and shows which passage it relies on.",
+      "tasks": ["Revise for an exam from your own notes", "Summarise a set of articles", "Find an answer in a long document"],
+      "prompt": "From my uploaded notes, write 10 self-check questions on chapter 3 and show where in the text each answer is."
+    },
+    "gamma": {
+      "purpose": "Creates presentations, documents and simple web pages from a text description or an outline.",
+      "tasks": ["Draft a presentation from an outline", "Lay out a report as a document", "Show a project idea quickly"],
+      "prompt": "An 8-slide presentation “Saving water at home” for 6th grade: the problem, 5 simple tips, a summary and a question for the class."
+    },
+    "notion-ai": {
+      "purpose": "AI inside the Notion workspace: helps write notes, summarise pages and search your own records.",
+      "tasks": ["Summarise a meeting", "Turn notes into a task list", "Find something in your notes"],
+      "prompt": "From these meeting notes, list the decisions, tasks with owners and deadlines in a table: [notes]"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "updated": "2026-11-25",
+  "categories": ["chat", "text", "images", "video", "audio", "code", "learning"],
+  "tools": [
+    { "id": "chatgpt", "name": "ChatGPT", "maker": "OpenAI", "category": "chat", "url": "https://chatgpt.com", "level": 1 },
+    { "id": "claude", "name": "Claude", "maker": "Anthropic", "category": "chat", "url": "https://claude.ai", "level": 1 },
+    { "id": "gemini", "name": "Gemini", "maker": "Google", "category": "chat", "url": "https://gemini.google.com", "level": 1 },
+    { "id": "copilot", "name": "Microsoft Copilot", "maker": "Microsoft", "category": "chat", "url": "https://copilot.microsoft.com", "level": 1 },
+    { "id": "perplexity", "name": "Perplexity", "maker": "Perplexity AI", "category": "chat", "url": "https://www.perplexity.ai", "level": 1 },
+    { "id": "deepl", "name": "DeepL", "maker": "DeepL", "category": "text", "url": "https://www.deepl.com", "level": 1 },
+    { "id": "grammarly", "name": "Grammarly", "maker": "Grammarly", "category": "text", "url": "https://www.grammarly.com", "level": 1 },
+    { "id": "midjourney", "name": "Midjourney", "maker": "Midjourney", "category": "images", "url": "https://www.midjourney.com", "level": 2 },
+    { "id": "firefly", "name": "Adobe Firefly", "maker": "Adobe", "category": "images", "url": "https://firefly.adobe.com", "level": 1 },
+    { "id": "canva", "name": "Canva", "maker": "Canva", "category": "images", "url": "https://www.canva.com", "level": 1 },
+    { "id": "runway", "name": "Runway", "maker": "Runway", "category": "video", "url": "https://runwayml.com", "level": 2 },
+    { "id": "capcut", "name": "CapCut", "maker": "ByteDance", "category": "video", "url": "https://www.capcut.com", "level": 1 },
+    { "id": "elevenlabs", "name": "ElevenLabs", "maker": "ElevenLabs", "category": "audio", "url": "https://elevenlabs.io", "level": 2 },
+    { "id": "suno", "name": "Suno", "maker": "Suno", "category": "audio", "url": "https://suno.com", "level": 1 },
+    { "id": "github-copilot", "name": "GitHub Copilot", "maker": "GitHub", "category": "code", "url": "https://github.com/features/copilot", "level": 3 },
+    { "id": "cursor", "name": "Cursor", "maker": "Anysphere", "category": "code", "url": "https://cursor.com", "level": 3 },
+    { "id": "notebooklm", "name": "NotebookLM", "maker": "Google", "category": "learning", "url": "https://notebooklm.google.com", "level": 1 },
+    { "id": "gamma", "name": "Gamma", "maker": "Gamma", "category": "learning", "url": "https://gamma.app", "level": 1 },
+    { "id": "notion-ai", "name": "Notion AI", "maker": "Notion", "category": "learning", "url": "https://www.notion.com/product/ai", "level": 2 }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "basics": { "name": "Basics", "desc": "First prompt and checking answers" },
+  "study": { "name": "Study", "desc": "Understand topics and revise" },
+  "writing": { "name": "Writing", "desc": "Write and edit" },
+  "slides": { "name": "Presentations", "desc": "Structure and slides" },
+  "images": { "name": "Images", "desc": "Descriptions and illustrations" },
+  "video": { "name": "Video", "desc": "Scripts and editing" },
+  "audio": { "name": "Sound", "desc": "Voice-over and podcasts" },
+  "code": { "name": "Programming", "desc": "Code, errors, tests" },
+  "planning": { "name": "Planning", "desc": "Goals, steps, schedules" },
+  "everyday": { "name": "Everyday", "desc": "Home, shopping, trips" }
+}
