@@ -1,0 +1,482 @@
+[
+ {
+  "id": "music.theme.short",
+  "subtopic": "theme",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.theme.detailed",
+  "subtopic": "theme",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.theme.refine",
+  "subtopic": "theme",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.theme.check",
+  "subtopic": "theme",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.mood.short",
+  "subtopic": "mood",
+  "kind": "short",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.mood.detailed",
+  "subtopic": "mood",
+  "kind": "detailed",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.mood.refine",
+  "subtopic": "mood",
+  "kind": "refine",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.mood.check",
+  "subtopic": "mood",
+  "kind": "check",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.structure.short",
+  "subtopic": "structure",
+  "kind": "short",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.structure.detailed",
+  "subtopic": "structure",
+  "kind": "detailed",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.structure.refine",
+  "subtopic": "structure",
+  "kind": "refine",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.structure.check",
+  "subtopic": "structure",
+  "kind": "check",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.instruments.short",
+  "subtopic": "instruments",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.instruments.detailed",
+  "subtopic": "instruments",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.instruments.refine",
+  "subtopic": "instruments",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.instruments.check",
+  "subtopic": "instruments",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.sound.short",
+  "subtopic": "sound",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.sound.detailed",
+  "subtopic": "sound",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.sound.refine",
+  "subtopic": "sound",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.sound.check",
+  "subtopic": "sound",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.describe.short",
+  "subtopic": "describe",
+  "kind": "short",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.describe.detailed",
+  "subtopic": "describe",
+  "kind": "detailed",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.describe.refine",
+  "subtopic": "describe",
+  "kind": "refine",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.describe.check",
+  "subtopic": "describe",
+  "kind": "check",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.melody.short",
+  "subtopic": "melody",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.melody.detailed",
+  "subtopic": "melody",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.melody.refine",
+  "subtopic": "melody",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.melody.check",
+  "subtopic": "melody",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.title.short",
+  "subtopic": "title",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.title.detailed",
+  "subtopic": "title",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.title.refine",
+  "subtopic": "title",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.title.check",
+  "subtopic": "title",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.scene.short",
+  "subtopic": "scene",
+  "kind": "short",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.scene.detailed",
+  "subtopic": "scene",
+  "kind": "detailed",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.scene.refine",
+  "subtopic": "scene",
+  "kind": "refine",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.scene.check",
+  "subtopic": "scene",
+  "kind": "check",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.avoid.short",
+  "subtopic": "avoid",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.avoid.detailed",
+  "subtopic": "avoid",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.avoid.refine",
+  "subtopic": "avoid",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "music.avoid.check",
+  "subtopic": "avoid",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "music",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ }
+]

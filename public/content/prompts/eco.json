@@ -1,0 +1,482 @@
+[
+ {
+  "id": "eco.problem.short",
+  "subtopic": "problem",
+  "kind": "short",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.problem.detailed",
+  "subtopic": "problem",
+  "kind": "detailed",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.problem.refine",
+  "subtopic": "problem",
+  "kind": "refine",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.problem.check",
+  "subtopic": "problem",
+  "kind": "check",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.data.short",
+  "subtopic": "data",
+  "kind": "short",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.data.detailed",
+  "subtopic": "data",
+  "kind": "detailed",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.data.refine",
+  "subtopic": "data",
+  "kind": "refine",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.data.check",
+  "subtopic": "data",
+  "kind": "check",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.survey.short",
+  "subtopic": "survey",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.survey.detailed",
+  "subtopic": "survey",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.survey.refine",
+  "subtopic": "survey",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.survey.check",
+  "subtopic": "survey",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.campaign.short",
+  "subtopic": "campaign",
+  "kind": "short",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.campaign.detailed",
+  "subtopic": "campaign",
+  "kind": "detailed",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.campaign.refine",
+  "subtopic": "campaign",
+  "kind": "refine",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.campaign.check",
+  "subtopic": "campaign",
+  "kind": "check",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.materials.short",
+  "subtopic": "materials",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.materials.detailed",
+  "subtopic": "materials",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.materials.refine",
+  "subtopic": "materials",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.materials.check",
+  "subtopic": "materials",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.solutions.short",
+  "subtopic": "solutions",
+  "kind": "short",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.solutions.detailed",
+  "subtopic": "solutions",
+  "kind": "detailed",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.solutions.refine",
+  "subtopic": "solutions",
+  "kind": "refine",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.solutions.check",
+  "subtopic": "solutions",
+  "kind": "check",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.volunteer.short",
+  "subtopic": "volunteer",
+  "kind": "short",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.volunteer.detailed",
+  "subtopic": "volunteer",
+  "kind": "detailed",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.volunteer.refine",
+  "subtopic": "volunteer",
+  "kind": "refine",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.volunteer.check",
+  "subtopic": "volunteer",
+  "kind": "check",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.conclusions.short",
+  "subtopic": "conclusions",
+  "kind": "short",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.conclusions.detailed",
+  "subtopic": "conclusions",
+  "kind": "detailed",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.conclusions.refine",
+  "subtopic": "conclusions",
+  "kind": "refine",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.conclusions.check",
+  "subtopic": "conclusions",
+  "kind": "check",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.claims.short",
+  "subtopic": "claims",
+  "kind": "short",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.claims.detailed",
+  "subtopic": "claims",
+  "kind": "detailed",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.claims.refine",
+  "subtopic": "claims",
+  "kind": "refine",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.claims.check",
+  "subtopic": "claims",
+  "kind": "check",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.report.short",
+  "subtopic": "report",
+  "kind": "short",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.report.detailed",
+  "subtopic": "report",
+  "kind": "detailed",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.report.refine",
+  "subtopic": "report",
+  "kind": "refine",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "eco.report.check",
+  "subtopic": "report",
+  "kind": "check",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ }
+]

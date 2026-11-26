@@ -1,0 +1,482 @@
+[
+ {
+  "id": "projects.narrow.short",
+  "subtopic": "narrow",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.narrow.detailed",
+  "subtopic": "narrow",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.narrow.refine",
+  "subtopic": "narrow",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.narrow.check",
+  "subtopic": "narrow",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.question.short",
+  "subtopic": "question",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.question.detailed",
+  "subtopic": "question",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.question.refine",
+  "subtopic": "question",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.question.check",
+  "subtopic": "question",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.plan.short",
+  "subtopic": "plan",
+  "kind": "short",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.plan.detailed",
+  "subtopic": "plan",
+  "kind": "detailed",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.plan.refine",
+  "subtopic": "plan",
+  "kind": "refine",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.plan.check",
+  "subtopic": "plan",
+  "kind": "check",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.arguments.short",
+  "subtopic": "arguments",
+  "kind": "short",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.arguments.detailed",
+  "subtopic": "arguments",
+  "kind": "detailed",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.arguments.refine",
+  "subtopic": "arguments",
+  "kind": "refine",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.arguments.check",
+  "subtopic": "arguments",
+  "kind": "check",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.sources.short",
+  "subtopic": "sources",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.sources.detailed",
+  "subtopic": "sources",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.sources.refine",
+  "subtopic": "sources",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.sources.check",
+  "subtopic": "sources",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.logic.short",
+  "subtopic": "logic",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.logic.detailed",
+  "subtopic": "logic",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.logic.refine",
+  "subtopic": "logic",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.logic.check",
+  "subtopic": "logic",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.unclear.short",
+  "subtopic": "unclear",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.unclear.detailed",
+  "subtopic": "unclear",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.unclear.refine",
+  "subtopic": "unclear",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.unclear.check",
+  "subtopic": "unclear",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.theses.short",
+  "subtopic": "theses",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.theses.detailed",
+  "subtopic": "theses",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.theses.refine",
+  "subtopic": "theses",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.theses.check",
+  "subtopic": "theses",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.checklist.short",
+  "subtopic": "checklist",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.checklist.detailed",
+  "subtopic": "checklist",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.checklist.refine",
+  "subtopic": "checklist",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.checklist.check",
+  "subtopic": "checklist",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.defence.short",
+  "subtopic": "defence",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.defence.detailed",
+  "subtopic": "defence",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.defence.refine",
+  "subtopic": "defence",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "projects.defence.check",
+  "subtopic": "defence",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ }
+]

@@ -1,0 +1,482 @@
+[
+ {
+  "id": "design.brief.short",
+  "subtopic": "brief",
+  "kind": "short",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.brief.detailed",
+  "subtopic": "brief",
+  "kind": "detailed",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.brief.refine",
+  "subtopic": "brief",
+  "kind": "refine",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.brief.check",
+  "subtopic": "brief",
+  "kind": "check",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.mood.short",
+  "subtopic": "mood",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.mood.detailed",
+  "subtopic": "mood",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.mood.refine",
+  "subtopic": "mood",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.mood.check",
+  "subtopic": "mood",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.composition.short",
+  "subtopic": "composition",
+  "kind": "short",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.composition.detailed",
+  "subtopic": "composition",
+  "kind": "detailed",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.composition.refine",
+  "subtopic": "composition",
+  "kind": "refine",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.composition.check",
+  "subtopic": "composition",
+  "kind": "check",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.palette.short",
+  "subtopic": "palette",
+  "kind": "short",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.palette.detailed",
+  "subtopic": "palette",
+  "kind": "detailed",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.palette.refine",
+  "subtopic": "palette",
+  "kind": "refine",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.palette.check",
+  "subtopic": "palette",
+  "kind": "check",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.poster.short",
+  "subtopic": "poster",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.poster.detailed",
+  "subtopic": "poster",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.poster.refine",
+  "subtopic": "poster",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.poster.check",
+  "subtopic": "poster",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.infographic.short",
+  "subtopic": "infographic",
+  "kind": "short",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.infographic.detailed",
+  "subtopic": "infographic",
+  "kind": "detailed",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.infographic.refine",
+  "subtopic": "infographic",
+  "kind": "refine",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.infographic.check",
+  "subtopic": "infographic",
+  "kind": "check",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.hierarchy.short",
+  "subtopic": "hierarchy",
+  "kind": "short",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.hierarchy.detailed",
+  "subtopic": "hierarchy",
+  "kind": "detailed",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.hierarchy.refine",
+  "subtopic": "hierarchy",
+  "kind": "refine",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.hierarchy.check",
+  "subtopic": "hierarchy",
+  "kind": "check",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.cover.short",
+  "subtopic": "cover",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.cover.detailed",
+  "subtopic": "cover",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.cover.refine",
+  "subtopic": "cover",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.cover.check",
+  "subtopic": "cover",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.alt.short",
+  "subtopic": "alt",
+  "kind": "short",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.alt.detailed",
+  "subtopic": "alt",
+  "kind": "detailed",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.alt.refine",
+  "subtopic": "alt",
+  "kind": "refine",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.alt.check",
+  "subtopic": "alt",
+  "kind": "check",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.overloaded.short",
+  "subtopic": "overloaded",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.overloaded.detailed",
+  "subtopic": "overloaded",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.overloaded.refine",
+  "subtopic": "overloaded",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "design.overloaded.check",
+  "subtopic": "overloaded",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "slides"
+  ],
+  "checked": "2026-11-26"
+ }
+]

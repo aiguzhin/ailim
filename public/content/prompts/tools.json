@@ -1,0 +1,442 @@
+[
+ {
+  "id": "tools.purpose.short",
+  "subtopic": "purpose",
+  "kind": "short",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.purpose.detailed",
+  "subtopic": "purpose",
+  "kind": "detailed",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.purpose.refine",
+  "subtopic": "purpose",
+  "kind": "refine",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.purpose.check",
+  "subtopic": "purpose",
+  "kind": "check",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.tasks.short",
+  "subtopic": "tasks",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.tasks.detailed",
+  "subtopic": "tasks",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.tasks.refine",
+  "subtopic": "tasks",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.tasks.check",
+  "subtopic": "tasks",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.first.short",
+  "subtopic": "first",
+  "kind": "short",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.first.detailed",
+  "subtopic": "first",
+  "kind": "detailed",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.first.refine",
+  "subtopic": "first",
+  "kind": "refine",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.first.check",
+  "subtopic": "first",
+  "kind": "check",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.compare.short",
+  "subtopic": "compare",
+  "kind": "short",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.compare.detailed",
+  "subtopic": "compare",
+  "kind": "detailed",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.compare.refine",
+  "subtopic": "compare",
+  "kind": "refine",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.compare.check",
+  "subtopic": "compare",
+  "kind": "check",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.check.short",
+  "subtopic": "check",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.check.detailed",
+  "subtopic": "check",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.check.refine",
+  "subtopic": "check",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.check.check",
+  "subtopic": "check",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.settings.short",
+  "subtopic": "settings",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.settings.detailed",
+  "subtopic": "settings",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.settings.refine",
+  "subtopic": "settings",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.settings.check",
+  "subtopic": "settings",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.safe.short",
+  "subtopic": "safe",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.safe.detailed",
+  "subtopic": "safe",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.safe.refine",
+  "subtopic": "safe",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.safe.check",
+  "subtopic": "safe",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.plan.short",
+  "subtopic": "plan",
+  "kind": "short",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.plan.detailed",
+  "subtopic": "plan",
+  "kind": "detailed",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.plan.refine",
+  "subtopic": "plan",
+  "kind": "refine",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.plan.check",
+  "subtopic": "plan",
+  "kind": "check",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.official.short",
+  "subtopic": "official",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.official.detailed",
+  "subtopic": "official",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.official.refine",
+  "subtopic": "official",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.official.check",
+  "subtopic": "official",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.changes.short",
+  "subtopic": "changes",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.changes.detailed",
+  "subtopic": "changes",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.changes.refine",
+  "subtopic": "changes",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "tools.changes.check",
+  "subtopic": "changes",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ }
+]

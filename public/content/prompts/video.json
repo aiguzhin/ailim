@@ -1,0 +1,482 @@
+[
+ {
+  "id": "video.idea.short",
+  "subtopic": "idea",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.idea.detailed",
+  "subtopic": "idea",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.idea.refine",
+  "subtopic": "idea",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.idea.check",
+  "subtopic": "idea",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.script.short",
+  "subtopic": "script",
+  "kind": "short",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.script.detailed",
+  "subtopic": "script",
+  "kind": "detailed",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.script.refine",
+  "subtopic": "script",
+  "kind": "refine",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.script.check",
+  "subtopic": "script",
+  "kind": "check",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.storyboard.short",
+  "subtopic": "storyboard",
+  "kind": "short",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.storyboard.detailed",
+  "subtopic": "storyboard",
+  "kind": "detailed",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.storyboard.refine",
+  "subtopic": "storyboard",
+  "kind": "refine",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.storyboard.check",
+  "subtopic": "storyboard",
+  "kind": "check",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.hook.short",
+  "subtopic": "hook",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.hook.detailed",
+  "subtopic": "hook",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.hook.refine",
+  "subtopic": "hook",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.hook.check",
+  "subtopic": "hook",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.scenes.short",
+  "subtopic": "scenes",
+  "kind": "short",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.scenes.detailed",
+  "subtopic": "scenes",
+  "kind": "detailed",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.scenes.refine",
+  "subtopic": "scenes",
+  "kind": "refine",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.scenes.check",
+  "subtopic": "scenes",
+  "kind": "check",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.shots.short",
+  "subtopic": "shots",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.shots.detailed",
+  "subtopic": "shots",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.shots.refine",
+  "subtopic": "shots",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.shots.check",
+  "subtopic": "shots",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.subtitles.short",
+  "subtopic": "subtitles",
+  "kind": "short",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.subtitles.detailed",
+  "subtopic": "subtitles",
+  "kind": "detailed",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.subtitles.refine",
+  "subtopic": "subtitles",
+  "kind": "refine",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.subtitles.check",
+  "subtopic": "subtitles",
+  "kind": "check",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.length.short",
+  "subtopic": "length",
+  "kind": "short",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.length.detailed",
+  "subtopic": "length",
+  "kind": "detailed",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.length.refine",
+  "subtopic": "length",
+  "kind": "refine",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.length.check",
+  "subtopic": "length",
+  "kind": "check",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.edit.short",
+  "subtopic": "edit",
+  "kind": "short",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.edit.detailed",
+  "subtopic": "edit",
+  "kind": "detailed",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.edit.refine",
+  "subtopic": "edit",
+  "kind": "refine",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.edit.check",
+  "subtopic": "edit",
+  "kind": "check",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.respect.short",
+  "subtopic": "respect",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.respect.detailed",
+  "subtopic": "respect",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.respect.refine",
+  "subtopic": "respect",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "video.respect.check",
+  "subtopic": "respect",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "video",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ }
+]

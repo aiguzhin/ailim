@@ -1,0 +1,482 @@
+[
+ {
+  "id": "travel.route.short",
+  "subtopic": "route",
+  "kind": "short",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.route.detailed",
+  "subtopic": "route",
+  "kind": "detailed",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.route.refine",
+  "subtopic": "route",
+  "kind": "refine",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.route.check",
+  "subtopic": "route",
+  "kind": "check",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.areas.short",
+  "subtopic": "areas",
+  "kind": "short",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.areas.detailed",
+  "subtopic": "areas",
+  "kind": "detailed",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.areas.refine",
+  "subtopic": "areas",
+  "kind": "refine",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.areas.check",
+  "subtopic": "areas",
+  "kind": "check",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.questions.short",
+  "subtopic": "questions",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.questions.detailed",
+  "subtopic": "questions",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.questions.refine",
+  "subtopic": "questions",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.questions.check",
+  "subtopic": "questions",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.rain.short",
+  "subtopic": "rain",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.rain.detailed",
+  "subtopic": "rain",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.rain.refine",
+  "subtopic": "rain",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.rain.check",
+  "subtopic": "rain",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.season.short",
+  "subtopic": "season",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.season.detailed",
+  "subtopic": "season",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.season.refine",
+  "subtopic": "season",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.season.check",
+  "subtopic": "season",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.culture.short",
+  "subtopic": "culture",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.culture.detailed",
+  "subtopic": "culture",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.culture.refine",
+  "subtopic": "culture",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.culture.check",
+  "subtopic": "culture",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.time.short",
+  "subtopic": "time",
+  "kind": "short",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.time.detailed",
+  "subtopic": "time",
+  "kind": "detailed",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.time.refine",
+  "subtopic": "time",
+  "kind": "refine",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.time.check",
+  "subtopic": "time",
+  "kind": "check",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.transport.short",
+  "subtopic": "transport",
+  "kind": "short",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.transport.detailed",
+  "subtopic": "transport",
+  "kind": "detailed",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.transport.refine",
+  "subtopic": "transport",
+  "kind": "refine",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.transport.check",
+  "subtopic": "transport",
+  "kind": "check",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.official.short",
+  "subtopic": "official",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.official.detailed",
+  "subtopic": "official",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.official.refine",
+  "subtopic": "official",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.official.check",
+  "subtopic": "official",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.budget.short",
+  "subtopic": "budget",
+  "kind": "short",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.budget.detailed",
+  "subtopic": "budget",
+  "kind": "detailed",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.budget.refine",
+  "subtopic": "budget",
+  "kind": "refine",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "travel.budget.check",
+  "subtopic": "budget",
+  "kind": "check",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ }
+]

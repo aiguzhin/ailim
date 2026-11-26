@@ -1,0 +1,442 @@
+[
+ {
+  "id": "career.skills.short",
+  "subtopic": "skills",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.skills.detailed",
+  "subtopic": "skills",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.skills.refine",
+  "subtopic": "skills",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.skills.check",
+  "subtopic": "skills",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.experience.short",
+  "subtopic": "experience",
+  "kind": "short",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.experience.detailed",
+  "subtopic": "experience",
+  "kind": "detailed",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.experience.refine",
+  "subtopic": "experience",
+  "kind": "refine",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.experience.check",
+  "subtopic": "experience",
+  "kind": "check",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.portfolio.short",
+  "subtopic": "portfolio",
+  "kind": "short",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.portfolio.detailed",
+  "subtopic": "portfolio",
+  "kind": "detailed",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.portfolio.refine",
+  "subtopic": "portfolio",
+  "kind": "refine",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.portfolio.check",
+  "subtopic": "portfolio",
+  "kind": "check",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.interview.short",
+  "subtopic": "interview",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.interview.detailed",
+  "subtopic": "interview",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.interview.refine",
+  "subtopic": "interview",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.interview.check",
+  "subtopic": "interview",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.directions.short",
+  "subtopic": "directions",
+  "kind": "short",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.directions.detailed",
+  "subtopic": "directions",
+  "kind": "detailed",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.directions.refine",
+  "subtopic": "directions",
+  "kind": "refine",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.directions.check",
+  "subtopic": "directions",
+  "kind": "check",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.grow.short",
+  "subtopic": "grow",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.grow.detailed",
+  "subtopic": "grow",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.grow.refine",
+  "subtopic": "grow",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.grow.check",
+  "subtopic": "grow",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.learn.short",
+  "subtopic": "learn",
+  "kind": "short",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.learn.detailed",
+  "subtopic": "learn",
+  "kind": "detailed",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.learn.refine",
+  "subtopic": "learn",
+  "kind": "refine",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.learn.check",
+  "subtopic": "learn",
+  "kind": "check",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.letter.short",
+  "subtopic": "letter",
+  "kind": "short",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.letter.detailed",
+  "subtopic": "letter",
+  "kind": "detailed",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.letter.refine",
+  "subtopic": "letter",
+  "kind": "refine",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.letter.check",
+  "subtopic": "letter",
+  "kind": "check",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.questions.short",
+  "subtopic": "questions",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.questions.detailed",
+  "subtopic": "questions",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.questions.refine",
+  "subtopic": "questions",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.questions.check",
+  "subtopic": "questions",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.vacancy.short",
+  "subtopic": "vacancy",
+  "kind": "short",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.vacancy.detailed",
+  "subtopic": "vacancy",
+  "kind": "detailed",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.vacancy.refine",
+  "subtopic": "vacancy",
+  "kind": "refine",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "career.vacancy.check",
+  "subtopic": "vacancy",
+  "kind": "check",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ }
+]

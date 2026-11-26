@@ -1,0 +1,482 @@
+[
+ {
+  "id": "planning.stages.short",
+  "subtopic": "stages",
+  "kind": "short",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.stages.detailed",
+  "subtopic": "stages",
+  "kind": "detailed",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.stages.refine",
+  "subtopic": "stages",
+  "kind": "refine",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.stages.check",
+  "subtopic": "stages",
+  "kind": "check",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.week.short",
+  "subtopic": "week",
+  "kind": "short",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.week.detailed",
+  "subtopic": "week",
+  "kind": "detailed",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.week.refine",
+  "subtopic": "week",
+  "kind": "refine",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.week.check",
+  "subtopic": "week",
+  "kind": "check",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.estimate.short",
+  "subtopic": "estimate",
+  "kind": "short",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.estimate.detailed",
+  "subtopic": "estimate",
+  "kind": "detailed",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.estimate.refine",
+  "subtopic": "estimate",
+  "kind": "refine",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.estimate.check",
+  "subtopic": "estimate",
+  "kind": "check",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.priorities.short",
+  "subtopic": "priorities",
+  "kind": "short",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.priorities.detailed",
+  "subtopic": "priorities",
+  "kind": "detailed",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.priorities.refine",
+  "subtopic": "priorities",
+  "kind": "refine",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.priorities.check",
+  "subtopic": "priorities",
+  "kind": "check",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.checklist.short",
+  "subtopic": "checklist",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.checklist.detailed",
+  "subtopic": "checklist",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.checklist.refine",
+  "subtopic": "checklist",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.checklist.check",
+  "subtopic": "checklist",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.dependencies.short",
+  "subtopic": "dependencies",
+  "kind": "short",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.dependencies.detailed",
+  "subtopic": "dependencies",
+  "kind": "detailed",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.dependencies.refine",
+  "subtopic": "dependencies",
+  "kind": "refine",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.dependencies.check",
+  "subtopic": "dependencies",
+  "kind": "check",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.project.short",
+  "subtopic": "project",
+  "kind": "short",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.project.detailed",
+  "subtopic": "project",
+  "kind": "detailed",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.project.refine",
+  "subtopic": "project",
+  "kind": "refine",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.project.check",
+  "subtopic": "project",
+  "kind": "check",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.review.short",
+  "subtopic": "review",
+  "kind": "short",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.review.detailed",
+  "subtopic": "review",
+  "kind": "detailed",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.review.refine",
+  "subtopic": "review",
+  "kind": "refine",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.review.check",
+  "subtopic": "review",
+  "kind": "check",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.shortage.short",
+  "subtopic": "shortage",
+  "kind": "short",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.shortage.detailed",
+  "subtopic": "shortage",
+  "kind": "detailed",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.shortage.refine",
+  "subtopic": "shortage",
+  "kind": "refine",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.shortage.check",
+  "subtopic": "shortage",
+  "kind": "check",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.rest.short",
+  "subtopic": "rest",
+  "kind": "short",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.rest.detailed",
+  "subtopic": "rest",
+  "kind": "detailed",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.rest.refine",
+  "subtopic": "rest",
+  "kind": "refine",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "planning.rest.check",
+  "subtopic": "rest",
+  "kind": "check",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ }
+]

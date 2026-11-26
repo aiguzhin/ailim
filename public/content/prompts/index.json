@@ -211,7 +211,7 @@
     "checklist",
     "defence"
    ],
-   "prompts": 0
+   "prompts": 40
   },
   {
    "id": "factcheck",
@@ -265,7 +265,7 @@
     "verify",
     "cards"
    ],
-   "prompts": 0
+   "prompts": 40
   },
   {
    "id": "speaking",
@@ -292,7 +292,7 @@
     "rehearsal",
     "qa"
    ],
-   "prompts": 0
+   "prompts": 40
   },
   {
    "id": "ideas",
@@ -318,7 +318,7 @@
     "toplan",
     "weak"
    ],
-   "prompts": 0
+   "prompts": 40
   },
   {
    "id": "planning",
@@ -346,7 +346,7 @@
     "shortage",
     "rest"
    ],
-   "prompts": 0
+   "prompts": 40
   },
   {
    "id": "teamwork",
@@ -373,7 +373,7 @@
     "open",
     "recipient"
    ],
-   "prompts": 0
+   "prompts": 40
   },
   {
    "id": "career",
@@ -398,7 +398,7 @@
     "questions",
     "vacancy"
    ],
-   "prompts": 0
+   "prompts": 40
   },
   {
    "id": "design",
@@ -425,7 +425,7 @@
     "alt",
     "overloaded"
    ],
-   "prompts": 0
+   "prompts": 40
   },
   {
    "id": "images",
@@ -476,7 +476,7 @@
     "edit",
     "respect"
    ],
-   "prompts": 0
+   "prompts": 40
   },
   {
    "id": "audio",
@@ -502,7 +502,7 @@
     "rights",
     "cleanup"
    ],
-   "prompts": 0
+   "prompts": 40
   },
   {
    "id": "music",
@@ -527,7 +527,7 @@
     "scene",
     "avoid"
    ],
-   "prompts": 0
+   "prompts": 40
   },
   {
    "id": "code",
@@ -579,7 +579,7 @@
     "check",
     "missing"
    ],
-   "prompts": 0
+   "prompts": 40
   },
   {
    "id": "everyday",
@@ -604,7 +604,7 @@
     "instruction",
     "clarify"
    ],
-   "prompts": 0
+   "prompts": 40
   },
   {
    "id": "travel",
@@ -630,7 +630,7 @@
     "official",
     "budget"
    ],
-   "prompts": 0
+   "prompts": 40
   },
   {
    "id": "habits",
@@ -655,7 +655,7 @@
     "reflect",
     "limits"
    ],
-   "prompts": 0
+   "prompts": 40
   },
   {
    "id": "access",
@@ -681,7 +681,7 @@
     "reading",
     "feedback"
    ],
-   "prompts": 0
+   "prompts": 40
   },
   {
    "id": "eco",
@@ -708,7 +708,7 @@
     "claims",
     "report"
    ],
-   "prompts": 0
+   "prompts": 40
   },
   {
    "id": "safety",
@@ -735,7 +735,7 @@
     "safer",
     "human"
    ],
-   "prompts": 0
+   "prompts": 40
   },
   {
    "id": "tools",
@@ -759,7 +759,7 @@
     "official",
     "changes"
    ],
-   "prompts": 0
+   "prompts": 40
   }
  ]
 }

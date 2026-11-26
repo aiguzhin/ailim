@@ -1,0 +1,482 @@
+[
+ {
+  "id": "speaking.goal.short",
+  "subtopic": "goal",
+  "kind": "short",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.goal.detailed",
+  "subtopic": "goal",
+  "kind": "detailed",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.goal.refine",
+  "subtopic": "goal",
+  "kind": "refine",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.goal.check",
+  "subtopic": "goal",
+  "kind": "check",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.audience.short",
+  "subtopic": "audience",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.audience.detailed",
+  "subtopic": "audience",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.audience.refine",
+  "subtopic": "audience",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.audience.check",
+  "subtopic": "audience",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.structure.short",
+  "subtopic": "structure",
+  "kind": "short",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.structure.detailed",
+  "subtopic": "structure",
+  "kind": "detailed",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.structure.refine",
+  "subtopic": "structure",
+  "kind": "refine",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.structure.check",
+  "subtopic": "structure",
+  "kind": "check",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.opening.short",
+  "subtopic": "opening",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.opening.detailed",
+  "subtopic": "opening",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.opening.refine",
+  "subtopic": "opening",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.opening.check",
+  "subtopic": "opening",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.slides.short",
+  "subtopic": "slides",
+  "kind": "short",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.slides.detailed",
+  "subtopic": "slides",
+  "kind": "detailed",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.slides.refine",
+  "subtopic": "slides",
+  "kind": "refine",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.slides.check",
+  "subtopic": "slides",
+  "kind": "check",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.overloaded.short",
+  "subtopic": "overloaded",
+  "kind": "short",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.overloaded.detailed",
+  "subtopic": "overloaded",
+  "kind": "detailed",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.overloaded.refine",
+  "subtopic": "overloaded",
+  "kind": "refine",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.overloaded.check",
+  "subtopic": "overloaded",
+  "kind": "check",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.notes.short",
+  "subtopic": "notes",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.notes.detailed",
+  "subtopic": "notes",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.notes.refine",
+  "subtopic": "notes",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.notes.check",
+  "subtopic": "notes",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.example.short",
+  "subtopic": "example",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.example.detailed",
+  "subtopic": "example",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.example.refine",
+  "subtopic": "example",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.example.check",
+  "subtopic": "example",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.rehearsal.short",
+  "subtopic": "rehearsal",
+  "kind": "short",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.rehearsal.detailed",
+  "subtopic": "rehearsal",
+  "kind": "detailed",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.rehearsal.refine",
+  "subtopic": "rehearsal",
+  "kind": "refine",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.rehearsal.check",
+  "subtopic": "rehearsal",
+  "kind": "check",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.qa.short",
+  "subtopic": "qa",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.qa.detailed",
+  "subtopic": "qa",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.qa.refine",
+  "subtopic": "qa",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "speaking.qa.check",
+  "subtopic": "qa",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "slides",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ }
+]

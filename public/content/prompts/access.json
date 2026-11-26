@@ -1,0 +1,442 @@
+[
+ {
+  "id": "access.simplify.short",
+  "subtopic": "simplify",
+  "kind": "short",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.simplify.detailed",
+  "subtopic": "simplify",
+  "kind": "detailed",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.simplify.refine",
+  "subtopic": "simplify",
+  "kind": "refine",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.simplify.check",
+  "subtopic": "simplify",
+  "kind": "check",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.short.short",
+  "subtopic": "short",
+  "kind": "short",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.short.detailed",
+  "subtopic": "short",
+  "kind": "detailed",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.short.refine",
+  "subtopic": "short",
+  "kind": "refine",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.short.check",
+  "subtopic": "short",
+  "kind": "check",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.steps.short",
+  "subtopic": "steps",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.steps.detailed",
+  "subtopic": "steps",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.steps.refine",
+  "subtopic": "steps",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.steps.check",
+  "subtopic": "steps",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.glossary.short",
+  "subtopic": "glossary",
+  "kind": "short",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.glossary.detailed",
+  "subtopic": "glossary",
+  "kind": "detailed",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.glossary.refine",
+  "subtopic": "glossary",
+  "kind": "refine",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.glossary.check",
+  "subtopic": "glossary",
+  "kind": "check",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.image.short",
+  "subtopic": "image",
+  "kind": "short",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.image.detailed",
+  "subtopic": "image",
+  "kind": "detailed",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.image.refine",
+  "subtopic": "image",
+  "kind": "refine",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.image.check",
+  "subtopic": "image",
+  "kind": "check",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.structure.short",
+  "subtopic": "structure",
+  "kind": "short",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.structure.detailed",
+  "subtopic": "structure",
+  "kind": "detailed",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.structure.refine",
+  "subtopic": "structure",
+  "kind": "refine",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.structure.check",
+  "subtopic": "structure",
+  "kind": "check",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.subtitles.short",
+  "subtopic": "subtitles",
+  "kind": "short",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.subtitles.detailed",
+  "subtopic": "subtitles",
+  "kind": "detailed",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.subtitles.refine",
+  "subtopic": "subtitles",
+  "kind": "refine",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.subtitles.check",
+  "subtopic": "subtitles",
+  "kind": "check",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.screenreader.short",
+  "subtopic": "screenreader",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.screenreader.detailed",
+  "subtopic": "screenreader",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.screenreader.refine",
+  "subtopic": "screenreader",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.screenreader.check",
+  "subtopic": "screenreader",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.reading.short",
+  "subtopic": "reading",
+  "kind": "short",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.reading.detailed",
+  "subtopic": "reading",
+  "kind": "detailed",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.reading.refine",
+  "subtopic": "reading",
+  "kind": "refine",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.reading.check",
+  "subtopic": "reading",
+  "kind": "check",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.feedback.short",
+  "subtopic": "feedback",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.feedback.detailed",
+  "subtopic": "feedback",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.feedback.refine",
+  "subtopic": "feedback",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "access.feedback.check",
+  "subtopic": "feedback",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ }
+]

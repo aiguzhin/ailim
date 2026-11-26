@@ -14,7 +14,7 @@ export const KINDS = ['short', 'detailed', 'refine', 'check'];
 export const RESULTS = ['explanation', 'list', 'table', 'plan', 'text', 'quiz', 'image', 'code'];
 export const CAPS = ['chat', 'sources', 'own-docs', 'translate', 'image-gen', 'video', 'tts', 'music', 'code-ide', 'slides', 'notes'];
 const CREATIVE = new Set(['images', 'design', 'video', 'audio', 'music']);
-const SENSITIVE = new Set(['habits', 'everyday', 'career']);
+const SENSITIVE = new Set(['habits', 'everyday', 'career', 'travel', 'safety']);
 
 /** Loads the structure, names in the current language, tool list and capability profiles. */
 export async function loadLibrary() {

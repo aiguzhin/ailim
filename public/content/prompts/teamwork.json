@@ -1,0 +1,482 @@
+[
+ {
+  "id": "teamwork.agenda.short",
+  "subtopic": "agenda",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.agenda.detailed",
+  "subtopic": "agenda",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.agenda.refine",
+  "subtopic": "agenda",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.agenda.check",
+  "subtopic": "agenda",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.decisions.short",
+  "subtopic": "decisions",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.decisions.detailed",
+  "subtopic": "decisions",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.decisions.refine",
+  "subtopic": "decisions",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.decisions.check",
+  "subtopic": "decisions",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.roles.short",
+  "subtopic": "roles",
+  "kind": "short",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.roles.detailed",
+  "subtopic": "roles",
+  "kind": "detailed",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.roles.refine",
+  "subtopic": "roles",
+  "kind": "refine",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.roles.check",
+  "subtopic": "roles",
+  "kind": "check",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.polite.short",
+  "subtopic": "polite",
+  "kind": "short",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.polite.detailed",
+  "subtopic": "polite",
+  "kind": "detailed",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.polite.refine",
+  "subtopic": "polite",
+  "kind": "refine",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.polite.check",
+  "subtopic": "polite",
+  "kind": "check",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.help.short",
+  "subtopic": "help",
+  "kind": "short",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.help.detailed",
+  "subtopic": "help",
+  "kind": "detailed",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.help.refine",
+  "subtopic": "help",
+  "kind": "refine",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.help.check",
+  "subtopic": "help",
+  "kind": "check",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.feedback.short",
+  "subtopic": "feedback",
+  "kind": "short",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.feedback.detailed",
+  "subtopic": "feedback",
+  "kind": "detailed",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.feedback.refine",
+  "subtopic": "feedback",
+  "kind": "refine",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.feedback.check",
+  "subtopic": "feedback",
+  "kind": "check",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.disagree.short",
+  "subtopic": "disagree",
+  "kind": "short",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.disagree.detailed",
+  "subtopic": "disagree",
+  "kind": "detailed",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.disagree.refine",
+  "subtopic": "disagree",
+  "kind": "refine",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.disagree.check",
+  "subtopic": "disagree",
+  "kind": "check",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.summary.short",
+  "subtopic": "summary",
+  "kind": "short",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.summary.detailed",
+  "subtopic": "summary",
+  "kind": "detailed",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.summary.refine",
+  "subtopic": "summary",
+  "kind": "refine",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.summary.check",
+  "subtopic": "summary",
+  "kind": "check",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.open.short",
+  "subtopic": "open",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.open.detailed",
+  "subtopic": "open",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.open.refine",
+  "subtopic": "open",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.open.check",
+  "subtopic": "open",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.recipient.short",
+  "subtopic": "recipient",
+  "kind": "short",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.recipient.detailed",
+  "subtopic": "recipient",
+  "kind": "detailed",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.recipient.refine",
+  "subtopic": "recipient",
+  "kind": "refine",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "teamwork.recipient.check",
+  "subtopic": "recipient",
+  "kind": "check",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "notes"
+  ],
+  "checked": "2026-11-26"
+ }
+]

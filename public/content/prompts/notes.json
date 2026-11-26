@@ -1,0 +1,482 @@
+[
+ {
+  "id": "notes.summary.short",
+  "subtopic": "summary",
+  "kind": "short",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.summary.detailed",
+  "subtopic": "summary",
+  "kind": "detailed",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.summary.refine",
+  "subtopic": "summary",
+  "kind": "refine",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.summary.check",
+  "subtopic": "summary",
+  "kind": "check",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.theses.short",
+  "subtopic": "theses",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.theses.detailed",
+  "subtopic": "theses",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.theses.refine",
+  "subtopic": "theses",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.theses.check",
+  "subtopic": "theses",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.glossary.short",
+  "subtopic": "glossary",
+  "kind": "short",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.glossary.detailed",
+  "subtopic": "glossary",
+  "kind": "detailed",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.glossary.refine",
+  "subtopic": "glossary",
+  "kind": "refine",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.glossary.check",
+  "subtopic": "glossary",
+  "kind": "check",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.questions.short",
+  "subtopic": "questions",
+  "kind": "short",
+  "level": 1,
+  "result": "quiz",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.questions.detailed",
+  "subtopic": "questions",
+  "kind": "detailed",
+  "level": 1,
+  "result": "quiz",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.questions.refine",
+  "subtopic": "questions",
+  "kind": "refine",
+  "level": 1,
+  "result": "quiz",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.questions.check",
+  "subtopic": "questions",
+  "kind": "check",
+  "level": 1,
+  "result": "quiz",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.chapter.short",
+  "subtopic": "chapter",
+  "kind": "short",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.chapter.detailed",
+  "subtopic": "chapter",
+  "kind": "detailed",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.chapter.refine",
+  "subtopic": "chapter",
+  "kind": "refine",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.chapter.check",
+  "subtopic": "chapter",
+  "kind": "check",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.compare.short",
+  "subtopic": "compare",
+  "kind": "short",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.compare.detailed",
+  "subtopic": "compare",
+  "kind": "detailed",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.compare.refine",
+  "subtopic": "compare",
+  "kind": "refine",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.compare.check",
+  "subtopic": "compare",
+  "kind": "check",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.actions.short",
+  "subtopic": "actions",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.actions.detailed",
+  "subtopic": "actions",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.actions.refine",
+  "subtopic": "actions",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.actions.check",
+  "subtopic": "actions",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.table.short",
+  "subtopic": "table",
+  "kind": "short",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.table.detailed",
+  "subtopic": "table",
+  "kind": "detailed",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.table.refine",
+  "subtopic": "table",
+  "kind": "refine",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.table.check",
+  "subtopic": "table",
+  "kind": "check",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.verify.short",
+  "subtopic": "verify",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.verify.detailed",
+  "subtopic": "verify",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.verify.refine",
+  "subtopic": "verify",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.verify.check",
+  "subtopic": "verify",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.cards.short",
+  "subtopic": "cards",
+  "kind": "short",
+  "level": 1,
+  "result": "quiz",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.cards.detailed",
+  "subtopic": "cards",
+  "kind": "detailed",
+  "level": 1,
+  "result": "quiz",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.cards.refine",
+  "subtopic": "cards",
+  "kind": "refine",
+  "level": 1,
+  "result": "quiz",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "notes.cards.check",
+  "subtopic": "cards",
+  "kind": "check",
+  "level": 1,
+  "result": "quiz",
+  "needs": [
+   "own-docs",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ }
+]

@@ -1,0 +1,482 @@
+[
+ {
+  "id": "audio.episode.short",
+  "subtopic": "episode",
+  "kind": "short",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.episode.detailed",
+  "subtopic": "episode",
+  "kind": "detailed",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.episode.refine",
+  "subtopic": "episode",
+  "kind": "refine",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.episode.check",
+  "subtopic": "episode",
+  "kind": "check",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.guest.short",
+  "subtopic": "guest",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.guest.detailed",
+  "subtopic": "guest",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.guest.refine",
+  "subtopic": "guest",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.guest.check",
+  "subtopic": "guest",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.intro.short",
+  "subtopic": "intro",
+  "kind": "short",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.intro.detailed",
+  "subtopic": "intro",
+  "kind": "detailed",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.intro.refine",
+  "subtopic": "intro",
+  "kind": "refine",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.intro.check",
+  "subtopic": "intro",
+  "kind": "check",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.host.short",
+  "subtopic": "host",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.host.detailed",
+  "subtopic": "host",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.host.refine",
+  "subtopic": "host",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.host.check",
+  "subtopic": "host",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.aloud.short",
+  "subtopic": "aloud",
+  "kind": "short",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.aloud.detailed",
+  "subtopic": "aloud",
+  "kind": "detailed",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.aloud.refine",
+  "subtopic": "aloud",
+  "kind": "refine",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.aloud.check",
+  "subtopic": "aloud",
+  "kind": "check",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.pauses.short",
+  "subtopic": "pauses",
+  "kind": "short",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.pauses.detailed",
+  "subtopic": "pauses",
+  "kind": "detailed",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.pauses.refine",
+  "subtopic": "pauses",
+  "kind": "refine",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.pauses.check",
+  "subtopic": "pauses",
+  "kind": "check",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.title.short",
+  "subtopic": "title",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.title.detailed",
+  "subtopic": "title",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.title.refine",
+  "subtopic": "title",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.title.check",
+  "subtopic": "title",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.description.short",
+  "subtopic": "description",
+  "kind": "short",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.description.detailed",
+  "subtopic": "description",
+  "kind": "detailed",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.description.refine",
+  "subtopic": "description",
+  "kind": "refine",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.description.check",
+  "subtopic": "description",
+  "kind": "check",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.rights.short",
+  "subtopic": "rights",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.rights.detailed",
+  "subtopic": "rights",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.rights.refine",
+  "subtopic": "rights",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.rights.check",
+  "subtopic": "rights",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.cleanup.short",
+  "subtopic": "cleanup",
+  "kind": "short",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.cleanup.detailed",
+  "subtopic": "cleanup",
+  "kind": "detailed",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.cleanup.refine",
+  "subtopic": "cleanup",
+  "kind": "refine",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "audio.cleanup.check",
+  "subtopic": "cleanup",
+  "kind": "check",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "tts",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ }
+]
