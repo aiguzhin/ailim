@@ -1,0 +1,482 @@
+[
+ {
+  "id": "languages.plan.short",
+  "subtopic": "plan",
+  "kind": "short",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.plan.detailed",
+  "subtopic": "plan",
+  "kind": "detailed",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.plan.refine",
+  "subtopic": "plan",
+  "kind": "refine",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.plan.check",
+  "subtopic": "plan",
+  "kind": "check",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.grammar.short",
+  "subtopic": "grammar",
+  "kind": "short",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.grammar.detailed",
+  "subtopic": "grammar",
+  "kind": "detailed",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.grammar.refine",
+  "subtopic": "grammar",
+  "kind": "refine",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.grammar.check",
+  "subtopic": "grammar",
+  "kind": "check",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.tenses.short",
+  "subtopic": "tenses",
+  "kind": "short",
+  "level": 2,
+  "result": "quiz",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.tenses.detailed",
+  "subtopic": "tenses",
+  "kind": "detailed",
+  "level": 2,
+  "result": "quiz",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.tenses.refine",
+  "subtopic": "tenses",
+  "kind": "refine",
+  "level": 2,
+  "result": "quiz",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.tenses.check",
+  "subtopic": "tenses",
+  "kind": "check",
+  "level": 2,
+  "result": "quiz",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.words.short",
+  "subtopic": "words",
+  "kind": "short",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.words.detailed",
+  "subtopic": "words",
+  "kind": "detailed",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.words.refine",
+  "subtopic": "words",
+  "kind": "refine",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.words.check",
+  "subtopic": "words",
+  "kind": "check",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.check.short",
+  "subtopic": "check",
+  "kind": "short",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.check.detailed",
+  "subtopic": "check",
+  "kind": "detailed",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.check.refine",
+  "subtopic": "check",
+  "kind": "refine",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.check.check",
+  "subtopic": "check",
+  "kind": "check",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.dialogue.short",
+  "subtopic": "dialogue",
+  "kind": "short",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.dialogue.detailed",
+  "subtopic": "dialogue",
+  "kind": "detailed",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.dialogue.refine",
+  "subtopic": "dialogue",
+  "kind": "refine",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.dialogue.check",
+  "subtopic": "dialogue",
+  "kind": "check",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.oral.short",
+  "subtopic": "oral",
+  "kind": "short",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.oral.detailed",
+  "subtopic": "oral",
+  "kind": "detailed",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.oral.refine",
+  "subtopic": "oral",
+  "kind": "refine",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.oral.check",
+  "subtopic": "oral",
+  "kind": "check",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.level.short",
+  "subtopic": "level",
+  "kind": "short",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.level.detailed",
+  "subtopic": "level",
+  "kind": "detailed",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.level.refine",
+  "subtopic": "level",
+  "kind": "refine",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.level.check",
+  "subtopic": "level",
+  "kind": "check",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.mistakes.short",
+  "subtopic": "mistakes",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.mistakes.detailed",
+  "subtopic": "mistakes",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.mistakes.refine",
+  "subtopic": "mistakes",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.mistakes.check",
+  "subtopic": "mistakes",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.translate.short",
+  "subtopic": "translate",
+  "kind": "short",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.translate.detailed",
+  "subtopic": "translate",
+  "kind": "detailed",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.translate.refine",
+  "subtopic": "translate",
+  "kind": "refine",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "languages.translate.check",
+  "subtopic": "translate",
+  "kind": "check",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ }
+]

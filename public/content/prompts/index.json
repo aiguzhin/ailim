@@ -57,7 +57,7 @@
     "mistakes",
     "translate"
    ],
-   "prompts": 0
+   "prompts": 40
   },
   {
    "id": "math",
@@ -82,7 +82,7 @@
     "quiz",
     "units"
    ],
-   "prompts": 0
+   "prompts": 40
   },
   {
    "id": "science",
@@ -107,7 +107,7 @@
     "limits",
     "demo"
    ],
-   "prompts": 0
+   "prompts": 40
   },
   {
    "id": "history",
@@ -133,7 +133,7 @@
     "overview",
     "interpretation"
    ],
-   "prompts": 0
+   "prompts": 40
   },
   {
    "id": "literature",
@@ -158,7 +158,7 @@
     "discussion",
     "quote"
    ],
-   "prompts": 0
+   "prompts": 40
   },
   {
    "id": "writing",

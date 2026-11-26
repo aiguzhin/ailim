@@ -1,0 +1,442 @@
+[
+ {
+  "id": "literature.retell.short",
+  "subtopic": "retell",
+  "kind": "short",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.retell.detailed",
+  "subtopic": "retell",
+  "kind": "detailed",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.retell.refine",
+  "subtopic": "retell",
+  "kind": "refine",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.retell.check",
+  "subtopic": "retell",
+  "kind": "check",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.character.short",
+  "subtopic": "character",
+  "kind": "short",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.character.detailed",
+  "subtopic": "character",
+  "kind": "detailed",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.character.refine",
+  "subtopic": "character",
+  "kind": "refine",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.character.check",
+  "subtopic": "character",
+  "kind": "check",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.conflict.short",
+  "subtopic": "conflict",
+  "kind": "short",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.conflict.detailed",
+  "subtopic": "conflict",
+  "kind": "detailed",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.conflict.refine",
+  "subtopic": "conflict",
+  "kind": "refine",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.conflict.check",
+  "subtopic": "conflict",
+  "kind": "check",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.theme.short",
+  "subtopic": "theme",
+  "kind": "short",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.theme.detailed",
+  "subtopic": "theme",
+  "kind": "detailed",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.theme.refine",
+  "subtopic": "theme",
+  "kind": "refine",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.theme.check",
+  "subtopic": "theme",
+  "kind": "check",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.arguments.short",
+  "subtopic": "arguments",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.arguments.detailed",
+  "subtopic": "arguments",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.arguments.refine",
+  "subtopic": "arguments",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.arguments.check",
+  "subtopic": "arguments",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.essay.short",
+  "subtopic": "essay",
+  "kind": "short",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.essay.detailed",
+  "subtopic": "essay",
+  "kind": "detailed",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.essay.refine",
+  "subtopic": "essay",
+  "kind": "refine",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.essay.check",
+  "subtopic": "essay",
+  "kind": "check",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.heroes.short",
+  "subtopic": "heroes",
+  "kind": "short",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.heroes.detailed",
+  "subtopic": "heroes",
+  "kind": "detailed",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.heroes.refine",
+  "subtopic": "heroes",
+  "kind": "refine",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.heroes.check",
+  "subtopic": "heroes",
+  "kind": "check",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.words.short",
+  "subtopic": "words",
+  "kind": "short",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.words.detailed",
+  "subtopic": "words",
+  "kind": "detailed",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.words.refine",
+  "subtopic": "words",
+  "kind": "refine",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.words.check",
+  "subtopic": "words",
+  "kind": "check",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.discussion.short",
+  "subtopic": "discussion",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.discussion.detailed",
+  "subtopic": "discussion",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.discussion.refine",
+  "subtopic": "discussion",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.discussion.check",
+  "subtopic": "discussion",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.quote.short",
+  "subtopic": "quote",
+  "kind": "short",
+  "level": 3,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.quote.detailed",
+  "subtopic": "quote",
+  "kind": "detailed",
+  "level": 3,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.quote.refine",
+  "subtopic": "quote",
+  "kind": "refine",
+  "level": 3,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "literature.quote.check",
+  "subtopic": "quote",
+  "kind": "check",
+  "level": 3,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ }
+]

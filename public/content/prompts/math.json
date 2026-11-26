@@ -1,0 +1,442 @@
+[
+ {
+  "id": "math.formula.short",
+  "subtopic": "formula",
+  "kind": "short",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.formula.detailed",
+  "subtopic": "formula",
+  "kind": "detailed",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.formula.refine",
+  "subtopic": "formula",
+  "kind": "refine",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.formula.check",
+  "subtopic": "formula",
+  "kind": "check",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.steps.short",
+  "subtopic": "steps",
+  "kind": "short",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.steps.detailed",
+  "subtopic": "steps",
+  "kind": "detailed",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.steps.refine",
+  "subtopic": "steps",
+  "kind": "refine",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.steps.check",
+  "subtopic": "steps",
+  "kind": "check",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.check.short",
+  "subtopic": "check",
+  "kind": "short",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.check.detailed",
+  "subtopic": "check",
+  "kind": "detailed",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.check.refine",
+  "subtopic": "check",
+  "kind": "refine",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.check.check",
+  "subtopic": "check",
+  "kind": "check",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.error.short",
+  "subtopic": "error",
+  "kind": "short",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.error.detailed",
+  "subtopic": "error",
+  "kind": "detailed",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.error.refine",
+  "subtopic": "error",
+  "kind": "refine",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.error.check",
+  "subtopic": "error",
+  "kind": "check",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.similar.short",
+  "subtopic": "similar",
+  "kind": "short",
+  "level": 1,
+  "result": "quiz",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.similar.detailed",
+  "subtopic": "similar",
+  "kind": "detailed",
+  "level": 1,
+  "result": "quiz",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.similar.refine",
+  "subtopic": "similar",
+  "kind": "refine",
+  "level": 1,
+  "result": "quiz",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.similar.check",
+  "subtopic": "similar",
+  "kind": "check",
+  "level": 1,
+  "result": "quiz",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.graph.short",
+  "subtopic": "graph",
+  "kind": "short",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.graph.detailed",
+  "subtopic": "graph",
+  "kind": "detailed",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.graph.refine",
+  "subtopic": "graph",
+  "kind": "refine",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.graph.check",
+  "subtopic": "graph",
+  "kind": "check",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.methods.short",
+  "subtopic": "methods",
+  "kind": "short",
+  "level": 3,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.methods.detailed",
+  "subtopic": "methods",
+  "kind": "detailed",
+  "level": 3,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.methods.refine",
+  "subtopic": "methods",
+  "kind": "refine",
+  "level": 3,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.methods.check",
+  "subtopic": "methods",
+  "kind": "check",
+  "level": 3,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.concepts.short",
+  "subtopic": "concepts",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.concepts.detailed",
+  "subtopic": "concepts",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.concepts.refine",
+  "subtopic": "concepts",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.concepts.check",
+  "subtopic": "concepts",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.quiz.short",
+  "subtopic": "quiz",
+  "kind": "short",
+  "level": 1,
+  "result": "quiz",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.quiz.detailed",
+  "subtopic": "quiz",
+  "kind": "detailed",
+  "level": 1,
+  "result": "quiz",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.quiz.refine",
+  "subtopic": "quiz",
+  "kind": "refine",
+  "level": 1,
+  "result": "quiz",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.quiz.check",
+  "subtopic": "quiz",
+  "kind": "check",
+  "level": 1,
+  "result": "quiz",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.units.short",
+  "subtopic": "units",
+  "kind": "short",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.units.detailed",
+  "subtopic": "units",
+  "kind": "detailed",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.units.refine",
+  "subtopic": "units",
+  "kind": "refine",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "math.units.check",
+  "subtopic": "units",
+  "kind": "check",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ }
+]

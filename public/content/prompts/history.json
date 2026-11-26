@@ -1,0 +1,482 @@
+[
+ {
+  "id": "history.timeline.short",
+  "subtopic": "timeline",
+  "kind": "short",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.timeline.detailed",
+  "subtopic": "timeline",
+  "kind": "detailed",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.timeline.refine",
+  "subtopic": "timeline",
+  "kind": "refine",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.timeline.check",
+  "subtopic": "timeline",
+  "kind": "check",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.causes.short",
+  "subtopic": "causes",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.causes.detailed",
+  "subtopic": "causes",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.causes.refine",
+  "subtopic": "causes",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.causes.check",
+  "subtopic": "causes",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.periods.short",
+  "subtopic": "periods",
+  "kind": "short",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.periods.detailed",
+  "subtopic": "periods",
+  "kind": "detailed",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.periods.refine",
+  "subtopic": "periods",
+  "kind": "refine",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.periods.check",
+  "subtopic": "periods",
+  "kind": "check",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.source.short",
+  "subtopic": "source",
+  "kind": "short",
+  "level": 3,
+  "result": "explanation",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.source.detailed",
+  "subtopic": "source",
+  "kind": "detailed",
+  "level": 3,
+  "result": "explanation",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.source.refine",
+  "subtopic": "source",
+  "kind": "refine",
+  "level": 3,
+  "result": "explanation",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.source.check",
+  "subtopic": "source",
+  "kind": "check",
+  "level": 3,
+  "result": "explanation",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.answer.short",
+  "subtopic": "answer",
+  "kind": "short",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.answer.detailed",
+  "subtopic": "answer",
+  "kind": "detailed",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.answer.refine",
+  "subtopic": "answer",
+  "kind": "refine",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.answer.check",
+  "subtopic": "answer",
+  "kind": "check",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.views.short",
+  "subtopic": "views",
+  "kind": "short",
+  "level": 3,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.views.detailed",
+  "subtopic": "views",
+  "kind": "detailed",
+  "level": 3,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.views.refine",
+  "subtopic": "views",
+  "kind": "refine",
+  "level": 3,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.views.check",
+  "subtopic": "views",
+  "kind": "check",
+  "level": 3,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.concept.short",
+  "subtopic": "concept",
+  "kind": "short",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.concept.detailed",
+  "subtopic": "concept",
+  "kind": "detailed",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.concept.refine",
+  "subtopic": "concept",
+  "kind": "refine",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.concept.check",
+  "subtopic": "concept",
+  "kind": "check",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.verify.short",
+  "subtopic": "verify",
+  "kind": "short",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.verify.detailed",
+  "subtopic": "verify",
+  "kind": "detailed",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.verify.refine",
+  "subtopic": "verify",
+  "kind": "refine",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.verify.check",
+  "subtopic": "verify",
+  "kind": "check",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.overview.short",
+  "subtopic": "overview",
+  "kind": "short",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.overview.detailed",
+  "subtopic": "overview",
+  "kind": "detailed",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.overview.refine",
+  "subtopic": "overview",
+  "kind": "refine",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.overview.check",
+  "subtopic": "overview",
+  "kind": "check",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.interpretation.short",
+  "subtopic": "interpretation",
+  "kind": "short",
+  "level": 3,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.interpretation.detailed",
+  "subtopic": "interpretation",
+  "kind": "detailed",
+  "level": 3,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.interpretation.refine",
+  "subtopic": "interpretation",
+  "kind": "refine",
+  "level": 3,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "history.interpretation.check",
+  "subtopic": "interpretation",
+  "kind": "check",
+  "level": 3,
+  "result": "table",
+  "needs": [
+   "chat",
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ }
+]

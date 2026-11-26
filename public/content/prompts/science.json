@@ -1,0 +1,442 @@
+[
+ {
+  "id": "science.phenomenon.short",
+  "subtopic": "phenomenon",
+  "kind": "short",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.phenomenon.detailed",
+  "subtopic": "phenomenon",
+  "kind": "detailed",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.phenomenon.refine",
+  "subtopic": "phenomenon",
+  "kind": "refine",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.phenomenon.check",
+  "subtopic": "phenomenon",
+  "kind": "check",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.processes.short",
+  "subtopic": "processes",
+  "kind": "short",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.processes.detailed",
+  "subtopic": "processes",
+  "kind": "detailed",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.processes.refine",
+  "subtopic": "processes",
+  "kind": "refine",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.processes.check",
+  "subtopic": "processes",
+  "kind": "check",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.experiment.short",
+  "subtopic": "experiment",
+  "kind": "short",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.experiment.detailed",
+  "subtopic": "experiment",
+  "kind": "detailed",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.experiment.refine",
+  "subtopic": "experiment",
+  "kind": "refine",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.experiment.check",
+  "subtopic": "experiment",
+  "kind": "check",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.hypothesis.short",
+  "subtopic": "hypothesis",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.hypothesis.detailed",
+  "subtopic": "hypothesis",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.hypothesis.refine",
+  "subtopic": "hypothesis",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.hypothesis.check",
+  "subtopic": "hypothesis",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.results.short",
+  "subtopic": "results",
+  "kind": "short",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.results.detailed",
+  "subtopic": "results",
+  "kind": "detailed",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.results.refine",
+  "subtopic": "results",
+  "kind": "refine",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.results.check",
+  "subtopic": "results",
+  "kind": "check",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.terms.short",
+  "subtopic": "terms",
+  "kind": "short",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.terms.detailed",
+  "subtopic": "terms",
+  "kind": "detailed",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.terms.refine",
+  "subtopic": "terms",
+  "kind": "refine",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.terms.check",
+  "subtopic": "terms",
+  "kind": "check",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.causes.short",
+  "subtopic": "causes",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.causes.detailed",
+  "subtopic": "causes",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.causes.refine",
+  "subtopic": "causes",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.causes.check",
+  "subtopic": "causes",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.fact.short",
+  "subtopic": "fact",
+  "kind": "short",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.fact.detailed",
+  "subtopic": "fact",
+  "kind": "detailed",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.fact.refine",
+  "subtopic": "fact",
+  "kind": "refine",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.fact.check",
+  "subtopic": "fact",
+  "kind": "check",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.limits.short",
+  "subtopic": "limits",
+  "kind": "short",
+  "level": 3,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.limits.detailed",
+  "subtopic": "limits",
+  "kind": "detailed",
+  "level": 3,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.limits.refine",
+  "subtopic": "limits",
+  "kind": "refine",
+  "level": 3,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.limits.check",
+  "subtopic": "limits",
+  "kind": "check",
+  "level": 3,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.demo.short",
+  "subtopic": "demo",
+  "kind": "short",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.demo.detailed",
+  "subtopic": "demo",
+  "kind": "detailed",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.demo.refine",
+  "subtopic": "demo",
+  "kind": "refine",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "science.demo.check",
+  "subtopic": "demo",
+  "kind": "check",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ }
+]
