@@ -476,3 +476,35 @@ details.facts dd { margin: 0; }
 .wake-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--saffron); flex: none; animation: wake 1.2s ease-in-out infinite; }
 @keyframes wake { 50% { opacity: .3; } }
 .boot-note { color: var(--muted); font-size: .95rem; }
+
+/* ---------- Prompt library ---------- */
+.need-box { max-width: 720px; }
+.need-box .label { display: block; font-size: 1.05rem; margin-bottom: .4rem; }
+.need-box input { min-height: 52px; font-size: 1.02rem; }
+.prompt-card { gap: .75rem; scroll-margin-top: 90px; }
+.prompt-card h3 { font-size: 1.12rem; margin: .15rem 0 .35rem; }
+.prompt-card .meta .tag { text-decoration: none; }
+.prompt-card a.tag:hover { background: var(--accent-soft); color: var(--accent); }
+.kind-tabs { display: flex; gap: 0; border-bottom: 1px solid var(--line); overflow-x: auto; }
+.kind-tabs button { border: 0; background: transparent; padding: .55rem .7rem; font: 600 .85rem var(--font-body); color: var(--muted); cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px; white-space: nowrap; min-height: 40px; }
+.kind-tabs button[aria-selected='true'] { color: var(--ink); border-bottom-color: var(--accent); }
+.kind-tabs button:hover { color: var(--ink); }
+.prompt-panel { display: grid; gap: .65rem; }
+.prompt-panel .prompt-box { margin: 0; }
+fieldset.fill { border: 1px solid var(--line); border-radius: var(--r-sm); padding: .65rem .75rem .75rem; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); gap: .5rem .75rem; }
+fieldset.fill legend { padding: 0 .3rem; }
+fieldset.fill p { grid-column: 1 / -1; }
+.fill-field { display: grid; gap: .2rem; font-size: .82rem; color: var(--ink-2); }
+.fill-field input { min-height: 38px; padding: .4rem .6rem; font-size: .9rem; }
+.prompt-card details.hint summary { display: inline-flex; gap: .35rem; align-items: center; }
+.prompt-card details.hint summary svg { width: 16px; height: 16px; }
+.tool-profile { gap: .6rem; }
+.cat-tile p { font-size: .85rem; }
+@media (max-width: 1180px) and (min-width: 981px) { .main-nav a { padding: .45rem .5rem; font-size: .88rem; } }
+
+/* Subtopic chips scroll sideways on phones instead of taking a whole screen. */
+@media (max-width: 640px) {
+  .chips.subtopic-nav { flex-wrap: nowrap; overflow-x: auto; padding-bottom: .4rem; scrollbar-width: thin; }
+  .chips.subtopic-nav > * { flex: 0 0 auto; }
+}
+@media (max-width: 480px) { .filters select { flex-basis: 100%; } }

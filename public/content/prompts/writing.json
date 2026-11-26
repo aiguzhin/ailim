@@ -1,0 +1,482 @@
+[
+ {
+  "id": "writing.outline.short",
+  "subtopic": "outline",
+  "kind": "short",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.outline.detailed",
+  "subtopic": "outline",
+  "kind": "detailed",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.outline.refine",
+  "subtopic": "outline",
+  "kind": "refine",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.outline.check",
+  "subtopic": "outline",
+  "kind": "check",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.clarity.short",
+  "subtopic": "clarity",
+  "kind": "short",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.clarity.detailed",
+  "subtopic": "clarity",
+  "kind": "detailed",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.clarity.refine",
+  "subtopic": "clarity",
+  "kind": "refine",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.clarity.check",
+  "subtopic": "clarity",
+  "kind": "check",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.shorten.short",
+  "subtopic": "shorten",
+  "kind": "short",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.shorten.detailed",
+  "subtopic": "shorten",
+  "kind": "detailed",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.shorten.refine",
+  "subtopic": "shorten",
+  "kind": "refine",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.shorten.check",
+  "subtopic": "shorten",
+  "kind": "check",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.repeats.short",
+  "subtopic": "repeats",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.repeats.detailed",
+  "subtopic": "repeats",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.repeats.refine",
+  "subtopic": "repeats",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.repeats.check",
+  "subtopic": "repeats",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.structure.short",
+  "subtopic": "structure",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.structure.detailed",
+  "subtopic": "structure",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.structure.refine",
+  "subtopic": "structure",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.structure.check",
+  "subtopic": "structure",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.tone.short",
+  "subtopic": "tone",
+  "kind": "short",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.tone.detailed",
+  "subtopic": "tone",
+  "kind": "detailed",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.tone.refine",
+  "subtopic": "tone",
+  "kind": "refine",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.tone.check",
+  "subtopic": "tone",
+  "kind": "check",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.audience.short",
+  "subtopic": "audience",
+  "kind": "short",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.audience.detailed",
+  "subtopic": "audience",
+  "kind": "detailed",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.audience.refine",
+  "subtopic": "audience",
+  "kind": "refine",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.audience.check",
+  "subtopic": "audience",
+  "kind": "check",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.headlines.short",
+  "subtopic": "headlines",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.headlines.detailed",
+  "subtopic": "headlines",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.headlines.refine",
+  "subtopic": "headlines",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.headlines.check",
+  "subtopic": "headlines",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.notes.short",
+  "subtopic": "notes",
+  "kind": "short",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.notes.detailed",
+  "subtopic": "notes",
+  "kind": "detailed",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.notes.refine",
+  "subtopic": "notes",
+  "kind": "refine",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.notes.check",
+  "subtopic": "notes",
+  "kind": "check",
+  "level": 2,
+  "result": "text",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.edits.short",
+  "subtopic": "edits",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.edits.detailed",
+  "subtopic": "edits",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.edits.refine",
+  "subtopic": "edits",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "writing.edits.check",
+  "subtopic": "edits",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat",
+   "translate"
+  ],
+  "checked": "2026-11-26"
+ }
+]

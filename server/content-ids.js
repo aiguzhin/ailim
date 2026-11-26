@@ -13,5 +13,11 @@ const ids = new Set([
   ...read('practice.json').map((p) => `task:${p.id}`),
 ]);
 
+// Prompt library: every file in public/content/prompts except index.json holds prompt metadata.
+for (const f of fs.readdirSync(path.join(base, 'prompts'))) {
+  if (f === 'index.json' || !f.endsWith('.json')) continue;
+  for (const p of readShared(`prompts/${f}`)) ids.add(`prompt:${p.id}`);
+}
+
 export const isKnownItem = (itemId) => ids.has(itemId);
 export const lessonSteps = Object.fromEntries(read('lessons.json').map((l) => [`lesson:${l.id}`, l.steps.length]));

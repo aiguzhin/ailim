@@ -16,15 +16,17 @@ import { login, register, forgot, reset } from './pages/auth.js';
 import account from './pages/account.js';
 import settings from './pages/settings.js';
 import notFound from './pages/not-found.js';
+import prompts from './pages/prompts.js';
+import promptCategory from './pages/prompt-category.js';
 
 const routes = [
   ['/', home], ['/catalog', catalog], ['/lessons', lessons], ['/lessons/:id', lesson],
-  ['/practice', practice], ['/builder', builder], ['/start', quiz], ['/safety', safety], ['/privacy', privacy],
+  ['/practice', practice], ['/prompts', prompts], ['/prompts/:cat', promptCategory], ['/builder', builder], ['/start', quiz], ['/safety', safety], ['/privacy', privacy],
   ['/login', login], ['/register', register], ['/forgot', forgot], ['/reset', reset],
   ['/account', account], ['/settings', settings],
 ];
 
-const NAV = [['/catalog', 'nav.catalog'], ['/lessons', 'nav.lessons'], ['/practice', 'nav.practice'], ['/builder', 'nav.builder'], ['/safety', 'nav.safety']];
+const NAV = [['/catalog', 'nav.catalog'], ['/prompts', 'nav.prompts'], ['/lessons', 'nav.lessons'], ['/practice', 'nav.practice'], ['/builder', 'nav.builder'], ['/safety', 'nav.safety']];
 
 const app = document.getElementById('app');
 let cleanup = null;
@@ -116,7 +118,7 @@ function renderChrome() {
       </div>
       <div><h4>${esc(t('footer.learn'))}</h4><ul>
         <li><a href="/start">${esc(t('nav.start'))}</a></li><li><a href="/lessons">${esc(t('nav.lessons'))}</a></li>
-        <li><a href="/practice">${esc(t('nav.practice'))}</a></li><li><a href="/builder">${esc(t('nav.builder'))}</a></li></ul></div>
+        <li><a href="/prompts">${esc(t('nav.prompts'))}</a></li><li><a href="/practice">${esc(t('nav.practice'))}</a></li><li><a href="/builder">${esc(t('nav.builder'))}</a></li></ul></div>
       <div><h4>${esc(t('footer.site'))}</h4><ul>
         <li><a href="/catalog">${esc(t('nav.catalog'))}</a></li><li><a href="/safety">${esc(t('nav.safety'))}</a></li>
         <li><a href="/privacy">${esc(t('nav.privacy'))}</a></li><li><a href="/settings">${esc(t('nav.settings'))}</a></li></ul></div>

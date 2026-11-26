@@ -1,0 +1,235 @@
+{
+ "checked": "2026-11-26",
+ "_note": "Возможности указаны только если они подтверждены официальной страницей из sources. Обновляйте вместе с датой checked.",
+ "tools": {
+  "chatgpt": {
+   "can": [
+    "chat",
+    "sources",
+    "own-docs",
+    "image-gen"
+   ],
+   "sources": [
+    {
+     "url": "https://help.openai.com/en/articles/9260256",
+     "type": "capabilities"
+    },
+    {
+     "url": "https://help.openai.com/en/articles/11084440",
+     "type": "images"
+    }
+   ]
+  },
+  "claude": {
+   "can": [
+    "chat",
+    "own-docs"
+   ],
+   "sources": [
+    {
+     "url": "https://support.claude.com/en/articles/8241126",
+     "type": "files"
+    },
+    {
+     "url": "https://support.claude.com/en/articles/9002504",
+     "type": "images"
+    }
+   ]
+  },
+  "gemini": {
+   "can": [
+    "chat",
+    "image-gen"
+   ],
+   "sources": [
+    {
+     "url": "https://support.google.com/gemini/answer/14286560",
+     "type": "images"
+    },
+    {
+     "url": "https://support.google.com/gemini/answer/13278668",
+     "type": "requirements"
+    }
+   ]
+  },
+  "copilot": {
+   "can": [
+    "chat"
+   ],
+   "sources": [
+    {
+     "url": "https://www.microsoft.com/microsoft-copilot/for-individuals/termsofuse",
+     "type": "terms"
+    }
+   ]
+  },
+  "perplexity": {
+   "can": [
+    "chat",
+    "sources"
+   ],
+   "sources": [
+    {
+     "url": "https://www.perplexity.ai/hub/legal/terms-of-service",
+     "type": "terms"
+    }
+   ]
+  },
+  "deepl": {
+   "can": [
+    "translate"
+   ],
+   "sources": [
+    {
+     "url": "https://www.deepl.com",
+     "type": "site"
+    }
+   ]
+  },
+  "grammarly": {
+   "can": [
+    "translate"
+   ],
+   "sources": [
+    {
+     "url": "https://www.grammarly.com",
+     "type": "site"
+    }
+   ]
+  },
+  "midjourney": {
+   "can": [
+    "image-gen"
+   ],
+   "sources": [
+    {
+     "url": "https://docs.midjourney.com",
+     "type": "docs"
+    }
+   ]
+  },
+  "firefly": {
+   "can": [
+    "image-gen"
+   ],
+   "sources": [
+    {
+     "url": "https://helpx.adobe.com/firefly/faq.html",
+     "type": "faq"
+    }
+   ]
+  },
+  "canva": {
+   "can": [
+    "image-gen",
+    "slides"
+   ],
+   "sources": [
+    {
+     "url": "https://www.canva.com",
+     "type": "site"
+    }
+   ]
+  },
+  "runway": {
+   "can": [
+    "video"
+   ],
+   "sources": [
+    {
+     "url": "https://runwayml.com",
+     "type": "site"
+    }
+   ]
+  },
+  "capcut": {
+   "can": [
+    "video"
+   ],
+   "sources": [
+    {
+     "url": "https://www.capcut.com",
+     "type": "site"
+    }
+   ]
+  },
+  "elevenlabs": {
+   "can": [
+    "tts"
+   ],
+   "sources": [
+    {
+     "url": "https://elevenlabs.io/terms-of-use",
+     "type": "terms"
+    }
+   ]
+  },
+  "suno": {
+   "can": [
+    "music"
+   ],
+   "sources": [
+    {
+     "url": "https://suno.com",
+     "type": "site"
+    }
+   ]
+  },
+  "github-copilot": {
+   "can": [
+    "code-ide",
+    "chat"
+   ],
+   "sources": [
+    {
+     "url": "https://docs.github.com/en/copilot/get-started/plans",
+     "type": "docs"
+    }
+   ]
+  },
+  "cursor": {
+   "can": [
+    "code-ide"
+   ],
+   "sources": [
+    {
+     "url": "https://cursor.com",
+     "type": "site"
+    }
+   ]
+  },
+  "notebooklm": {
+   "can": [
+    "own-docs"
+   ],
+   "sources": [
+    {
+     "url": "https://support.google.com/notebooklm/answer/16164461",
+     "type": "requirements"
+    }
+   ]
+  },
+  "gamma": {
+   "can": [
+    "slides"
+   ],
+   "sources": [
+    {
+     "url": "https://gamma.app",
+     "type": "site"
+    }
+   ]
+  },
+  "notion-ai": {
+   "can": [
+    "notes"
+   ],
+   "sources": [
+    {
+     "url": "https://www.notion.com/product/ai",
+     "type": "site"
+    }
+   ]
+  }
+ }
+}

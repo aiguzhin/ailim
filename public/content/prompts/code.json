@@ -1,0 +1,482 @@
+[
+ {
+  "id": "code.explain.short",
+  "subtopic": "explain",
+  "kind": "short",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.explain.detailed",
+  "subtopic": "explain",
+  "kind": "detailed",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.explain.refine",
+  "subtopic": "explain",
+  "kind": "refine",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.explain.check",
+  "subtopic": "explain",
+  "kind": "check",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.plan.short",
+  "subtopic": "plan",
+  "kind": "short",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.plan.detailed",
+  "subtopic": "plan",
+  "kind": "detailed",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.plan.refine",
+  "subtopic": "plan",
+  "kind": "refine",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.plan.check",
+  "subtopic": "plan",
+  "kind": "check",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.causes.short",
+  "subtopic": "causes",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.causes.detailed",
+  "subtopic": "causes",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.causes.refine",
+  "subtopic": "causes",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.causes.check",
+  "subtopic": "causes",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.minimal.short",
+  "subtopic": "minimal",
+  "kind": "short",
+  "level": 3,
+  "result": "code",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.minimal.detailed",
+  "subtopic": "minimal",
+  "kind": "detailed",
+  "level": 3,
+  "result": "code",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.minimal.refine",
+  "subtopic": "minimal",
+  "kind": "refine",
+  "level": 3,
+  "result": "code",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.minimal.check",
+  "subtopic": "minimal",
+  "kind": "check",
+  "level": 3,
+  "result": "code",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.tests.short",
+  "subtopic": "tests",
+  "kind": "short",
+  "level": 2,
+  "result": "code",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.tests.detailed",
+  "subtopic": "tests",
+  "kind": "detailed",
+  "level": 2,
+  "result": "code",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.tests.refine",
+  "subtopic": "tests",
+  "kind": "refine",
+  "level": 2,
+  "result": "code",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.tests.check",
+  "subtopic": "tests",
+  "kind": "check",
+  "level": 2,
+  "result": "code",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.message.short",
+  "subtopic": "message",
+  "kind": "short",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.message.detailed",
+  "subtopic": "message",
+  "kind": "detailed",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.message.refine",
+  "subtopic": "message",
+  "kind": "refine",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.message.check",
+  "subtopic": "message",
+  "kind": "check",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.approaches.short",
+  "subtopic": "approaches",
+  "kind": "short",
+  "level": 3,
+  "result": "table",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.approaches.detailed",
+  "subtopic": "approaches",
+  "kind": "detailed",
+  "level": 3,
+  "result": "table",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.approaches.refine",
+  "subtopic": "approaches",
+  "kind": "refine",
+  "level": 3,
+  "result": "table",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.approaches.check",
+  "subtopic": "approaches",
+  "kind": "check",
+  "level": 3,
+  "result": "table",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.readme.short",
+  "subtopic": "readme",
+  "kind": "short",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.readme.detailed",
+  "subtopic": "readme",
+  "kind": "detailed",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.readme.refine",
+  "subtopic": "readme",
+  "kind": "refine",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.readme.check",
+  "subtopic": "readme",
+  "kind": "check",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.readability.short",
+  "subtopic": "readability",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.readability.detailed",
+  "subtopic": "readability",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.readability.refine",
+  "subtopic": "readability",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.readability.check",
+  "subtopic": "readability",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.secrets.short",
+  "subtopic": "secrets",
+  "kind": "short",
+  "level": 1,
+  "result": "code",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.secrets.detailed",
+  "subtopic": "secrets",
+  "kind": "detailed",
+  "level": 1,
+  "result": "code",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.secrets.refine",
+  "subtopic": "secrets",
+  "kind": "refine",
+  "level": 1,
+  "result": "code",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "code.secrets.check",
+  "subtopic": "secrets",
+  "kind": "check",
+  "level": 1,
+  "result": "code",
+  "needs": [
+   "code-ide",
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ }
+]

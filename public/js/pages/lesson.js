@@ -18,6 +18,7 @@ function stepHtml(lesson, i) {
       <h3>${esc(t('lesson.takeaway'))}</h3>
       <p>${esc(lesson.takeaway)}</p>
       <p class="muted small">${esc(t('lesson.verifyReminder'))}</p>
+      ${ctx?.promptCats?.length ? `<p>${icon('copy').replace('<svg', '<svg style="width:16px;height:16px;display:inline;vertical-align:-3px"')} ${esc(t('lesson.prompts'))} ${ctx.promptCats.map((c) => `<a href="/prompts/${esc(c.id)}">${esc(c.name)}</a>`).join(', ')}</p>` : ''}
     </div>`;
   }
   const s = lesson.steps[i];
@@ -66,7 +67,12 @@ export default {
     const saved = state.progress.get(`lesson:${lesson.id}`);
     const total = lesson.steps.length;
     const startAt = query.get('step') !== null ? Math.min(total, Math.max(0, Number(query.get('step')) || 0)) : Math.min(total, saved?.step || 0);
-    ctx = { lesson, step: startAt, maxSeen: Math.max(startAt, saved?.completed ? total : saved?.step || 0), directions };
+    let promptCats = [];
+    try {
+      const [pIndex, pNames] = await Promise.all([fetch('/content/prompts/index.json').then((r) => r.json()), content('prompts/index')]);
+      promptCats = pIndex.categories.filter((c) => c.lesson === lesson.id && c.prompts).map((c) => ({ id: c.id, name: pNames.categories[c.id] }));
+    } catch { /* links to prompts are optional */ }
+    ctx = { promptCats, lesson, step: startAt, maxSeen: Math.max(startAt, saved?.completed ? total : saved?.step || 0), directions };
     const dir = directions[lesson.direction];
 
     return `

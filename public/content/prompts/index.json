@@ -1,0 +1,765 @@
+{
+ "checked": "2026-11-26",
+ "kinds": [
+  "short",
+  "detailed",
+  "refine",
+  "check"
+ ],
+ "categories": [
+  {
+   "id": "study",
+   "icon": "study",
+   "needs": [
+    "chat"
+   ],
+   "lesson": "study-tutor",
+   "audiences": [
+    "school",
+    "students"
+   ],
+   "subtopics": [
+    "explain",
+    "simple",
+    "analogy",
+    "term",
+    "compare",
+    "plan",
+    "exam",
+    "cards",
+    "gaps",
+    "steps"
+   ],
+   "prompts": 40
+  },
+  {
+   "id": "languages",
+   "icon": "text",
+   "needs": [
+    "chat",
+    "translate"
+   ],
+   "lesson": null,
+   "audiences": [
+    "school",
+    "students",
+    "learners"
+   ],
+   "subtopics": [
+    "plan",
+    "grammar",
+    "tenses",
+    "words",
+    "check",
+    "dialogue",
+    "oral",
+    "level",
+    "mistakes",
+    "translate"
+   ],
+   "prompts": 0
+  },
+  {
+   "id": "math",
+   "icon": "code",
+   "needs": [
+    "chat"
+   ],
+   "lesson": "study-tutor",
+   "audiences": [
+    "school",
+    "students"
+   ],
+   "subtopics": [
+    "formula",
+    "steps",
+    "check",
+    "error",
+    "similar",
+    "graph",
+    "methods",
+    "concepts",
+    "quiz",
+    "units"
+   ],
+   "prompts": 0
+  },
+  {
+   "id": "science",
+   "icon": "basics",
+   "needs": [
+    "chat"
+   ],
+   "lesson": "study-tutor",
+   "audiences": [
+    "school",
+    "students"
+   ],
+   "subtopics": [
+    "phenomenon",
+    "processes",
+    "experiment",
+    "hypothesis",
+    "results",
+    "terms",
+    "causes",
+    "fact",
+    "limits",
+    "demo"
+   ],
+   "prompts": 0
+  },
+  {
+   "id": "history",
+   "icon": "study",
+   "needs": [
+    "chat",
+    "sources"
+   ],
+   "lesson": "check-answers",
+   "audiences": [
+    "school",
+    "students"
+   ],
+   "subtopics": [
+    "timeline",
+    "causes",
+    "periods",
+    "source",
+    "answer",
+    "views",
+    "concept",
+    "verify",
+    "overview",
+    "interpretation"
+   ],
+   "prompts": 0
+  },
+  {
+   "id": "literature",
+   "icon": "text",
+   "needs": [
+    "chat"
+   ],
+   "lesson": "study-tutor",
+   "audiences": [
+    "school",
+    "students"
+   ],
+   "subtopics": [
+    "retell",
+    "character",
+    "conflict",
+    "theme",
+    "arguments",
+    "essay",
+    "heroes",
+    "words",
+    "discussion",
+    "quote"
+   ],
+   "prompts": 0
+  },
+  {
+   "id": "writing",
+   "icon": "text",
+   "needs": [
+    "chat",
+    "translate"
+   ],
+   "lesson": "writing-edit",
+   "audiences": [
+    "students",
+    "specialists",
+    "teams"
+   ],
+   "subtopics": [
+    "outline",
+    "clarity",
+    "shorten",
+    "repeats",
+    "structure",
+    "tone",
+    "audience",
+    "headlines",
+    "notes",
+    "edits"
+   ],
+   "prompts": 40
+  },
+  {
+   "id": "projects",
+   "icon": "slides",
+   "needs": [
+    "chat",
+    "sources"
+   ],
+   "lesson": "slides-outline",
+   "audiences": [
+    "school",
+    "students"
+   ],
+   "subtopics": [
+    "narrow",
+    "question",
+    "plan",
+    "arguments",
+    "sources",
+    "logic",
+    "unclear",
+    "theses",
+    "checklist",
+    "defence"
+   ],
+   "prompts": 0
+  },
+  {
+   "id": "factcheck",
+   "icon": "shield",
+   "needs": [
+    "sources"
+   ],
+   "lesson": "check-answers",
+   "audiences": [
+    "school",
+    "students",
+    "specialists",
+    "parents"
+   ],
+   "subtopics": [
+    "queries",
+    "types",
+    "claim",
+    "compare",
+    "contradictions",
+    "questions",
+    "opinion",
+    "author",
+    "original",
+    "table"
+   ],
+   "prompts": 40
+  },
+  {
+   "id": "notes",
+   "icon": "study",
+   "needs": [
+    "own-docs",
+    "chat"
+   ],
+   "lesson": "study-tutor",
+   "audiences": [
+    "school",
+    "students",
+    "specialists"
+   ],
+   "subtopics": [
+    "summary",
+    "theses",
+    "glossary",
+    "questions",
+    "chapter",
+    "compare",
+    "actions",
+    "table",
+    "verify",
+    "cards"
+   ],
+   "prompts": 0
+  },
+  {
+   "id": "speaking",
+   "icon": "slides",
+   "needs": [
+    "slides",
+    "chat"
+   ],
+   "lesson": "slides-outline",
+   "audiences": [
+    "school",
+    "students",
+    "specialists"
+   ],
+   "subtopics": [
+    "goal",
+    "audience",
+    "structure",
+    "opening",
+    "slides",
+    "overloaded",
+    "notes",
+    "example",
+    "rehearsal",
+    "qa"
+   ],
+   "prompts": 0
+  },
+  {
+   "id": "ideas",
+   "icon": "everyday",
+   "needs": [
+    "chat"
+   ],
+   "lesson": null,
+   "audiences": [
+    "students",
+    "creative",
+    "teams"
+   ],
+   "subtopics": [
+    "names",
+    "project",
+    "approaches",
+    "expand",
+    "group",
+    "criteria",
+    "first",
+    "budget",
+    "toplan",
+    "weak"
+   ],
+   "prompts": 0
+  },
+  {
+   "id": "planning",
+   "icon": "plan",
+   "needs": [
+    "chat",
+    "notes"
+   ],
+   "lesson": "planning-goals",
+   "audiences": [
+    "school",
+    "students",
+    "specialists",
+    "teams"
+   ],
+   "subtopics": [
+    "stages",
+    "week",
+    "estimate",
+    "priorities",
+    "checklist",
+    "dependencies",
+    "project",
+    "review",
+    "shortage",
+    "rest"
+   ],
+   "prompts": 0
+  },
+  {
+   "id": "teamwork",
+   "icon": "user",
+   "needs": [
+    "chat",
+    "notes"
+   ],
+   "lesson": null,
+   "audiences": [
+    "teams",
+    "students",
+    "specialists"
+   ],
+   "subtopics": [
+    "agenda",
+    "decisions",
+    "roles",
+    "polite",
+    "help",
+    "feedback",
+    "disagree",
+    "summary",
+    "open",
+    "recipient"
+   ],
+   "prompts": 0
+  },
+  {
+   "id": "career",
+   "icon": "work",
+   "needs": [
+    "chat"
+   ],
+   "lesson": null,
+   "audiences": [
+    "students",
+    "specialists"
+   ],
+   "subtopics": [
+    "skills",
+    "experience",
+    "portfolio",
+    "interview",
+    "directions",
+    "grow",
+    "learn",
+    "letter",
+    "questions",
+    "vacancy"
+   ],
+   "prompts": 0
+  },
+  {
+   "id": "design",
+   "icon": "image",
+   "needs": [
+    "chat",
+    "slides"
+   ],
+   "lesson": "images-describe",
+   "audiences": [
+    "creative",
+    "students",
+    "teams"
+   ],
+   "subtopics": [
+    "brief",
+    "mood",
+    "composition",
+    "palette",
+    "poster",
+    "infographic",
+    "hierarchy",
+    "cover",
+    "alt",
+    "overloaded"
+   ],
+   "prompts": 0
+  },
+  {
+   "id": "images",
+   "icon": "image",
+   "needs": [
+    "image-gen"
+   ],
+   "lesson": "images-describe",
+   "audiences": [
+    "creative",
+    "students"
+   ],
+   "subtopics": [
+    "subject",
+    "style",
+    "angle",
+    "light",
+    "palette",
+    "series",
+    "background",
+    "school",
+    "diagram",
+    "exclude"
+   ],
+   "prompts": 40
+  },
+  {
+   "id": "video",
+   "icon": "video",
+   "needs": [
+    "video",
+    "chat"
+   ],
+   "lesson": "video-script",
+   "audiences": [
+    "creative",
+    "students"
+   ],
+   "subtopics": [
+    "idea",
+    "script",
+    "storyboard",
+    "hook",
+    "scenes",
+    "shots",
+    "subtitles",
+    "length",
+    "edit",
+    "respect"
+   ],
+   "prompts": 0
+  },
+  {
+   "id": "audio",
+   "icon": "audio",
+   "needs": [
+    "tts",
+    "chat"
+   ],
+   "lesson": "audio-voice",
+   "audiences": [
+    "creative",
+    "students"
+   ],
+   "subtopics": [
+    "episode",
+    "guest",
+    "intro",
+    "host",
+    "aloud",
+    "pauses",
+    "title",
+    "description",
+    "rights",
+    "cleanup"
+   ],
+   "prompts": 0
+  },
+  {
+   "id": "music",
+   "icon": "audio",
+   "needs": [
+    "music",
+    "chat"
+   ],
+   "lesson": null,
+   "audiences": [
+    "creative"
+   ],
+   "subtopics": [
+    "theme",
+    "mood",
+    "structure",
+    "instruments",
+    "sound",
+    "describe",
+    "melody",
+    "title",
+    "scene",
+    "avoid"
+   ],
+   "prompts": 0
+  },
+  {
+   "id": "code",
+   "icon": "code",
+   "needs": [
+    "code-ide",
+    "chat"
+   ],
+   "lesson": "code-first",
+   "audiences": [
+    "students",
+    "specialists"
+   ],
+   "subtopics": [
+    "explain",
+    "plan",
+    "causes",
+    "minimal",
+    "tests",
+    "message",
+    "approaches",
+    "readme",
+    "readability",
+    "secrets"
+   ],
+   "prompts": 40
+  },
+  {
+   "id": "data",
+   "icon": "sliders",
+   "needs": [
+    "chat"
+   ],
+   "lesson": null,
+   "audiences": [
+    "students",
+    "specialists",
+    "teams"
+   ],
+   "subtopics": [
+    "formula",
+    "structure",
+    "write",
+    "error",
+    "clean",
+    "group",
+    "questions",
+    "chart",
+    "check",
+    "missing"
+   ],
+   "prompts": 0
+  },
+  {
+   "id": "everyday",
+   "icon": "everyday",
+   "needs": [
+    "chat"
+   ],
+   "lesson": "everyday-help",
+   "audiences": [
+    "parents",
+    "everyone"
+   ],
+   "subtopics": [
+    "shopping",
+    "dish",
+    "cleaning",
+    "trip",
+    "compare",
+    "chores",
+    "purchase",
+    "project",
+    "instruction",
+    "clarify"
+   ],
+   "prompts": 0
+  },
+  {
+   "id": "travel",
+   "icon": "route",
+   "needs": [
+    "chat",
+    "sources"
+   ],
+   "lesson": "everyday-help",
+   "audiences": [
+    "everyone",
+    "parents"
+   ],
+   "subtopics": [
+    "route",
+    "areas",
+    "questions",
+    "rain",
+    "season",
+    "culture",
+    "time",
+    "transport",
+    "official",
+    "budget"
+   ],
+   "prompts": 0
+  },
+  {
+   "id": "habits",
+   "icon": "checkCircle",
+   "needs": [
+    "chat"
+   ],
+   "lesson": "planning-goals",
+   "audiences": [
+    "everyone",
+    "students"
+   ],
+   "subtopics": [
+    "small",
+    "habit",
+    "reminders",
+    "done",
+    "balance",
+    "obstacles",
+    "start",
+    "return",
+    "reflect",
+    "limits"
+   ],
+   "prompts": 0
+  },
+  {
+   "id": "access",
+   "icon": "eye",
+   "needs": [
+    "chat"
+   ],
+   "lesson": null,
+   "audiences": [
+    "everyone",
+    "screenreader",
+    "simple"
+   ],
+   "subtopics": [
+    "simplify",
+    "short",
+    "steps",
+    "glossary",
+    "image",
+    "structure",
+    "subtitles",
+    "screenreader",
+    "reading",
+    "feedback"
+   ],
+   "prompts": 0
+  },
+  {
+   "id": "eco",
+   "icon": "everyday",
+   "needs": [
+    "chat",
+    "sources"
+   ],
+   "lesson": null,
+   "audiences": [
+    "school",
+    "students",
+    "teams"
+   ],
+   "subtopics": [
+    "problem",
+    "data",
+    "survey",
+    "campaign",
+    "materials",
+    "solutions",
+    "volunteer",
+    "conclusions",
+    "claims",
+    "report"
+   ],
+   "prompts": 0
+  },
+  {
+   "id": "safety",
+   "icon": "shield",
+   "needs": [
+    "chat",
+    "sources"
+   ],
+   "lesson": "check-answers",
+   "audiences": [
+    "everyone",
+    "school",
+    "parents"
+   ],
+   "subtopics": [
+    "pii",
+    "verify",
+    "source",
+    "bias",
+    "image",
+    "label",
+    "consent",
+    "harm",
+    "safer",
+    "human"
+   ],
+   "prompts": 0
+  },
+  {
+   "id": "tools",
+   "icon": "sliders",
+   "needs": [
+    "chat"
+   ],
+   "lesson": null,
+   "audiences": [
+    "everyone"
+   ],
+   "subtopics": [
+    "purpose",
+    "tasks",
+    "first",
+    "compare",
+    "check",
+    "settings",
+    "safe",
+    "plan",
+    "official",
+    "changes"
+   ],
+   "prompts": 0
+  }
+ ]
+}

@@ -1,0 +1,442 @@
+[
+ {
+  "id": "study.explain.short",
+  "subtopic": "explain",
+  "kind": "short",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.explain.detailed",
+  "subtopic": "explain",
+  "kind": "detailed",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.explain.refine",
+  "subtopic": "explain",
+  "kind": "refine",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.explain.check",
+  "subtopic": "explain",
+  "kind": "check",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.simple.short",
+  "subtopic": "simple",
+  "kind": "short",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.simple.detailed",
+  "subtopic": "simple",
+  "kind": "detailed",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.simple.refine",
+  "subtopic": "simple",
+  "kind": "refine",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.simple.check",
+  "subtopic": "simple",
+  "kind": "check",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.analogy.short",
+  "subtopic": "analogy",
+  "kind": "short",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.analogy.detailed",
+  "subtopic": "analogy",
+  "kind": "detailed",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.analogy.refine",
+  "subtopic": "analogy",
+  "kind": "refine",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.analogy.check",
+  "subtopic": "analogy",
+  "kind": "check",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.term.short",
+  "subtopic": "term",
+  "kind": "short",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.term.detailed",
+  "subtopic": "term",
+  "kind": "detailed",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.term.refine",
+  "subtopic": "term",
+  "kind": "refine",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.term.check",
+  "subtopic": "term",
+  "kind": "check",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.compare.short",
+  "subtopic": "compare",
+  "kind": "short",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.compare.detailed",
+  "subtopic": "compare",
+  "kind": "detailed",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.compare.refine",
+  "subtopic": "compare",
+  "kind": "refine",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.compare.check",
+  "subtopic": "compare",
+  "kind": "check",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.plan.short",
+  "subtopic": "plan",
+  "kind": "short",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.plan.detailed",
+  "subtopic": "plan",
+  "kind": "detailed",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.plan.refine",
+  "subtopic": "plan",
+  "kind": "refine",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.plan.check",
+  "subtopic": "plan",
+  "kind": "check",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.exam.short",
+  "subtopic": "exam",
+  "kind": "short",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.exam.detailed",
+  "subtopic": "exam",
+  "kind": "detailed",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.exam.refine",
+  "subtopic": "exam",
+  "kind": "refine",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.exam.check",
+  "subtopic": "exam",
+  "kind": "check",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.cards.short",
+  "subtopic": "cards",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.cards.detailed",
+  "subtopic": "cards",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.cards.refine",
+  "subtopic": "cards",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.cards.check",
+  "subtopic": "cards",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.gaps.short",
+  "subtopic": "gaps",
+  "kind": "short",
+  "level": 2,
+  "result": "quiz",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.gaps.detailed",
+  "subtopic": "gaps",
+  "kind": "detailed",
+  "level": 2,
+  "result": "quiz",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.gaps.refine",
+  "subtopic": "gaps",
+  "kind": "refine",
+  "level": 2,
+  "result": "quiz",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.gaps.check",
+  "subtopic": "gaps",
+  "kind": "check",
+  "level": 2,
+  "result": "quiz",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.steps.short",
+  "subtopic": "steps",
+  "kind": "short",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.steps.detailed",
+  "subtopic": "steps",
+  "kind": "detailed",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.steps.refine",
+  "subtopic": "steps",
+  "kind": "refine",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "study.steps.check",
+  "subtopic": "steps",
+  "kind": "check",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ }
+]

@@ -1,0 +1,442 @@
+[
+ {
+  "id": "factcheck.queries.short",
+  "subtopic": "queries",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.queries.detailed",
+  "subtopic": "queries",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.queries.refine",
+  "subtopic": "queries",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.queries.check",
+  "subtopic": "queries",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.types.short",
+  "subtopic": "types",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.types.detailed",
+  "subtopic": "types",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.types.refine",
+  "subtopic": "types",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.types.check",
+  "subtopic": "types",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.claim.short",
+  "subtopic": "claim",
+  "kind": "short",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.claim.detailed",
+  "subtopic": "claim",
+  "kind": "detailed",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.claim.refine",
+  "subtopic": "claim",
+  "kind": "refine",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.claim.check",
+  "subtopic": "claim",
+  "kind": "check",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.compare.short",
+  "subtopic": "compare",
+  "kind": "short",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.compare.detailed",
+  "subtopic": "compare",
+  "kind": "detailed",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.compare.refine",
+  "subtopic": "compare",
+  "kind": "refine",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.compare.check",
+  "subtopic": "compare",
+  "kind": "check",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.contradictions.short",
+  "subtopic": "contradictions",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.contradictions.detailed",
+  "subtopic": "contradictions",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.contradictions.refine",
+  "subtopic": "contradictions",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.contradictions.check",
+  "subtopic": "contradictions",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.questions.short",
+  "subtopic": "questions",
+  "kind": "short",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.questions.detailed",
+  "subtopic": "questions",
+  "kind": "detailed",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.questions.refine",
+  "subtopic": "questions",
+  "kind": "refine",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.questions.check",
+  "subtopic": "questions",
+  "kind": "check",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.opinion.short",
+  "subtopic": "opinion",
+  "kind": "short",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.opinion.detailed",
+  "subtopic": "opinion",
+  "kind": "detailed",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.opinion.refine",
+  "subtopic": "opinion",
+  "kind": "refine",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.opinion.check",
+  "subtopic": "opinion",
+  "kind": "check",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.author.short",
+  "subtopic": "author",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.author.detailed",
+  "subtopic": "author",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.author.refine",
+  "subtopic": "author",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.author.check",
+  "subtopic": "author",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.original.short",
+  "subtopic": "original",
+  "kind": "short",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.original.detailed",
+  "subtopic": "original",
+  "kind": "detailed",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.original.refine",
+  "subtopic": "original",
+  "kind": "refine",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.original.check",
+  "subtopic": "original",
+  "kind": "check",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.table.short",
+  "subtopic": "table",
+  "kind": "short",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.table.detailed",
+  "subtopic": "table",
+  "kind": "detailed",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.table.refine",
+  "subtopic": "table",
+  "kind": "refine",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "factcheck.table.check",
+  "subtopic": "table",
+  "kind": "check",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "sources"
+  ],
+  "checked": "2026-11-26"
+ }
+]

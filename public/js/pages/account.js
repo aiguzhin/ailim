@@ -18,7 +18,8 @@ function itemTitle(itemId) {
 function tabFavorites() {
   const favLessons = data.lessons.filter((l) => state.favorites.has(`lesson:${l.id}`));
   const favTools = data.tools.tools.filter((x) => state.favorites.has(`tool:${x.id}`));
-  if (!favLessons.length && !favTools.length) {
+  const favPrompts = [...state.favorites].filter((id) => id.startsWith('prompt:')).map((id) => id.slice(7));
+  if (!favLessons.length && !favTools.length && !favPrompts.length) {
     return emptyState({ title: t('empty.favTitle'), text: t('empty.favText'), iconName: 'bookmark',
       action: `<div class="btn-row" style="justify-content:center"><a class="btn btn-sm" href="/lessons">${esc(t('nav.lessons'))}</a><a class="btn btn-sm" href="/catalog">${esc(t('nav.catalog'))}</a></div>` });
   }
@@ -26,7 +27,13 @@ function tabFavorites() {
     ${favTools.length ? `<h3>${esc(t('account.favTools'))}</h3><div class="grid grid-4">${favTools.map((x) => `<div class="card"><div style="display:flex;justify-content:space-between;gap:.5rem;align-items:center">
       <span style="display:flex;gap:.6rem;align-items:center"><span class="card-icon">${icon(directionIcon[x.category])}</span><strong>${esc(x.name)}</strong></span>
       <button class="icon-btn fav-btn" type="button" data-fav="tool:${esc(x.id)}" aria-pressed="true" aria-label="${esc(t('fav.label', { name: x.name }))}">${icon('bookmark')}</button></div>
-      <a class="small" href="/catalog?q=${encodeURIComponent(x.name)}">${esc(t('account.openInCatalog'))}</a></div>`).join('')}</div>` : ''}`;
+      <a class="small" href="/catalog?q=${encodeURIComponent(x.name)}">${esc(t('account.openInCatalog'))}</a></div>`).join('')}</div>` : ''}
+    ${favPrompts.length ? `<h3 style="margin-top:2rem">${esc(t('account.favPrompts'))}</h3><ul class="history">${favPrompts.map((pid) => {
+      const [cid, sid, kind] = pid.split('.');
+      const name = data.promptNames.subtopics[`${cid}.${sid}`] || pid;
+      return `<li><span><span class="small muted">${esc(data.promptNames.categories[cid] || '')}</span><br><a href="/prompts/${esc(cid)}#p-${esc(cid)}-${esc(sid)}">${esc(name)}</a> <span class="tag">${esc(t(`prompts.kind.${kind}`))}</span></span>
+        <button class="icon-btn fav-btn" type="button" data-fav="prompt:${esc(pid)}" aria-pressed="true" aria-label="${esc(t('fav.label', { name }))}">${icon('bookmark')}</button></li>`;
+    }).join('')}</ul>` : ''}`;
 }
 
 function tabHistory() {
@@ -60,7 +67,8 @@ export default {
   async render({ query }) {
     const [lessons, directions, tasks] = await Promise.all([content('lessons'), content('directions'), content('practice')]);
     const tools = await (await fetch('/content/tools.json')).json();
-    data = { lessons, directions, tasks, tools };
+    const promptNames = await content('prompts/index');
+    data = { lessons, directions, tasks, tools, promptNames };
     const u = state.user;
     const done = lessons.filter((l) => lessonStatus(l) === 'done').length;
     const started = lessons.filter((l) => lessonStatus(l) === 'started').length;

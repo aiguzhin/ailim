@@ -26,6 +26,7 @@ function toolCard(tool, text, catName) {
     </div>
     ${factsHtml(tool)}
     <div class="card-foot">
+      <a class="btn btn-ghost btn-sm" href="/prompts?tool=${esc(tool.id)}">${esc(t('catalog.promptsLink'))}</a>
       <a class="btn btn-sm" href="${esc(tool.url)}" target="_blank" rel="noopener noreferrer" data-visit="${esc(id)}">${esc(t('catalog.official'))}${icon('external')}<span class="visually-hidden">${esc(t('a11y.newTab'))}</span></a>
     </div>
   </article>`;

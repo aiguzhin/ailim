@@ -1,0 +1,442 @@
+[
+ {
+  "id": "images.subject.short",
+  "subtopic": "subject",
+  "kind": "short",
+  "level": 1,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.subject.detailed",
+  "subtopic": "subject",
+  "kind": "detailed",
+  "level": 1,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.subject.refine",
+  "subtopic": "subject",
+  "kind": "refine",
+  "level": 1,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.subject.check",
+  "subtopic": "subject",
+  "kind": "check",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.style.short",
+  "subtopic": "style",
+  "kind": "short",
+  "level": 1,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.style.detailed",
+  "subtopic": "style",
+  "kind": "detailed",
+  "level": 1,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.style.refine",
+  "subtopic": "style",
+  "kind": "refine",
+  "level": 1,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.style.check",
+  "subtopic": "style",
+  "kind": "check",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.angle.short",
+  "subtopic": "angle",
+  "kind": "short",
+  "level": 2,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.angle.detailed",
+  "subtopic": "angle",
+  "kind": "detailed",
+  "level": 2,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.angle.refine",
+  "subtopic": "angle",
+  "kind": "refine",
+  "level": 2,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.angle.check",
+  "subtopic": "angle",
+  "kind": "check",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.light.short",
+  "subtopic": "light",
+  "kind": "short",
+  "level": 2,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.light.detailed",
+  "subtopic": "light",
+  "kind": "detailed",
+  "level": 2,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.light.refine",
+  "subtopic": "light",
+  "kind": "refine",
+  "level": 2,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.light.check",
+  "subtopic": "light",
+  "kind": "check",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.palette.short",
+  "subtopic": "palette",
+  "kind": "short",
+  "level": 1,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.palette.detailed",
+  "subtopic": "palette",
+  "kind": "detailed",
+  "level": 1,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.palette.refine",
+  "subtopic": "palette",
+  "kind": "refine",
+  "level": 1,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.palette.check",
+  "subtopic": "palette",
+  "kind": "check",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.series.short",
+  "subtopic": "series",
+  "kind": "short",
+  "level": 3,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.series.detailed",
+  "subtopic": "series",
+  "kind": "detailed",
+  "level": 3,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.series.refine",
+  "subtopic": "series",
+  "kind": "refine",
+  "level": 3,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.series.check",
+  "subtopic": "series",
+  "kind": "check",
+  "level": 3,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.background.short",
+  "subtopic": "background",
+  "kind": "short",
+  "level": 1,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.background.detailed",
+  "subtopic": "background",
+  "kind": "detailed",
+  "level": 1,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.background.refine",
+  "subtopic": "background",
+  "kind": "refine",
+  "level": 1,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.background.check",
+  "subtopic": "background",
+  "kind": "check",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.school.short",
+  "subtopic": "school",
+  "kind": "short",
+  "level": 1,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.school.detailed",
+  "subtopic": "school",
+  "kind": "detailed",
+  "level": 1,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.school.refine",
+  "subtopic": "school",
+  "kind": "refine",
+  "level": 1,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.school.check",
+  "subtopic": "school",
+  "kind": "check",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.diagram.short",
+  "subtopic": "diagram",
+  "kind": "short",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.diagram.detailed",
+  "subtopic": "diagram",
+  "kind": "detailed",
+  "level": 2,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.diagram.refine",
+  "subtopic": "diagram",
+  "kind": "refine",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.diagram.check",
+  "subtopic": "diagram",
+  "kind": "check",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.exclude.short",
+  "subtopic": "exclude",
+  "kind": "short",
+  "level": 2,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.exclude.detailed",
+  "subtopic": "exclude",
+  "kind": "detailed",
+  "level": 2,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.exclude.refine",
+  "subtopic": "exclude",
+  "kind": "refine",
+  "level": 2,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26"
+ },
+ {
+  "id": "images.exclude.check",
+  "subtopic": "exclude",
+  "kind": "check",
+  "level": 2,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26"
+ }
+]
