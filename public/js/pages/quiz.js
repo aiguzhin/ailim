@@ -1,4 +1,4 @@
-import { t, tp, content, safeGet, safeSet } from '../i18n.js';
+import { t, content, safeGet, safeSet } from '../i18n.js';
 import { state } from '../store.js';
 import { icon, directionIcon } from '../icons.js';
 import { esc, toast, errorText } from '../ui.js';
@@ -44,7 +44,7 @@ function resultHtml(answers, planIds) {
       ${plan.map((l, i) => `<li class="card" style="flex-direction:row;align-items:center;gap:1rem;padding:.9rem 1rem">
         <span class="demo-num" aria-hidden="true">${i + 1}</span>
         <div style="flex:1"><a href="/lessons/${esc(l.id)}" style="font-weight:600">${esc(l.title)}</a>
-        <div class="meta">${esc(directions[l.direction]?.name || '')} · ${esc(tp('unit.minutes', l.minutes))}</div></div></li>`).join('')}
+        <div class="meta">${esc(directions[l.direction]?.name || '')} · ${esc(t('time.lesson', { n: l.minutes }))} · ${esc(t('time.task', { n: l.taskMinutes }))}</div></div></li>`).join('')}
     </ol>
     ${state.user
       ? `<div class="notice info">${icon('checkCircle')}<div><p>${esc(t('quiz.savedToProfile'))}</p></div></div>`

@@ -1,4 +1,4 @@
-import { t, tp, content, formatDate } from '../i18n.js';
+import { t, content, formatDate } from '../i18n.js';
 import { state } from '../store.js';
 import { icon, directionIcon } from '../icons.js';
 import { esc, emptyState } from '../ui.js';
@@ -85,7 +85,7 @@ export default {
     <div class="wrap" style="padding-bottom:4rem">
       ${reminder ? `<div class="notice info" style="margin-bottom:1.5rem">${icon('clock')}<div><p>${esc(t('account.reminder', { lesson: next.lesson.title }))}</p></div></div>` : ''}
       ${next ? `<div class="continue reveal"><div><span class="eyebrow">${esc(t(`account.next.${next.reason}`))}</span><h2 style="font-size:1.35rem;margin:0">${esc(next.lesson.title)}</h2>
-        <p class="muted small" style="margin:.25rem 0 0">${esc(data.directions[next.lesson.direction]?.name)} · ${esc(tp('unit.minutes', next.lesson.minutes))}</p></div>
+        <p class="muted small" style="margin:.25rem 0 0">${esc(data.directions[next.lesson.direction]?.name)} · ${esc(t('time.lesson', { n: next.lesson.minutes }))} · ${esc(t('time.task', { n: next.lesson.taskMinutes }))}</p></div>
         <a class="btn btn-primary" href="/lessons/${esc(next.lesson.id)}">${esc(next.reason === 'continue' ? t('action.continue') : t('action.start'))}${icon('arrowRight')}</a></div>`
         : `<div class="continue"><div><h2 style="font-size:1.35rem;margin:0">${esc(t('home.personal.allDone'))}</h2></div><a class="btn" href="/practice">${esc(t('nav.practice'))}</a></div>`}
 

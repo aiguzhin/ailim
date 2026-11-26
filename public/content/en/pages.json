@@ -7,65 +7,123 @@
       {
         "title": "Protect personal data",
         "text": "AI services may store your conversations and use them to improve their models. Don't send anything you wouldn't tell a stranger.",
-        "items": ["Passwords, SMS codes and access keys", "Your home address and phone number", "ID numbers, passport and bank card details", "Other people's personal data without permission"]
+        "items": [
+          "Passwords, SMS codes and access keys",
+          "Your home address and phone number",
+          "ID numbers, passport and bank card details",
+          "Other people's personal data without permission"
+        ]
       },
       {
         "title": "AI can be wrong",
         "text": "An answer can sound confident and still contain invented facts, dates and links.",
-        "items": ["Check important facts against two reliable sources", "Open links yourself", "Discuss medical, legal and financial questions with a professional"]
+        "items": [
+          "Check important facts against two reliable sources",
+          "Open links yourself",
+          "Discuss medical, legal and financial questions with a professional"
+        ]
       },
       {
         "title": "School and work rules",
         "text": "Schools, universities and workplaces have their own AI rules. Find out what they are in advance.",
-        "items": ["If you're unsure what's allowed, ask your teacher or manager", "Say that you used AI when the rules require it", "Don't upload work documents to AI without permission"]
+        "items": [
+          "If you're unsure what's allowed, ask your teacher or manager",
+          "Say that you used AI when the rules require it",
+          "Don't upload work documents to AI without permission"
+        ]
       },
       {
         "title": "Copyright",
         "text": "Texts, images and music belong to their authors, even if AI helped you find or rework them.",
-        "items": ["Use material with a suitable licence", "Read the service's terms before using results commercially", "Note when an image or voice was made with AI"]
+        "items": [
+          "Use material with a suitable licence",
+          "Read the service's terms before using results commercially",
+          "Note when an image or voice was made with AI"
+        ]
       },
       {
         "title": "Honesty",
         "text": "AI helps you learn and work faster, but it shouldn't replace your work where you are the one being assessed.",
-        "items": ["Don't present generated text as your own", "Don't use AI to get around rules or checks", "Don't create fake photos, videos or voices of real people"]
+        "items": [
+          "Don't present generated text as your own",
+          "Don't use AI to get around rules or checks",
+          "Don't create fake photos, videos or voices of real people"
+        ]
       },
       {
         "title": "Look after yourself",
         "text": "AI doesn't replace people or professional help.",
-        "items": ["If things are hard, talk to someone close, a teacher or a counsellor", "Take breaks from the screen", "Make decisions that matter for your life yourself"]
+        "items": [
+          "If things are hard, talk to someone close, a teacher or a counsellor",
+          "Take breaks from the screen",
+          "Make decisions that matter for your life yourself"
+        ]
       }
     ],
     "footer": "If you spot a mistake or outdated information on the site, let us know. We update the materials regularly."
   },
   "privacy": {
     "eyebrow": "Transparency",
-    "title": "What data we store",
-    "lead": "We collect only what the site needs to work, and we don't sell your data or share it with advertising services.",
+    "title": "Your data on Ailim",
+    "lead": "A plain, point-by-point account of what the site stores, where, for how long and how to delete it. Everything below was checked against how the site actually works.",
     "sections": [
       {
-        "title": "Account",
-        "items": ["The name or nickname you entered", "Your email for signing in and password recovery", "Your password is stored only as a hash (scrypt). We can't read it"]
+        "title": "What your account stores",
+        "items": [
+          "Your name or nickname and email",
+          "Your password — only as a salted scrypt hash. It can't be read or recovered from the hash",
+          "Completed lessons and the step where you stopped; completed exercises",
+          "Bookmarks and viewing history (last 200 entries)",
+          "Your learning plan from the starter quiz",
+          "Settings: language, theme, text size, motion, reminders"
+        ]
       },
       {
-        "title": "Learning",
-        "items": ["Completed lessons and the step where you stopped", "Completed practice exercises", "Bookmarked lessons and tools", "Viewing history (last 200 entries)", "Your learning plan from the starter quiz"]
+        "title": "What stays only in your browser",
+        "items": [
+          "Without an account, language, theme, text size, motion and the quiz plan are kept in this browser only. After you sign up, the plan moves to your account",
+          "Without an account, lesson progress, exercises and bookmarks are not saved",
+          "Text you write in practice and the prompt builder is never sent anywhere: not to us and not to external AI services",
+          "Signing in uses a session cookie. It is used only to keep you signed in, never for advertising"
+        ]
       },
       {
-        "title": "What we don't store",
-        "items": ["Text you write in practice and the prompt builder. It stays in your browser", "We don't send anything to external AI services", "We don't use advertising trackers or third-party analytics"]
+        "title": "How long data is kept",
+        "items": [
+          "Account data — until you delete your account",
+          "Sign-in session — 30 days or until you sign out. Expired sessions are removed automatically about every 6 hours",
+          "A password reset link is valid for 1 hour and works once",
+          "When you delete your account, data is removed from the database immediately. The database provider keeps a 6-hour restore history: during that time deleted data still technically exists in the backup history, then it is gone for good",
+          "The hosting provider keeps technical request logs (page address, IP address, time). Their retention is set by Render"
+        ]
       },
       {
-        "title": "Settings",
-        "items": ["Language, theme, text size, motion and reminders", "Without an account, these settings are stored in your browser only"]
+        "title": "How to download or delete data",
+        "items": [
+          "Download: Settings → Download my data. You get a JSON file with your profile, progress, bookmarks and history",
+          "Delete: Settings → Delete account, then confirm with your password. Deletion is immediate and permanent",
+          "You can change your name, password and settings there at any time"
+        ]
       },
       {
-        "title": "Your rights",
-        "items": ["Download all your data in Settings", "Change your name and password", "Delete your account: everything above is removed immediately and permanently"]
+        "title": "Who processes the data",
+        "items": [
+          "Site hosting: Render, server in Frankfurt (Germany)",
+          "Database: Neon, server in Frankfurt (AWS, eu-central-1)",
+          "We use no advertising, analytics or third-party trackers. Fonts are served from our own server",
+          "Links to AI tools lead to their websites, where their own rules apply"
+        ]
       },
       {
-        "title": "Technical details",
-        "items": ["Sign-in uses a secure session cookie that page scripts can't access", "A session lasts 30 days or until you sign out", "Data is stored in a PostgreSQL database over an encrypted connection"]
+        "title": "How data is protected",
+        "items": [
+          "The site works over HTTPS only",
+          "The database connection is encrypted (TLS with certificate verification)",
+          "The sign-in cookie can't be read by page scripts (HttpOnly), is sent over HTTPS only (Secure) and only to our site (SameSite=Lax)",
+          "Sign-in attempts are rate-limited to make password guessing harder"
+        ]
       }
-    ]
+    ],
+    "footer": "If anything here doesn't match what you see on the site, let us know. We'll fix either the site or this description."
   }
 }

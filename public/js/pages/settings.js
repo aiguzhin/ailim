@@ -57,7 +57,7 @@ export default {
         </div>
       </section>`
       : `<section class="settings-section"><div><h2 style="font-size:1.2rem">${esc(t('settings.profile'))}</h2></div>
-         <div><p>${esc(t('settings.guestProfile'))}</p><div class="btn-row"><a class="btn btn-primary" href="/login?next=/settings">${esc(t('nav.login'))}</a><a class="btn" href="/register">${esc(t('nav.register'))}</a></div></div></section>`}
+         <div><p>${esc(t('settings.guestProfile'))}</p><p class="small muted">${esc(t('guest.storage'))}</p><div class="btn-row"><a class="btn btn-primary" href="/login?next=/settings">${esc(t('nav.login'))}</a><a class="btn" href="/register">${esc(t('nav.register'))}</a></div></div></section>`}
     </div>`;
   },
   mount(el) {

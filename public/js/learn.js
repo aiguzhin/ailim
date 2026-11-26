@@ -1,6 +1,6 @@
 // Learning helpers shared by pages: lesson status, next step, achievements, cards.
 import { state } from './store.js';
-import { t, tp } from './i18n.js';
+import { t } from './i18n.js';
 import { icon, directionIcon } from './icons.js';
 import { esc, levelBars } from './ui.js';
 
@@ -68,6 +68,12 @@ export function statusTag(lesson) {
   return '';
 }
 
+/** Reading time and practice-task time shown separately, so titles and durations never contradict. */
+export function timeMeta(lesson) {
+  return `<span title="${esc(t('time.lessonHint'))}">${icon('clock')}${esc(t('time.lesson', { n: lesson.minutes }))}</span>`
+    + (lesson.taskMinutes ? `<span title="${esc(t('time.taskHint'))}">${icon('flag')}${esc(t('time.task', { n: lesson.taskMinutes }))}</span>` : '');
+}
+
 export function lessonCard(lesson, directions, { reveal = true } = {}) {
   const dir = directions[lesson.direction];
   return `<article class="card link-card${reveal ? ' reveal' : ''}">
@@ -79,7 +85,7 @@ export function lessonCard(lesson, directions, { reveal = true } = {}) {
     <h3><a href="/lessons/${esc(lesson.id)}">${esc(lesson.title)}</a></h3>
     <p>${esc(lesson.summary)}</p>
     <div class="card-foot">
-      <div class="meta"><span>${icon('clock')}${esc(tp('unit.minutes', lesson.minutes))}</span><span>${levelBars(lesson.level)}</span></div>
+      <div class="meta">${timeMeta(lesson)}<span>${levelBars(lesson.level)}</span></div>
       ${state.user ? favButton(`lesson:${lesson.id}`, lesson.title) : ''}
     </div>
   </article>`;

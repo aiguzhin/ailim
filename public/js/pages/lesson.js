@@ -1,8 +1,8 @@
-import { t, tp, content } from '../i18n.js';
+import { t, content } from '../i18n.js';
 import { state, setProgress, resetProgress, recordView } from '../store.js';
 import { icon, directionIcon } from '../icons.js';
-import { esc, levelBars, toast, errorText, emptyState } from '../ui.js';
-import { favButton, lessonStatus } from '../learn.js';
+import { esc, levelBars, toast, errorText, emptyState, reviewNote } from '../ui.js';
+import { favButton, lessonStatus, timeMeta } from '../learn.js';
 import { bindFavorites } from '../favorites.js';
 import { promptBox, bindPromptBoxes } from '../prompt-box.js';
 
@@ -12,6 +12,7 @@ function stepHtml(lesson, i) {
   const last = lesson.steps.length;
   if (i === last) {
     return `<div class="step-panel">
+      <span class="eyebrow">${esc(t('lesson.stepOf', { n: last + 1, total: last + 1 }))}</span>
       <h2>${esc(t('lesson.practiceTitle'))}</h2>
       <div class="notice info" style="margin-bottom:1.25rem">${icon('flag')}<div><p><strong>${esc(t('lesson.task'))}</strong></p><p>${esc(lesson.task)}</p></div></div>
       <h3>${esc(t('lesson.takeaway'))}</h3>
@@ -21,7 +22,7 @@ function stepHtml(lesson, i) {
   }
   const s = lesson.steps[i];
   return `<div class="step-panel">
-    <span class="eyebrow">${esc(t('lesson.stepOf', { n: i + 1, total: last }))}</span>
+    <span class="eyebrow">${esc(t('lesson.stepOf', { n: i + 1, total: last + 1 }))}</span>
     <h2>${esc(s.title)}</h2>
     ${(s.body || []).map((p) => `<p>${esc(p)}</p>`).join('')}
     ${s.list ? `<ul class="list-check">${s.list.map((x) => `<li>${icon('check')}<span>${esc(x)}</span></li>`).join('')}</ul>` : ''}
@@ -75,11 +76,12 @@ export default {
         <h1 style="font-size:clamp(1.8rem,3.6vw,2.6rem);max-width:22ch">${esc(lesson.title)}</h1>
         ${state.user ? favButton(`lesson:${lesson.id}`, lesson.title) : ''}
       </div>
-      <div class="meta" style="margin:.25rem 0 1rem"><span>${icon(directionIcon[lesson.direction])}${esc(dir?.name || '')}</span><span>${icon('clock')}${esc(tp('unit.minutes', lesson.minutes))}</span><span>${levelBars(lesson.level)}</span></div>
+      <div class="meta" style="margin:.25rem 0 1rem"><span>${icon(directionIcon[lesson.direction])}${esc(dir?.name || '')}</span>${timeMeta(lesson)}<span>${levelBars(lesson.level)}</span></div>
       <p class="goal" style="border-left:3px solid var(--saffron);padding-left:1rem"><strong>${esc(t('lesson.goal'))}:</strong> ${esc(lesson.goal)}</p>
     </div></div>
     <div class="wrap" style="padding-bottom:4rem">
-      ${!state.user ? `<div class="notice info" style="margin-bottom:1.5rem">${icon('info')}<div><p>${esc(t('lesson.guest'))} <a href="/login?next=${encodeURIComponent(location.pathname)}">${esc(t('nav.login'))}</a></p></div></div>` : ''}
+      ${!state.user ? `<div class="notice info" style="margin-bottom:1.5rem">${icon('info')}<div><p>${esc(t('lesson.guest'))} <a href="/login?next=${encodeURIComponent(location.pathname)}">${esc(t('nav.login'))}</a></p><p class="small">${esc(t('guest.storage'))}</p></div></div>` : ''}
+      ${reviewNote()}
       ${saved?.completed ? `<div class="notice info" style="margin-bottom:1.5rem">${icon('checkCircle')}<div><p>${esc(t('lesson.alreadyDone'))} <button class="btn btn-ghost btn-sm" type="button" data-reset-progress>${esc(t('lesson.restart'))}</button></p></div></div>` : ''}
       <div class="lesson-layout">
         <div id="lesson-aside">${asideHtml(lesson, ctx.step, ctx.maxSeen)}</div>

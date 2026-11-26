@@ -86,7 +86,11 @@ function renderChrome() {
   const path = location.pathname;
   const current = (href) => (path === href || path.startsWith(`${href}/`) ? ' aria-current="page"' : '');
   const u = state.user;
-  const langs = getLanguages().map((l) => `<button type="button" data-lang="${l.code}" aria-pressed="${l.code === lang()}" lang="${l.code}" title="${esc(l.name)}">${esc(l.short)}</button>`).join('');
+  // Single-choice language switch: a radio group with roving focus (arrow keys move and select).
+  const langs = getLanguages().map((l) => {
+    const on = l.code === lang();
+    return `<button type="button" role="radio" data-lang="${l.code}" aria-checked="${on}" tabindex="${on ? 0 : -1}" lang="${l.code}" aria-label="${esc(l.name)}" title="${esc(l.name)}">${esc(l.short)}</button>`;
+  }).join('');
 
   document.getElementById('site-header').innerHTML = `
     <div class="wrap header-row">
@@ -95,7 +99,7 @@ function renderChrome() {
         ${NAV.map(([href, key]) => `<a href="${href}"${current(href)}>${esc(t(key))}</a>`).join('')}
       </nav>
       <div class="header-tools">
-        <div class="lang-switch" role="group" aria-label="${esc(t('a11y.language'))}">${langs}</div>
+        <div class="lang-switch" role="radiogroup" aria-label="${esc(t('a11y.language'))}">${langs}</div>
         ${u
           ? `<a class="btn btn-ghost btn-sm" href="/account"${current('/account')} aria-label="${esc(t('nav.account'))}"><span class="avatar" aria-hidden="true">${esc((u.name || u.email)[0].toUpperCase())}</span><span class="header-account-label">${esc(t('nav.account'))}</span></a>`
           : `<a class="btn btn-sm" href="/login">${icon('user')}<span class="header-account-label">${esc(t('nav.login'))}</span></a>`}
@@ -146,7 +150,17 @@ document.addEventListener('click', async (e) => {
   if (e.target.closest('[data-action="reload"]')) render({ keepScroll: true });
 });
 
-document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeMenu(); });
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') closeMenu();
+  const radio = e.target.closest?.('.lang-switch [role="radio"]');
+  if (radio && ['ArrowRight', 'ArrowDown', 'ArrowLeft', 'ArrowUp'].includes(e.key)) {
+    e.preventDefault();
+    const all = [...radio.parentElement.querySelectorAll('[role="radio"]')];
+    const step = e.key === 'ArrowRight' || e.key === 'ArrowDown' ? 1 : -1;
+    const next = all[(all.indexOf(radio) + step + all.length) % all.length];
+    changeLanguage(next.dataset.lang).then(() => document.querySelector(`.lang-switch [data-lang="${next.dataset.lang}"]`)?.focus());
+  }
+});
 function closeMenu() {
   document.getElementById('main-nav')?.classList.remove('open');
   document.querySelector('.menu-toggle')?.setAttribute('aria-expanded', 'false');

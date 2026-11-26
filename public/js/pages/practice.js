@@ -1,7 +1,7 @@
 import { t, content } from '../i18n.js';
 import { state, setProgress } from '../store.js';
 import { icon } from '../icons.js';
-import { esc, levelBars, emptyState, toast, errorText, copyText, debounce, observeReveal } from '../ui.js';
+import { esc, levelBars, emptyState, toast, errorText, copyText, debounce, observeReveal, reviewNote } from '../ui.js';
 
 let tasks; let directions;
 
@@ -67,7 +67,8 @@ export default {
       ${state.user ? `<p class="small muted" style="margin-top:1rem">${esc(t('practice.doneCount', { n: done, total: tasks.length }))}</p>` : ''}
     </div></div>
     <div class="narrow" style="padding-bottom:4rem">
-      ${!state.user ? `<div class="notice info" style="margin-bottom:1.5rem">${icon('info')}<div><p>${esc(t('practice.guest'))} <a href="/login?next=/practice">${esc(t('nav.login'))}</a></p></div></div>` : ''}
+      ${!state.user ? `<div class="notice info" style="margin-bottom:1.5rem">${icon('info')}<div><p>${esc(t('practice.guest'))} <a href="/login?next=/practice">${esc(t('nav.login'))}</a></p><p class="small">${esc(t('guest.storage'))}</p></div></div>` : ''}
+      ${reviewNote()}
       <div class="toolbar">
         <div class="search">${icon('search')}<label class="visually-hidden" for="pr-q">${esc(t('practice.search'))}</label><input id="pr-q" type="search" placeholder="${esc(t('practice.search'))}" autocomplete="off"></div>
         <div class="filters">

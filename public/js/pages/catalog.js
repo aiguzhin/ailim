@@ -24,10 +24,24 @@ function toolCard(tool, text, catName) {
         <button class="btn btn-ghost btn-sm" type="button" data-copy="${esc(tool.id)}">${icon('copy')}${esc(t('action.copy'))}</button></header>
       <pre>${esc(text.prompt)}</pre>
     </div>
+    ${factsHtml(tool)}
     <div class="card-foot">
       <a class="btn btn-sm" href="${esc(tool.url)}" target="_blank" rel="noopener noreferrer" data-visit="${esc(id)}">${esc(t('catalog.official'))}${icon('external')}<span class="visually-hidden">${esc(t('a11y.newTab'))}</span></a>
     </div>
   </article>`;
+}
+
+/** Usage conditions checked on official pages; "unverified" is shown honestly as such. */
+function factsHtml(tool) {
+  const f = tool.facts;
+  if (!f) return '';
+  const row = (key, value) => `<div class="fact"><dt>${esc(t(`facts.${key}.label`))}</dt><dd class="${value === 'unverified' ? 'muted' : ''}">${esc(t(`facts.${key}.${value}`))}</dd></div>`;
+  return `<details class="facts">
+    <summary>${esc(t('facts.title'))}</summary>
+    <dl>${row('free', f.free)}${row('account', f.account)}${row('age', f.age)}${row('kz', f.kz)}</dl>
+    <p class="small muted" style="margin:.5rem 0 0">${esc(t('facts.checked', { date: formatDate(f.checked) }))}.
+      ${esc(t('facts.sources'))} ${f.sources.map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(t(`facts.src.${s.type}`))}<span class="visually-hidden"> ${esc(t('a11y.newTab'))}</span></a>`).join(', ')}</p>
+  </details>`;
 }
 
 function filtered(q, cat, level, onlyFav) {

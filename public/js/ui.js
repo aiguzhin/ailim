@@ -58,6 +58,12 @@ export function notice(type, html) {
   return `<div class="notice ${type}">${icon(type === 'info' ? 'info' : type === 'warn' ? 'alert' : 'alert')}<div>${html}</div></div>`;
 }
 
+/** Notice shown when the current language's content has not yet been reviewed by a native editor. */
+export function reviewNote() {
+  const text = t('i18n.unreviewed');
+  return text && text !== 'i18n.unreviewed' ? `<div class="notice warn" style="margin-bottom:1.5rem">${icon('info')}<div><p>${esc(text)}</p></div></div>` : '';
+}
+
 /** Fade-in for blocks marked .reveal when they scroll into view. */
 let observer;
 export function observeReveal(root) {

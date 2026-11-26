@@ -1,25 +1,458 @@
 {
-  "updated": "2026-11-25",
-  "categories": ["chat", "text", "images", "video", "audio", "code", "learning"],
+  "updated": "2026-11-26",
+  "categories": [
+    "chat",
+    "text",
+    "images",
+    "video",
+    "audio",
+    "code",
+    "learning"
+  ],
   "tools": [
-    { "id": "chatgpt", "name": "ChatGPT", "maker": "OpenAI", "category": "chat", "url": "https://chatgpt.com", "level": 1 },
-    { "id": "claude", "name": "Claude", "maker": "Anthropic", "category": "chat", "url": "https://claude.ai", "level": 1 },
-    { "id": "gemini", "name": "Gemini", "maker": "Google", "category": "chat", "url": "https://gemini.google.com", "level": 1 },
-    { "id": "copilot", "name": "Microsoft Copilot", "maker": "Microsoft", "category": "chat", "url": "https://copilot.microsoft.com", "level": 1 },
-    { "id": "perplexity", "name": "Perplexity", "maker": "Perplexity AI", "category": "chat", "url": "https://www.perplexity.ai", "level": 1 },
-    { "id": "deepl", "name": "DeepL", "maker": "DeepL", "category": "text", "url": "https://www.deepl.com", "level": 1 },
-    { "id": "grammarly", "name": "Grammarly", "maker": "Grammarly", "category": "text", "url": "https://www.grammarly.com", "level": 1 },
-    { "id": "midjourney", "name": "Midjourney", "maker": "Midjourney", "category": "images", "url": "https://www.midjourney.com", "level": 2 },
-    { "id": "firefly", "name": "Adobe Firefly", "maker": "Adobe", "category": "images", "url": "https://firefly.adobe.com", "level": 1 },
-    { "id": "canva", "name": "Canva", "maker": "Canva", "category": "images", "url": "https://www.canva.com", "level": 1 },
-    { "id": "runway", "name": "Runway", "maker": "Runway", "category": "video", "url": "https://runwayml.com", "level": 2 },
-    { "id": "capcut", "name": "CapCut", "maker": "ByteDance", "category": "video", "url": "https://www.capcut.com", "level": 1 },
-    { "id": "elevenlabs", "name": "ElevenLabs", "maker": "ElevenLabs", "category": "audio", "url": "https://elevenlabs.io", "level": 2 },
-    { "id": "suno", "name": "Suno", "maker": "Suno", "category": "audio", "url": "https://suno.com", "level": 1 },
-    { "id": "github-copilot", "name": "GitHub Copilot", "maker": "GitHub", "category": "code", "url": "https://github.com/features/copilot", "level": 3 },
-    { "id": "cursor", "name": "Cursor", "maker": "Anysphere", "category": "code", "url": "https://cursor.com", "level": 3 },
-    { "id": "notebooklm", "name": "NotebookLM", "maker": "Google", "category": "learning", "url": "https://notebooklm.google.com", "level": 1 },
-    { "id": "gamma", "name": "Gamma", "maker": "Gamma", "category": "learning", "url": "https://gamma.app", "level": 1 },
-    { "id": "notion-ai", "name": "Notion AI", "maker": "Notion", "category": "learning", "url": "https://www.notion.com/product/ai", "level": 2 }
-  ]
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "maker": "OpenAI",
+      "category": "chat",
+      "url": "https://chatgpt.com",
+      "level": 1,
+      "facts": {
+        "checked": "2026-11-26",
+        "free": "yes",
+        "account": "unverified",
+        "age": "13p",
+        "kz": "listed",
+        "sources": [
+          {
+            "type": "terms",
+            "url": "https://openai.com/policies/row-terms-of-use/"
+          },
+          {
+            "type": "pricing",
+            "url": "https://chatgpt.com/pricing"
+          },
+          {
+            "type": "countries",
+            "url": "https://help.openai.com/en/articles/7947663"
+          }
+        ]
+      }
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "maker": "Anthropic",
+      "category": "chat",
+      "url": "https://claude.ai",
+      "level": 1,
+      "facts": {
+        "checked": "2026-11-26",
+        "free": "yes",
+        "account": "required",
+        "age": "18",
+        "kz": "listed",
+        "sources": [
+          {
+            "type": "terms",
+            "url": "https://www.anthropic.com/legal/consumer-terms"
+          },
+          {
+            "type": "pricing",
+            "url": "https://claude.com/pricing"
+          },
+          {
+            "type": "countries",
+            "url": "https://www.anthropic.com/supported-countries"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "maker": "Google",
+      "category": "chat",
+      "url": "https://gemini.google.com",
+      "level": 1,
+      "facts": {
+        "checked": "2026-11-26",
+        "free": "yes",
+        "account": "optional",
+        "age": "13g",
+        "kz": "listed",
+        "sources": [
+          {
+            "type": "requirements",
+            "url": "https://support.google.com/gemini/answer/13278668"
+          },
+          {
+            "type": "countries",
+            "url": "https://support.google.com/gemini/answer/13575153"
+          }
+        ]
+      }
+    },
+    {
+      "id": "copilot",
+      "name": "Microsoft Copilot",
+      "maker": "Microsoft",
+      "category": "chat",
+      "url": "https://copilot.microsoft.com",
+      "level": 1,
+      "facts": {
+        "checked": "2026-11-26",
+        "free": "unverified",
+        "account": "unverified",
+        "age": "13c",
+        "kz": "unverified",
+        "sources": [
+          {
+            "type": "age",
+            "url": "https://support.microsoft.com/en-us/topic/microsoft-copilot-age-limits-and-parental-controls-f79b47a6-288a-4513-8c01-afe4d16db900"
+          },
+          {
+            "type": "terms",
+            "url": "https://www.microsoft.com/microsoft-copilot/for-individuals/termsofuse"
+          }
+        ]
+      }
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "maker": "Perplexity AI",
+      "category": "chat",
+      "url": "https://www.perplexity.ai",
+      "level": 1,
+      "facts": {
+        "checked": "2026-11-26",
+        "free": "unverified",
+        "account": "unverified",
+        "age": "13p",
+        "kz": "unverified",
+        "sources": [
+          {
+            "type": "terms",
+            "url": "https://www.perplexity.ai/hub/legal/terms-of-service"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deepl",
+      "name": "DeepL",
+      "maker": "DeepL",
+      "category": "text",
+      "url": "https://www.deepl.com",
+      "level": 1,
+      "facts": {
+        "checked": "2026-11-26",
+        "free": "unverified",
+        "account": "unverified",
+        "age": "unverified",
+        "kz": "not_restricted",
+        "sources": [
+          {
+            "type": "terms",
+            "url": "https://www.deepl.com/pro-license"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "maker": "Grammarly",
+      "category": "text",
+      "url": "https://www.grammarly.com",
+      "level": 1,
+      "facts": {
+        "checked": "2026-11-26",
+        "free": "unverified",
+        "account": "unverified",
+        "age": "13eu",
+        "kz": "unverified",
+        "sources": [
+          {
+            "type": "terms",
+            "url": "https://www.grammarly.com/terms"
+          }
+        ]
+      }
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "maker": "Midjourney",
+      "category": "images",
+      "url": "https://www.midjourney.com",
+      "level": 2,
+      "facts": {
+        "checked": "2026-11-26",
+        "free": "unverified",
+        "account": "required",
+        "age": "13p",
+        "kz": "unverified",
+        "sources": [
+          {
+            "type": "terms",
+            "url": "https://docs.midjourney.com/docs/terms-of-service"
+          }
+        ]
+      }
+    },
+    {
+      "id": "firefly",
+      "name": "Adobe Firefly",
+      "maker": "Adobe",
+      "category": "images",
+      "url": "https://firefly.adobe.com",
+      "level": 1,
+      "facts": {
+        "checked": "2026-11-26",
+        "free": "unverified",
+        "account": "required",
+        "age": "adobe",
+        "kz": "unverified",
+        "sources": [
+          {
+            "type": "faq",
+            "url": "https://helpx.adobe.com/firefly/faq.html"
+          },
+          {
+            "type": "terms",
+            "url": "https://www.adobe.com/go/adobe-gen-ai-addl-terms"
+          }
+        ]
+      }
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "maker": "Canva",
+      "category": "images",
+      "url": "https://www.canva.com",
+      "level": 1,
+      "facts": {
+        "checked": "2026-11-26",
+        "free": "unverified",
+        "account": "unverified",
+        "age": "13edu",
+        "kz": "unverified",
+        "sources": [
+          {
+            "type": "age",
+            "url": "https://www.esafety.gov.au/key-topics/esafety-guide/canva"
+          },
+          {
+            "type": "terms",
+            "url": "https://www.canva.com/policies/terms-of-use/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "runway",
+      "name": "Runway",
+      "maker": "Runway",
+      "category": "video",
+      "url": "https://runwayml.com",
+      "level": 2,
+      "facts": {
+        "checked": "2026-11-26",
+        "free": "unverified",
+        "account": "required",
+        "age": "13p",
+        "kz": "unverified",
+        "sources": [
+          {
+            "type": "terms",
+            "url": "https://runwayml.com/terms-of-use"
+          }
+        ]
+      }
+    },
+    {
+      "id": "capcut",
+      "name": "CapCut",
+      "maker": "ByteDance",
+      "category": "video",
+      "url": "https://www.capcut.com",
+      "level": 1,
+      "facts": {
+        "checked": "2026-11-26",
+        "free": "unverified",
+        "account": "unverified",
+        "age": "13p",
+        "kz": "unverified",
+        "sources": [
+          {
+            "type": "terms",
+            "url": "https://www.capcut.com/clause/terms-of-service"
+          },
+          {
+            "type": "age",
+            "url": "https://www.capcut.com/help/fail-to-log-in-due-to-age-required"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "maker": "ElevenLabs",
+      "category": "audio",
+      "url": "https://elevenlabs.io",
+      "level": 2,
+      "facts": {
+        "checked": "2026-11-26",
+        "free": "yes_noncommercial",
+        "account": "required",
+        "age": "18",
+        "kz": "unverified",
+        "sources": [
+          {
+            "type": "terms",
+            "url": "https://elevenlabs.io/terms-of-use"
+          }
+        ]
+      }
+    },
+    {
+      "id": "suno",
+      "name": "Suno",
+      "maker": "Suno",
+      "category": "audio",
+      "url": "https://suno.com",
+      "level": 1,
+      "facts": {
+        "checked": "2026-11-26",
+        "free": "yes",
+        "account": "required",
+        "age": "13p",
+        "kz": "unverified",
+        "sources": [
+          {
+            "type": "age",
+            "url": "https://help.suno.com/en/articles/9720001"
+          },
+          {
+            "type": "terms",
+            "url": "https://suno.com/legal/terms"
+          }
+        ]
+      }
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "maker": "GitHub",
+      "category": "code",
+      "url": "https://github.com/features/copilot",
+      "level": 3,
+      "facts": {
+        "checked": "2026-11-26",
+        "free": "yes",
+        "account": "required",
+        "age": "unverified",
+        "kz": "unverified",
+        "sources": [
+          {
+            "type": "pricing",
+            "url": "https://docs.github.com/en/copilot/get-started/plans"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "maker": "Anysphere",
+      "category": "code",
+      "url": "https://cursor.com",
+      "level": 3,
+      "facts": {
+        "checked": "2026-11-26",
+        "free": "unverified",
+        "account": "required",
+        "age": "18",
+        "kz": "unverified",
+        "sources": [
+          {
+            "type": "terms",
+            "url": "https://cursor.com/terms-of-service"
+          }
+        ]
+      }
+    },
+    {
+      "id": "notebooklm",
+      "name": "NotebookLM",
+      "maker": "Google",
+      "category": "learning",
+      "url": "https://notebooklm.google.com",
+      "level": 1,
+      "facts": {
+        "checked": "2026-11-26",
+        "free": "unverified",
+        "account": "required",
+        "age": "13g",
+        "kz": "listed_gemini",
+        "sources": [
+          {
+            "type": "requirements",
+            "url": "https://support.google.com/notebooklm/answer/16164461"
+          },
+          {
+            "type": "countries",
+            "url": "https://support.google.com/gemini/answer/13575153"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gamma",
+      "name": "Gamma",
+      "maker": "Gamma",
+      "category": "learning",
+      "url": "https://gamma.app",
+      "level": 1,
+      "facts": {
+        "checked": "2026-11-26",
+        "free": "yes",
+        "account": "required",
+        "age": "majority",
+        "kz": "unverified",
+        "sources": [
+          {
+            "type": "terms",
+            "url": "https://gamma.app/terms"
+          }
+        ]
+      }
+    },
+    {
+      "id": "notion-ai",
+      "name": "Notion AI",
+      "maker": "Notion",
+      "category": "learning",
+      "url": "https://www.notion.com/product/ai",
+      "level": 2,
+      "facts": {
+        "checked": "2026-11-26",
+        "free": "unverified",
+        "account": "required",
+        "age": "unverified",
+        "kz": "unverified",
+        "sources": [
+          {
+            "type": "terms",
+            "url": "https://www.notion.com/notion/terms"
+          }
+        ]
+      }
+    }
+  ],
+  "_howToUpdate": "Обновляйте поле facts у инструмента после проверки на официальной странице и ставьте новую дату в checked и updated. Значения: free = yes | yes_noncommercial | unverified; account = required | optional | unverified; age = коды из i18n facts.age.*; kz = listed | listed_gemini | not_restricted | unverified."
 }

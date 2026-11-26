@@ -7,9 +7,21 @@
     "title": "Which prompt is better?",
     "question": "You need to prepare a short talk for your classmates about why sleep matters. Which prompt will give the most useful answer?",
     "options": [
-      { "text": "Tell me about sleep.", "correct": false, "why": "There's no task, audience or format, so the answer will be generic." },
-      { "text": "Write everything you know about sleep in great detail.", "correct": false, "why": "You'll get a long text that doesn't fit a short talk." },
-      { "text": "Give 5 points for a 2-minute talk for 8th graders: why sleep matters for memory. Simple words and one real-life example.", "correct": true, "why": "It has a task, an audience, a format and a length." }
+      {
+        "text": "Tell me about sleep.",
+        "correct": false,
+        "why": "There's no task, audience or format, so the answer will be generic."
+      },
+      {
+        "text": "Write everything you know about sleep in great detail.",
+        "correct": false,
+        "why": "You'll get a long text that doesn't fit a short talk."
+      },
+      {
+        "text": "Give 5 points for a 2-minute talk for 8th graders: why sleep matters for memory. Simple words and one real-life example.",
+        "correct": true,
+        "why": "It has a task, an audience, a format and a length."
+      }
     ],
     "hint": "Look for the option that states the audience and the format."
   },
@@ -21,9 +33,21 @@
     "title": "What can you send to a chatbot?",
     "question": "You want AI to help you write an application letter. Which option is safer?",
     "options": [
-      { "text": "Paste a template with your ID number, address and phone number.", "correct": false, "why": "It's better not to send ID numbers, addresses or phone numbers: the AI doesn't need them to help with wording." },
-      { "text": "Ask for a template with placeholders like [Full name], [address], [date] and fill it in yourself.", "correct": true, "why": "The AI helps with the text, and your personal data stays with you." },
-      { "text": "Send a photo of your passport so the AI fills everything in.", "correct": false, "why": "This is the riskiest option: the document contains a lot of personal data." }
+      {
+        "text": "Paste a template with your ID number, address and phone number.",
+        "correct": false,
+        "why": "It's better not to send ID numbers, addresses or phone numbers: the AI doesn't need them to help with wording."
+      },
+      {
+        "text": "Ask for a template with placeholders like [Full name], [address], [date] and fill it in yourself.",
+        "correct": true,
+        "why": "The AI helps with the text, and your personal data stays with you."
+      },
+      {
+        "text": "Send a photo of your passport so the AI fills everything in.",
+        "correct": false,
+        "why": "This is the riskiest option: the document contains a lot of personal data."
+      }
     ],
     "hint": "Think about what data the AI actually needs to help with the text."
   },
@@ -35,7 +59,12 @@
     "title": "Improve the prompt",
     "question": "Rewrite the prompt “Write about ecology” so the answer can be used straight away.",
     "placeholder": "For example: Prepare…",
-    "checklist": ["There's a task: what exactly to do", "It says who it's for or why", "A format or length is set", "There's a constraint: tone, difficulty or what to leave out"],
+    "checklist": [
+      "There's a task: what exactly to do",
+      "It says who it's for or why",
+      "A format or length is set",
+      "There's a constraint: tone, difficulty or what to leave out"
+    ],
     "hint": "Use the four parts of a prompt: task, context, format, constraints.",
     "sample": "Prepare 6 tips on how school students can throw away less plastic. It's for a 5th-grade wall newspaper: each tip no longer than one sentence, simple words, no scare tactics."
   },
@@ -47,9 +76,21 @@
     "title": "A suspicious quote",
     "question": "The AI gave you a quote from a famous scientist with a link to an article. The link doesn't open. What should you do?",
     "options": [
-      { "text": "Use the quote: the AI gave a link, so it's real.", "correct": false, "why": "AI can invent quotes and links that look real." },
-      { "text": "Search for the quote in reliable sources. If you can't find it, don't use it.", "correct": true, "why": "Use a quote only if a source confirms it." },
-      { "text": "Reword it slightly and use it without a link.", "correct": false, "why": "That presents an unconfirmed fact as true, which is dishonest." }
+      {
+        "text": "Use the quote: the AI gave a link, so it's real.",
+        "correct": false,
+        "why": "AI can invent quotes and links that look real."
+      },
+      {
+        "text": "Search for the quote in reliable sources. If you can't find it, don't use it.",
+        "correct": true,
+        "why": "Use a quote only if a source confirms it."
+      },
+      {
+        "text": "Reword it slightly and use it without a link.",
+        "correct": false,
+        "why": "That presents an unconfirmed fact as true, which is dishonest."
+      }
     ],
     "hint": "Who should confirm the quote: the AI or a source?"
   },
@@ -61,7 +102,12 @@
     "title": "A tutor prompt",
     "question": "Write a prompt in which the AI explains a topic and then quizzes you, without giving answers in advance.",
     "placeholder": "I'm in… Explain…",
-    "checklist": ["Your level is stated (grade, course, what you already know)", "A specific topic is named", "It asks for questions one at a time", "It asks not to give answers in advance"],
+    "checklist": [
+      "Your level is stated (grade, course, what you already know)",
+      "A specific topic is named",
+      "It asks for questions one at a time",
+      "It asks not to give answers in advance"
+    ],
     "hint": "Start with what you already know and what's unclear.",
     "sample": "I'm in 10th grade and understand what a function is, but I get confused by derivatives. Explain derivatives using a car's speed as an example, then ask me 4 questions one at a time. Don't show answers until I reply."
   },
@@ -73,9 +119,21 @@
     "title": "Describing a picture",
     "question": "You described an image as “a cat in a room”, but the result is too random. What should you add first?",
     "options": [
-      { "text": "Words like “very beautiful, best quality, masterpiece”.", "correct": false, "why": "General praise barely specifies what to draw." },
-      { "text": "Style, angle, light and details: “a ginger cat on a windowsill, side view, evening light, watercolour”.", "correct": true, "why": "Specific details make the result predictable." },
-      { "text": "Repeat the same prompt until it works.", "correct": false, "why": "Repeating without changes gives another random result." }
+      {
+        "text": "Words like “very beautiful, best quality, masterpiece”.",
+        "correct": false,
+        "why": "General praise barely specifies what to draw."
+      },
+      {
+        "text": "Style, angle, light and details: “a ginger cat on a windowsill, side view, evening light, watercolour”.",
+        "correct": true,
+        "why": "Specific details make the result predictable."
+      },
+      {
+        "text": "Repeat the same prompt until it works.",
+        "correct": false,
+        "why": "Repeating without changes gives another random result."
+      }
     ],
     "hint": "Remember the five elements of a description."
   },
@@ -87,7 +145,12 @@
     "title": "Break a goal into steps",
     "question": "Write a prompt that helps break your big goal into steps that fit your free time.",
     "placeholder": "My goal is…",
-    "checklist": ["The goal is specific", "There's a deadline", "It says when you have free time", "The step size or plan format is set"],
+    "checklist": [
+      "The goal is specific",
+      "There's a deadline",
+      "It says when you have free time",
+      "The step size or plan format is set"
+    ],
     "hint": "The AI doesn't know your schedule until you tell it.",
     "sample": "My goal is to read a 300-page book in 3 weeks. On weekdays I have 30 minutes in the evening, at weekends an hour. Make a day-by-day plan as a table and keep one rest day a week."
   },
@@ -99,9 +162,21 @@
     "title": "A key in the code",
     "question": "Your code doesn't work and you want to show it to the AI. It contains a line with your secret API key. What do you do?",
     "options": [
-      { "text": "Send it as is, it's easier to debug.", "correct": false, "why": "Your secret key could end up with strangers, and you don't control where it's stored." },
-      { "text": "Replace the key with “YOUR_API_KEY” and then send it.", "correct": true, "why": "The AI can understand the code without the real key." },
-      { "text": "Delete all the code and describe the problem in one word.", "correct": false, "why": "Without the code and the error message, the AI can't help." }
+      {
+        "text": "Send it as is, it's easier to debug.",
+        "correct": false,
+        "why": "Your secret key could end up with strangers, and you don't control where it's stored."
+      },
+      {
+        "text": "Replace the key with “YOUR_API_KEY” and then send it.",
+        "correct": true,
+        "why": "The AI can understand the code without the real key."
+      },
+      {
+        "text": "Delete all the code and describe the problem in one word.",
+        "correct": false,
+        "why": "Without the code and the error message, the AI can't help."
+      }
     ],
     "hint": "Does the AI need the real key to find the bug?"
   },
@@ -113,10 +188,91 @@
     "title": "Study rules",
     "question": "Your teacher said the essay must be written without AI. What's the honest thing to do?",
     "options": [
-      { "text": "Generate the essay and rewrite it a bit so nobody notices.", "correct": false, "why": "That breaks the rules and passes off someone else's work as yours." },
-      { "text": "Write the essay yourself. If the rules allow it, use AI for preparation, for example to understand the topic.", "correct": true, "why": "You follow the rules and still learn." },
-      { "text": "Ask a friend to generate the essay for you.", "correct": false, "why": "The rule is broken just the same, with someone else involved." }
+      {
+        "text": "Generate the essay and rewrite it a bit so nobody notices.",
+        "correct": false,
+        "why": "That breaks the rules and passes off someone else's work as yours."
+      },
+      {
+        "text": "Write the essay yourself. If the rules allow it, use AI for preparation, for example to understand the topic.",
+        "correct": true,
+        "why": "You follow the rules and still learn."
+      },
+      {
+        "text": "Ask a friend to generate the essay for you.",
+        "correct": false,
+        "why": "The rule is broken just the same, with someone else involved."
+      }
     ],
     "hint": "If you're not sure what's allowed, ask your teacher."
+  },
+  {
+    "id": "edit-request",
+    "topic": "writing",
+    "level": 1,
+    "type": "choice",
+    "title": "Asking for edits",
+    "question": "You wrote an email and want AI to improve it while keeping your style. Which prompt is better?",
+    "options": [
+      {
+        "text": "Rewrite the email nicely.",
+        "correct": false,
+        "why": "It doesn't say what to improve. The AI will probably rewrite everything its own way."
+      },
+      {
+        "text": "Find repetition and overly long sentences in my email. Suggest up to 5 edits as a “before → after” list and keep my style.",
+        "correct": true,
+        "why": "It has a clear goal, a format and a constraint. The edits are easy to check and accept one by one."
+      },
+      {
+        "text": "Write a new email on the same topic.",
+        "correct": false,
+        "why": "That's no longer editing; it replaces your text with someone else's."
+      }
+    ],
+    "hint": "A good editing prompt says what to fix and asks to see the changes."
+  },
+  {
+    "id": "slides-plan",
+    "topic": "slides",
+    "level": 2,
+    "type": "write",
+    "title": "A presentation outline",
+    "question": "Write a prompt that gets you an outline for a short presentation that's easy to check and adjust.",
+    "placeholder": "Create an outline for…",
+    "checklist": [
+      "The topic is stated",
+      "The audience and talk length are stated",
+      "The number of slides is set",
+      "It asks for an outline or key points, not finished slides"
+    ],
+    "hint": "Goal and audience first, then structure.",
+    "sample": "Create a 5-slide outline about how a solar panel works. Audience: 8th grade, 4 minutes. For each slide give a title and 2 points. Mark any figures I need to check with [check]."
+  },
+  {
+    "id": "video-hook",
+    "topic": "video",
+    "level": 2,
+    "type": "choice",
+    "title": "Opening a short video",
+    "question": "Which opening works best for a 30-second video on how to learn 10 new words quickly?",
+    "options": [
+      {
+        "text": "“Hi everyone, my name is… Today I'll tell you about an interesting topic.”",
+        "correct": false,
+        "why": "A long intro: viewers don't know what the video is about and may leave."
+      },
+      {
+        "text": "“10 words in 5 minutes — here's the method that works for me.”",
+        "correct": true,
+        "why": "The benefit is clear at once, with a concrete promise and no exaggeration."
+      },
+      {
+        "text": "“YOU WON'T BELIEVE what happened next!!!”",
+        "correct": false,
+        "why": "Clickbait with no substance: the promise has nothing to do with the topic and undermines trust."
+      }
+    ],
+    "hint": "The first seconds should answer “why should I watch this?”."
   }
 ]

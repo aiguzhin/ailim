@@ -57,5 +57,16 @@ const dynamic = [
 dynamic.forEach((k) => used.add(k));
 for (const k of used) if (!(k in ref) && !(`${k}.other` in ref)) fail(`code uses missing key ${k}`);
 
+// Every value used in tool facts must have a label in every language.
+const tools = JSON.parse(fs.readFileSync('public/content/tools.json', 'utf8')).tools;
+for (const lang of langs) {
+  const d = read(`public/i18n/${lang}.json`);
+  for (const tool of tools) {
+    if (!tool.facts) { fail(`tools.json: ${tool.id} has no facts`); continue; }
+    for (const k of ['free', 'account', 'age', 'kz']) if (!(`facts.${k}.${tool.facts[k]}` in d)) fail(`${lang}: missing facts.${k}.${tool.facts[k]} (${tool.id})`);
+    for (const s of tool.facts.sources) if (!(`facts.src.${s.type}` in d)) fail(`${lang}: missing facts.src.${s.type}`);
+  }
+}
+
 console.log(problems ? `${problems} problem(s)` : `OK: ${langs.join(', ')} are consistent (${Object.keys(ref).length} keys)`);
 process.exit(problems ? 1 : 0);

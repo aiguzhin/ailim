@@ -1,7 +1,7 @@
 import { t, content } from '../i18n.js';
 import { state } from '../store.js';
 import { icon } from '../icons.js';
-import { esc, emptyState, debounce, observeReveal } from '../ui.js';
+import { esc, emptyState, debounce, observeReveal, reviewNote } from '../ui.js';
 import { lessonCard, lessonStatus } from '../learn.js';
 import { bindFavorites } from '../favorites.js';
 
@@ -22,7 +22,8 @@ export default {
         <div class="bar" style="margin-top:.4rem" role="progressbar" aria-valuemin="0" aria-valuemax="${lessons.length}" aria-valuenow="${done}" aria-label="${esc(t('lessons.progress'))}"><i style="--v:${Math.round((done / lessons.length) * 100)}%"></i></div></div>` : ''}
     </div></div>
     <div class="wrap" style="padding-bottom:4rem">
-      ${!state.user ? `<div class="notice info" style="margin-bottom:1.5rem">${icon('info')}<div><p>${esc(t('lessons.guest'))} <a href="/register">${esc(t('nav.register'))}</a></p></div></div>` : ''}
+      ${!state.user ? `<div class="notice info" style="margin-bottom:1.5rem">${icon('info')}<div><p>${esc(t('lessons.guest'))} <a href="/register">${esc(t('nav.register'))}</a></p><p class="small">${esc(t('guest.storage'))}</p></div></div>` : ''}
+      ${reviewNote()}
       <div class="toolbar">
         <div class="search">${icon('search')}<label class="visually-hidden" for="les-q">${esc(t('lessons.search'))}</label>
           <input id="les-q" type="search" placeholder="${esc(t('lessons.search'))}" value="${esc(query.get('q') || '')}" autocomplete="off"></div>

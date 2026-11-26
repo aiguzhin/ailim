@@ -33,6 +33,16 @@ api.get('/health', wrap(async (_req, res) => {
   res.json({ ok: true, mail: mailEnabled });
 }));
 
+// Public site information for the privacy page. Values come from environment variables.
+api.get('/site-info', (_req, res) => {
+  res.json({
+    owner: process.env.SITE_OWNER || '',
+    contactEmail: process.env.CONTACT_EMAIL || '',
+    issuesUrl: process.env.ISSUES_URL || 'https://github.com/aiguzhin/ailim/issues',
+    mail: mailEnabled,
+  });
+});
+
 // ---------- Auth ----------
 api.post('/auth/register', authLimiter, wrap(async (req, res) => {
   const email = cleanEmail(req.body.email);
