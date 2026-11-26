@@ -7,7 +7,8 @@
     "chat",
     "sources",
     "own-docs",
-    "image-gen"
+    "image-gen",
+    "code-gen"
    ],
    "sources": [
     {
@@ -17,13 +18,19 @@
     {
      "url": "https://help.openai.com/en/articles/11084440",
      "type": "images"
+    },
+    {
+     "url": "https://help.openai.com/en/articles/9930697",
+     "type": "code"
     }
    ]
   },
   "claude": {
    "can": [
     "chat",
-    "own-docs"
+    "own-docs",
+    "code-gen",
+    "publish"
    ],
    "sources": [
     {
@@ -33,13 +40,19 @@
     {
      "url": "https://support.claude.com/en/articles/9002504",
      "type": "images"
+    },
+    {
+     "url": "https://support.claude.com/en/articles/9547008",
+     "type": "publish"
     }
    ]
   },
   "gemini": {
    "can": [
     "chat",
-    "image-gen"
+    "image-gen",
+    "code-gen",
+    "prototype"
    ],
    "sources": [
     {
@@ -49,6 +62,10 @@
     {
      "url": "https://support.google.com/gemini/answer/13278668",
      "type": "requirements"
+    },
+    {
+     "url": "https://support.google.com/gemini/answer/16047321",
+     "type": "code"
     }
    ]
   },
@@ -122,12 +139,18 @@
   "canva": {
    "can": [
     "image-gen",
-    "slides"
+    "slides",
+    "site-builder",
+    "publish"
    ],
    "sources": [
     {
      "url": "https://www.canva.com",
      "type": "site"
+    },
+    {
+     "url": "https://www.canva.com/help/article/canva-websites/",
+     "type": "publish"
     }
    ]
   },
@@ -178,23 +201,35 @@
   "github-copilot": {
    "can": [
     "code-ide",
-    "chat"
+    "chat",
+    "code-gen",
+    "project-edit"
    ],
    "sources": [
     {
      "url": "https://docs.github.com/en/copilot/get-started/plans",
      "type": "docs"
+    },
+    {
+     "url": "https://docs.github.com/en/copilot/get-started/features",
+     "type": "code"
     }
    ]
   },
   "cursor": {
    "can": [
-    "code-ide"
+    "code-ide",
+    "code-gen",
+    "project-edit"
    ],
    "sources": [
     {
      "url": "https://cursor.com",
      "type": "site"
+    },
+    {
+     "url": "https://cursor.com/docs/agent/overview",
+     "type": "code"
     }
    ]
   },
@@ -211,12 +246,18 @@
   },
   "gamma": {
    "can": [
-    "slides"
+    "slides",
+    "site-builder",
+    "publish"
    ],
    "sources": [
     {
      "url": "https://gamma.app",
      "type": "site"
+    },
+    {
+     "url": "https://help.gamma.app/en/articles/8429268-how-to-create-a-site",
+     "type": "publish"
     }
    ]
   },
@@ -228,6 +269,65 @@
     {
      "url": "https://www.notion.com/product/ai",
      "type": "site"
+    }
+   ]
+  },
+  "figma": {
+   "can": [
+    "prototype",
+    "code-gen",
+    "site-builder",
+    "publish"
+   ],
+   "sources": [
+    {
+     "url": "https://help.figma.com/hc/en-us/articles/31304412302231-Explore-Figma-Make",
+     "type": "prototype"
+    },
+    {
+     "url": "https://help.figma.com/hc/en-us/articles/31722591905559",
+     "type": "publish"
+    }
+   ]
+  },
+  "framer": {
+   "can": [
+    "site-builder",
+    "publish"
+   ],
+   "sources": [
+    {
+     "url": "https://www.framer.com/solutions/ai-website-builder/",
+     "type": "publish"
+    }
+   ]
+  },
+  "tilda": {
+   "can": [
+    "site-builder",
+    "publish"
+   ],
+   "sources": [
+    {
+     "url": "https://help.tilda.cc/tilda-ai",
+     "type": "ai"
+    },
+    {
+     "url": "https://tilda.cc/ru/lp/sozdanie-saita-s-domenom/",
+     "type": "publish"
+    }
+   ]
+  },
+  "v0": {
+   "can": [
+    "code-gen",
+    "prototype",
+    "publish"
+   ],
+   "sources": [
+    {
+     "url": "https://v0.app/docs/deployments",
+     "type": "publish"
     }
    ]
   }

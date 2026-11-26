@@ -101,6 +101,15 @@ CATS = [
   ("poster","Варианты постера","Poster options","Постер нұсқалары"),("infographic","Инфографика","Infographic","Инфографика"),
   ("hierarchy","Визуальная иерархия","Visual hierarchy","Визуалды иерархия"),("cover","Обложка проекта","Project cover","Жоба мұқабасы"),
   ("alt","Alt-текст","Alt text","Alt-мәтін"),("overloaded","Перегруженный макет","Overloaded layout","Шамадан тыс макет")]),
+ ("web","code",["chat","prototype","site-builder","code-gen","image-gen"],None,["students","specialists","creative","teams"],("Веб-дизайн и сайты","Web design and websites","Веб-дизайн және сайттар"),[
+  ("plan","Идея и план сайта","Website idea and plan","Сайт идеясы мен жоспары"),("structure","Структура и навигация","Structure and navigation","Құрылым және навигация"),
+  ("prototype","Прототип и макет","Prototype and layout","Прототип және макет"),("style","Визуальный стиль и дизайн-система","Visual style and design system","Визуалды стиль және дизайн-жүйе"),
+  ("ux","UX и удобство","UX and usability","UX және ыңғайлылық"),("responsive","Адаптивный дизайн","Responsive design","Бейімделгіш дизайн"),
+  ("a11y","Доступность сайта","Website accessibility","Сайттың қолжетімділігі"),("copy","Тексты для сайта","Website copy","Сайтқа арналған мәтіндер"),
+  ("graphics","Изображения и графика для сайта","Images and graphics for the web","Сайтқа арналған суреттер мен графика"),("landing","Лендинги и страницы продукта","Landing and product pages","Лендингтер және өнім беттері"),
+  ("content","Портфолио, блог и контентные сайты","Portfolios, blogs and content sites","Портфолио, блог және контент сайттары"),("shop","Интернет-магазины и каталоги","Online shops and catalogues","Интернет-дүкендер және каталогтар"),
+  ("webapp","Веб-приложения и панели управления","Web apps and dashboards","Веб-қосымшалар және басқару панельдері"),("code","Создание сайта с помощью кода","Building a site with code","Сайтты код арқылы жасау"),
+  ("nocode","Конструкторы сайтов и no-code","Site builders and no-code","Сайт конструкторлары және no-code"),("audit","Проверка и улучшение существующего сайта","Reviewing and improving an existing site","Бар сайтты тексеру және жақсарту")]),
  ("images","image",["image-gen"],"images-describe",["creative","students"],("Создание изображений","Image creation","Сурет жасау"),[
   ("subject","Объект, действие, окружение","Subject, action, setting","Нысан, әрекет, орта"),("style","Выбрать стиль","Choose a style","Стиль таңдау"),
   ("angle","Ракурс","Camera angle","Ракурс"),("light","Свет","Lighting","Жарық"),

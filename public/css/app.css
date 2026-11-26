@@ -508,3 +508,12 @@ fieldset.fill p { grid-column: 1 / -1; }
   .chips.subtopic-nav > * { flex: 0 0 auto; }
 }
 @media (max-width: 480px) { .filters select { flex-basis: 100%; } }
+
+/* Web design category: shared project details, facet filters, task chips. */
+.project-panel summary { cursor: pointer; }
+.project-panel .project-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: .6rem 1rem; margin: .75rem 0; }
+.web-filters { align-items: flex-end; }
+.filter-field { display: flex; flex-direction: column; gap: .25rem; }
+.task-chips .chips { margin-bottom: .5rem; }
+.task-chips .chip { font-size: .82rem; text-align: left; }
+@media (max-width: 480px) { .filter-field { flex-basis: 100%; } .filter-field select { width: 100%; } }

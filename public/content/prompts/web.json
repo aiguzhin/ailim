@@ -1,0 +1,1267 @@
+[
+ {
+  "id": "web.plan.idea",
+  "subtopic": "plan",
+  "kind": "idea",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "new",
+  "stage": [
+   "idea"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.plan.spec",
+  "subtopic": "plan",
+  "kind": "spec",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "new",
+  "stage": [
+   "idea"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.plan.build",
+  "subtopic": "plan",
+  "kind": "build",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "new",
+  "stage": [
+   "idea"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.plan.review",
+  "subtopic": "plan",
+  "kind": "review",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "idea"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.structure.idea",
+  "subtopic": "structure",
+  "kind": "idea",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "structure"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.structure.spec",
+  "subtopic": "structure",
+  "kind": "spec",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "structure"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.structure.build",
+  "subtopic": "structure",
+  "kind": "build",
+  "level": 1,
+  "result": "code",
+  "needs": [
+   "code-ide",
+   "project-edit",
+   "site-builder"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "structure"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.structure.review",
+  "subtopic": "structure",
+  "kind": "review",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "structure"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.prototype.idea",
+  "subtopic": "prototype",
+  "kind": "idea",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "layout"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.prototype.spec",
+  "subtopic": "prototype",
+  "kind": "spec",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "layout"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.prototype.build",
+  "subtopic": "prototype",
+  "kind": "build",
+  "level": 2,
+  "result": "code",
+  "needs": [
+   "prototype",
+   "code-gen"
+  ],
+  "checked": "2026-11-26",
+  "applies": "new",
+  "flags": [
+   "account",
+   "publish"
+  ],
+  "stage": [
+   "layout"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.prototype.review",
+  "subtopic": "prototype",
+  "kind": "review",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "layout"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.style.idea",
+  "subtopic": "style",
+  "kind": "idea",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "style"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.style.spec",
+  "subtopic": "style",
+  "kind": "spec",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "style"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.style.build",
+  "subtopic": "style",
+  "kind": "build",
+  "level": 2,
+  "result": "code",
+  "needs": [
+   "code-ide",
+   "project-edit",
+   "prototype"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "style"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.style.review",
+  "subtopic": "style",
+  "kind": "review",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "style"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.ux.idea",
+  "subtopic": "ux",
+  "kind": "idea",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "layout",
+   "review"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.ux.spec",
+  "subtopic": "ux",
+  "kind": "spec",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "layout",
+   "review"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.ux.build",
+  "subtopic": "ux",
+  "kind": "build",
+  "level": 2,
+  "result": "code",
+  "needs": [
+   "code-ide",
+   "project-edit",
+   "prototype"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "layout",
+   "review"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.ux.review",
+  "subtopic": "ux",
+  "kind": "review",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "layout",
+   "review"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.responsive.idea",
+  "subtopic": "responsive",
+  "kind": "idea",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "layout",
+   "code"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.responsive.spec",
+  "subtopic": "responsive",
+  "kind": "spec",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "layout",
+   "code"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.responsive.build",
+  "subtopic": "responsive",
+  "kind": "build",
+  "level": 2,
+  "result": "code",
+  "needs": [
+   "code-ide",
+   "project-edit"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "layout",
+   "code"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.responsive.review",
+  "subtopic": "responsive",
+  "kind": "review",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "layout",
+   "code"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.a11y.idea",
+  "subtopic": "a11y",
+  "kind": "idea",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "style",
+   "code",
+   "review"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.a11y.spec",
+  "subtopic": "a11y",
+  "kind": "spec",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "style",
+   "code",
+   "review"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.a11y.build",
+  "subtopic": "a11y",
+  "kind": "build",
+  "level": 2,
+  "result": "code",
+  "needs": [
+   "code-ide",
+   "project-edit"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "style",
+   "code",
+   "review"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.a11y.review",
+  "subtopic": "a11y",
+  "kind": "review",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "style",
+   "code",
+   "review"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.copy.idea",
+  "subtopic": "copy",
+  "kind": "idea",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "structure",
+   "layout"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.copy.spec",
+  "subtopic": "copy",
+  "kind": "spec",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "structure",
+   "layout"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.copy.build",
+  "subtopic": "copy",
+  "kind": "build",
+  "level": 1,
+  "result": "code",
+  "needs": [
+   "code-ide",
+   "project-edit",
+   "site-builder"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "structure",
+   "layout"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.copy.review",
+  "subtopic": "copy",
+  "kind": "review",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "structure",
+   "layout"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.graphics.idea",
+  "subtopic": "graphics",
+  "kind": "idea",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "style"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.graphics.spec",
+  "subtopic": "graphics",
+  "kind": "spec",
+  "level": 1,
+  "result": "explanation",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "style"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.graphics.build",
+  "subtopic": "graphics",
+  "kind": "build",
+  "level": 1,
+  "result": "image",
+  "needs": [
+   "image-gen"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "flags": [
+   "account"
+  ],
+  "stage": [
+   "style"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.graphics.review",
+  "subtopic": "graphics",
+  "kind": "review",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "style"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.landing.idea",
+  "subtopic": "landing",
+  "kind": "idea",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "new",
+  "stage": [
+   "idea",
+   "structure",
+   "layout"
+  ],
+  "sites": [
+   "landing"
+  ]
+ },
+ {
+  "id": "web.landing.spec",
+  "subtopic": "landing",
+  "kind": "spec",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "idea",
+   "structure",
+   "layout"
+  ],
+  "sites": [
+   "landing"
+  ]
+ },
+ {
+  "id": "web.landing.build",
+  "subtopic": "landing",
+  "kind": "build",
+  "level": 1,
+  "result": "code",
+  "needs": [
+   "site-builder",
+   "prototype",
+   "code-gen"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "flags": [
+   "account",
+   "paid",
+   "publish"
+  ],
+  "stage": [
+   "idea",
+   "structure",
+   "layout"
+  ],
+  "sites": [
+   "landing"
+  ]
+ },
+ {
+  "id": "web.landing.review",
+  "subtopic": "landing",
+  "kind": "review",
+  "level": 1,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "idea",
+   "structure",
+   "layout"
+  ],
+  "sites": [
+   "landing"
+  ]
+ },
+ {
+  "id": "web.content.idea",
+  "subtopic": "content",
+  "kind": "idea",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "new",
+  "stage": [
+   "structure",
+   "layout"
+  ],
+  "sites": [
+   "portfolio",
+   "blog",
+   "education"
+  ]
+ },
+ {
+  "id": "web.content.spec",
+  "subtopic": "content",
+  "kind": "spec",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "structure",
+   "layout"
+  ],
+  "sites": [
+   "portfolio",
+   "blog",
+   "education"
+  ]
+ },
+ {
+  "id": "web.content.build",
+  "subtopic": "content",
+  "kind": "build",
+  "level": 1,
+  "result": "code",
+  "needs": [
+   "code-ide",
+   "project-edit",
+   "site-builder"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "flags": [
+   "publish"
+  ],
+  "stage": [
+   "structure",
+   "layout"
+  ],
+  "sites": [
+   "portfolio",
+   "blog",
+   "education"
+  ]
+ },
+ {
+  "id": "web.content.review",
+  "subtopic": "content",
+  "kind": "review",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "structure",
+   "layout"
+  ],
+  "sites": [
+   "portfolio",
+   "blog",
+   "education"
+  ]
+ },
+ {
+  "id": "web.shop.idea",
+  "subtopic": "shop",
+  "kind": "idea",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "structure",
+   "layout"
+  ],
+  "sites": [
+   "shop",
+   "catalog"
+  ]
+ },
+ {
+  "id": "web.shop.spec",
+  "subtopic": "shop",
+  "kind": "spec",
+  "level": 2,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "structure",
+   "layout"
+  ],
+  "sites": [
+   "shop",
+   "catalog"
+  ]
+ },
+ {
+  "id": "web.shop.build",
+  "subtopic": "shop",
+  "kind": "build",
+  "level": 2,
+  "result": "code",
+  "needs": [
+   "code-ide",
+   "project-edit",
+   "site-builder"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "flags": [
+   "account",
+   "paid",
+   "publish"
+  ],
+  "stage": [
+   "structure",
+   "layout"
+  ],
+  "sites": [
+   "shop",
+   "catalog"
+  ]
+ },
+ {
+  "id": "web.shop.review",
+  "subtopic": "shop",
+  "kind": "review",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "structure",
+   "layout"
+  ],
+  "sites": [
+   "shop",
+   "catalog"
+  ]
+ },
+ {
+  "id": "web.webapp.idea",
+  "subtopic": "webapp",
+  "kind": "idea",
+  "level": 3,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "new",
+  "stage": [
+   "structure",
+   "layout"
+  ],
+  "sites": [
+   "service",
+   "education"
+  ]
+ },
+ {
+  "id": "web.webapp.spec",
+  "subtopic": "webapp",
+  "kind": "spec",
+  "level": 3,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "structure",
+   "layout"
+  ],
+  "sites": [
+   "service",
+   "education"
+  ]
+ },
+ {
+  "id": "web.webapp.build",
+  "subtopic": "webapp",
+  "kind": "build",
+  "level": 3,
+  "result": "code",
+  "needs": [
+   "code-ide",
+   "project-edit",
+   "prototype"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "structure",
+   "layout"
+  ],
+  "sites": [
+   "service",
+   "education"
+  ]
+ },
+ {
+  "id": "web.webapp.review",
+  "subtopic": "webapp",
+  "kind": "review",
+  "level": 3,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "structure",
+   "layout"
+  ],
+  "sites": [
+   "service",
+   "education"
+  ]
+ },
+ {
+  "id": "web.code.idea",
+  "subtopic": "code",
+  "kind": "idea",
+  "level": 3,
+  "result": "code",
+  "needs": [
+   "chat",
+   "code-gen"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "code"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.code.spec",
+  "subtopic": "code",
+  "kind": "spec",
+  "level": 3,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "code"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.code.build",
+  "subtopic": "code",
+  "kind": "build",
+  "level": 3,
+  "result": "code",
+  "needs": [
+   "code-ide",
+   "project-edit"
+  ],
+  "checked": "2026-11-26",
+  "applies": "existing",
+  "stage": [
+   "code"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.code.review",
+  "subtopic": "code",
+  "kind": "review",
+  "level": 3,
+  "result": "list",
+  "needs": [
+   "chat",
+   "code-ide",
+   "code-gen"
+  ],
+  "checked": "2026-11-26",
+  "applies": "existing",
+  "stage": [
+   "code"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.nocode.idea",
+  "subtopic": "nocode",
+  "kind": "idea",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "new",
+  "stage": [
+   "layout",
+   "publish"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.nocode.spec",
+  "subtopic": "nocode",
+  "kind": "spec",
+  "level": 1,
+  "result": "plan",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "layout",
+   "publish"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.nocode.build",
+  "subtopic": "nocode",
+  "kind": "build",
+  "level": 1,
+  "result": "text",
+  "needs": [
+   "site-builder"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "flags": [
+   "account",
+   "paid",
+   "publish"
+  ],
+  "stage": [
+   "layout",
+   "publish"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.nocode.review",
+  "subtopic": "nocode",
+  "kind": "review",
+  "level": 1,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "both",
+  "stage": [
+   "layout",
+   "publish"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.audit.idea",
+  "subtopic": "audit",
+  "kind": "idea",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "existing",
+  "stage": [
+   "review",
+   "publish"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.audit.spec",
+  "subtopic": "audit",
+  "kind": "spec",
+  "level": 2,
+  "result": "list",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "existing",
+  "stage": [
+   "review",
+   "publish"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.audit.build",
+  "subtopic": "audit",
+  "kind": "build",
+  "level": 2,
+  "result": "code",
+  "needs": [
+   "code-ide",
+   "project-edit"
+  ],
+  "checked": "2026-11-26",
+  "applies": "existing",
+  "stage": [
+   "review",
+   "publish"
+  ],
+  "sites": [
+   "all"
+  ]
+ },
+ {
+  "id": "web.audit.review",
+  "subtopic": "audit",
+  "kind": "review",
+  "level": 2,
+  "result": "table",
+  "needs": [
+   "chat"
+  ],
+  "checked": "2026-11-26",
+  "applies": "existing",
+  "stage": [
+   "review",
+   "publish"
+  ],
+  "sites": [
+   "all"
+  ]
+ }
+]

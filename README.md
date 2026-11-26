@@ -68,6 +68,8 @@ DATABASE_URL=postgres://ailim:ailim@localhost:5433/ailim npm start
 python3 scripts/build-prompts.py
 ```
 
+Файл категории может задать свои виды промптов (`KINDS`), общие поля проекта (`SHARED`), а у подтемы — этапы (`stage`), типы сайтов (`sites`) и список задач (`tasks`); пример — `p_web.py`.
+
 Скрипт собирает JSON в `public/content/prompts/` и `public/content/<язык>/prompts/` и останавливается, если в каком-то языке не совпадают поля в квадратных скобках. Возможности инструментов для подбора лежат в `public/content/tool-profiles.json`; меняйте их только после проверки по официальной странице, со ссылкой и датой.
 
 ## Документы

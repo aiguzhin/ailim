@@ -55,5 +55,5 @@ export function icon(name, { label, cls = '' } = {}) {
 export const directionIcon = {
   basics: 'basics', study: 'study', writing: 'text', slides: 'slides', images: 'image', video: 'video',
   audio: 'audio', code: 'code', planning: 'plan', everyday: 'everyday',
-  chat: 'chat', text: 'text', learning: 'work',
+  chat: 'chat', text: 'text', learning: 'work', web: 'code',
 };

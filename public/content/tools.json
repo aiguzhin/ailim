@@ -6,6 +6,7 @@
     "images",
     "video",
     "audio",
+    "web",
     "code",
     "learning"
   ],
@@ -449,6 +450,106 @@
           {
             "type": "terms",
             "url": "https://www.notion.com/notion/terms"
+          }
+        ]
+      }
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "maker": "Figma",
+      "category": "web",
+      "url": "https://www.figma.com",
+      "level": 2,
+      "facts": {
+        "checked": "2026-11-26",
+        "free": "yes",
+        "account": "unverified",
+        "age": "13local",
+        "kz": "unverified",
+        "sources": [
+          {
+            "type": "pricing",
+            "url": "https://help.figma.com/hc/en-us/articles/13838684089751-Starter-plan-overview"
+          },
+          {
+            "type": "terms",
+            "url": "https://www.figma.com/legal/tos/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "framer",
+      "name": "Framer",
+      "maker": "Framer",
+      "category": "web",
+      "url": "https://www.framer.com",
+      "level": 2,
+      "facts": {
+        "checked": "2026-11-26",
+        "free": "yes",
+        "account": "unverified",
+        "age": "unverified",
+        "kz": "unverified",
+        "sources": [
+          {
+            "type": "pricing",
+            "url": "https://www.framer.com/solutions/website-builder/"
+          },
+          {
+            "type": "terms",
+            "url": "https://www.framer.com/legal/terms-of-service"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tilda",
+      "name": "Tilda",
+      "maker": "Tilda Publishing",
+      "category": "web",
+      "url": "https://tilda.cc",
+      "level": 1,
+      "facts": {
+        "checked": "2026-11-26",
+        "free": "yes",
+        "account": "required",
+        "age": "unverified",
+        "kz": "unverified",
+        "sources": [
+          {
+            "type": "pricing",
+            "url": "https://tilda.cc/ru/lp/sozdanie-saita-s-domenom/"
+          },
+          {
+            "type": "faq",
+            "url": "https://help.tilda.cc/tilda-ai"
+          }
+        ]
+      }
+    },
+    {
+      "id": "v0",
+      "name": "v0",
+      "maker": "Vercel",
+      "category": "web",
+      "url": "https://v0.app",
+      "level": 3,
+      "facts": {
+        "checked": "2026-11-26",
+        "free": "yes",
+        "account": "unverified",
+        "age": "unverified",
+        "kz": "unverified",
+        "sources": [
+          {
+            "type": "pricing",
+            "url": "https://v0.app/pricing"
+          },
+          {
+            "type": "faq",
+            "url": "https://v0.app/docs/faqs"
           }
         ]
       }

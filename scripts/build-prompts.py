@@ -3,7 +3,11 @@
 
 Sources:
   map.py            categories, subtopics and audiences in ru / en / kk
-  p_<category>.py   prompts of one category (4 per subtopic: short, detailed, refine, check)
+  p_<category>.py   prompts of one category (4 per subtopic: short, detailed, refine, check).
+                    A file may set its own KINDS. A kind may be a (ru, en, kk) tuple or a dict
+                    t=(ru, en, kk) with optional needs, applies (new | existing | both) and flags
+                    (account | paid | publish). A subtopic may add stage, sites and tasks; the file
+                    may add SHARED: placeholders filled once per project on the category page.
 
 Output (served by the site):
   public/content/prompts/index.json         shared structure
@@ -34,7 +38,7 @@ def load(cat):
     spec = importlib.util.spec_from_file_location(f'p_{cat}', path)
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
-    return mod.P
+    return mod
 
 def dump(path, data):
     os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -51,10 +55,17 @@ for key, (ru, en, kk) in AUDIENCES.items():
 total = 0
 problems = []
 for cid, icon, needs, lesson, audiences, cnames, subs in CATS:
-    prompts = load(cid)
+    mod = load(cid)
+    prompts = mod.P if mod else None
+    kinds = getattr(mod, 'KINDS', KINDS)
+    shared = getattr(mod, 'SHARED', None)
     for l, v in zip(LANGS, cnames):
         names[l]['categories'][cid] = v
     meta, texts = [], {l: {'prompts': {}, 'verify': {}} for l in LANGS}
+    if shared:
+        for i, l in enumerate(LANGS):
+            texts[l]['shared'] = [names3[i] for names3 in shared]
+            texts[l]['tasks'] = {}
     sub_ids = []
     for sid, *snames in subs:
         full = f'{cid}.{sid}'
@@ -69,8 +80,12 @@ for cid, icon, needs, lesson, audiences, cnames, subs in CATS:
             continue
         for l, v in zip(LANGS, p['verify']):
             texts[l]['verify'][full] = v
-        for kind in KINDS:
-            values = list(p[kind])
+        if p.get('tasks'):
+            for i, l in enumerate(LANGS):
+                texts[l]['tasks'][full] = [t3[i] for t3 in p['tasks']]
+        for kind in kinds:
+            spec_k = p[kind] if isinstance(p[kind], dict) else {'t': p[kind]}
+            values = list(spec_k['t'])
             for_chat = any(values[i].startswith(CHAT_MARKERS[i]) for i in range(3))
             if for_chat:
                 values = [values[i].replace(CHAT_MARKERS[i], '', 1) for i in range(3)]
@@ -78,14 +93,26 @@ for cid, icon, needs, lesson, audiences, cnames, subs in CATS:
             counts = [len(set(placeholder.findall(v))) for v in values]
             if len(set(counts)) != 1:
                 problems.append(f'{pid}: placeholder count differs between languages {counts}')
-            meta.append({'id': pid, 'subtopic': sid, 'kind': kind, 'level': p['level'],
-                         'result': 'explanation' if (for_chat and p['result'] == 'image') else p['result'],
-                         'needs': ['chat'] if for_chat else needs, 'checked': CHECKED})
+            m = {'id': pid, 'subtopic': sid, 'kind': kind, 'level': p['level'],
+                 'result': spec_k.get('result') or ('explanation' if (for_chat and p['result'] == 'image') else p['result']),
+                 'needs': ['chat'] if for_chat else spec_k.get('needs', needs), 'checked': CHECKED}
+            for key in ('applies', 'flags'):
+                if spec_k.get(key):
+                    m[key] = spec_k[key]
+            for key in ('stage', 'sites'):
+                if p.get(key):
+                    m[key] = p[key]
+            meta.append(m)
             for l, v in zip(LANGS, values):
                 texts[l]['prompts'][pid] = v
             total += 1
-    index['categories'].append({'id': cid, 'icon': icon, 'needs': needs, 'lesson': lesson,
-                                'audiences': audiences, 'subtopics': sub_ids, 'prompts': len(meta)})
+    entry = {'id': cid, 'icon': icon, 'needs': needs, 'lesson': lesson,
+             'audiences': audiences, 'subtopics': sub_ids, 'prompts': len(meta)}
+    if kinds != KINDS:
+        entry['kinds'] = kinds
+    if shared:
+        entry['project'] = True
+    index['categories'].append(entry)
     if prompts:
         dump(os.path.join(OUT, 'prompts', f'{cid}.json'), meta)
         for l in LANGS:

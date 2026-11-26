@@ -428,6 +428,50 @@
    "prompts": 40
   },
   {
+   "id": "web",
+   "icon": "code",
+   "needs": [
+    "chat",
+    "prototype",
+    "site-builder",
+    "code-gen",
+    "image-gen"
+   ],
+   "lesson": null,
+   "audiences": [
+    "students",
+    "specialists",
+    "creative",
+    "teams"
+   ],
+   "subtopics": [
+    "plan",
+    "structure",
+    "prototype",
+    "style",
+    "ux",
+    "responsive",
+    "a11y",
+    "copy",
+    "graphics",
+    "landing",
+    "content",
+    "shop",
+    "webapp",
+    "code",
+    "nocode",
+    "audit"
+   ],
+   "prompts": 64,
+   "kinds": [
+    "idea",
+    "spec",
+    "build",
+    "review"
+   ],
+   "project": true
+  },
+  {
    "id": "images",
    "icon": "image",
    "needs": [

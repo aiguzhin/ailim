@@ -6,7 +6,8 @@
     "video": "Video",
     "audio": "Sound and voice",
     "code": "Programming",
-    "learning": "Study and work"
+    "learning": "Study and work",
+    "web": "Websites and prototypes"
   },
   "text": {
     "chatgpt": {
@@ -103,6 +104,26 @@
       "purpose": "AI inside the Notion workspace: helps write notes, summarise pages and search your own records.",
       "tasks": ["Summarise a meeting", "Turn notes into a task list", "Find something in your notes"],
       "prompt": "From these meeting notes, list the decisions, tasks with owners and deadlines in a table: [notes]"
+    },
+    "figma": {
+      "purpose": "An interface and website editor. Figma Make builds working prototypes and web apps from a description, and Figma Sites publishes responsive websites.",
+      "tasks": ["Lay out a page and check it on different screens", "Build a clickable prototype from a description", "Publish a prototype or site at a link"],
+      "prompt": "Build a clickable prototype of a sign-up page for after-school clubs: a club list, a card with the schedule and an application form. Phone and desktop versions, no real data."
+    },
+    "framer": {
+      "purpose": "A website builder with AI agents: it generates pages from a description, helps with copy and publishes the site with hosting.",
+      "tasks": ["Generate a landing-page draft from a description", "Set up sections and a CMS for a blog", "Publish the site on a free subdomain"],
+      "prompt": "Create a one-page site for a school science club: what we do, upcoming meetings, how to join. A calm style, with no invented reviews or numbers."
+    },
+    "tilda": {
+      "purpose": "A block-based website builder. Its AI assistant writes text for blocks and assembles a page from a description of the topic.",
+      "tasks": ["Assemble a page from ready-made blocks", "Generate block text for the site's topic", "Publish the site on a tilda.ws subdomain"],
+      "prompt": "Site topic: drawing classes for children aged 8–12 in Aktobe. Write a heading, a short description and three blocks: what they'll learn, how classes work, how to sign up. No prices or promises I haven't given."
+    },
+    "v0": {
+      "purpose": "Vercel's generator for interfaces and web apps: it writes code from a description, shows a preview and publishes the project.",
+      "tasks": ["Generate a component or page from a description", "Adjust the interface in a visual mode", "Publish the project or connect it to GitHub"],
+      "prompt": "Build a course catalogue page: cards with title, level and length, a level filter and a “nothing found” empty state. Responsive, with a clear keyboard focus."
     }
   }
 }

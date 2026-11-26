@@ -12,8 +12,8 @@ const getJSON = (url) => {
 
 export const KINDS = ['short', 'detailed', 'refine', 'check'];
 export const RESULTS = ['explanation', 'list', 'table', 'plan', 'text', 'quiz', 'image', 'code'];
-export const CAPS = ['chat', 'sources', 'own-docs', 'translate', 'image-gen', 'video', 'tts', 'music', 'code-ide', 'slides', 'notes'];
-const CREATIVE = new Set(['images', 'design', 'video', 'audio', 'music']);
+export const CAPS = ['chat', 'sources', 'own-docs', 'translate', 'image-gen', 'video', 'tts', 'music', 'code-ide', 'slides', 'notes', 'code-gen', 'prototype', 'site-builder', 'publish', 'project-edit'];
+const CREATIVE = new Set(['images', 'design', 'video', 'audio', 'music', 'web']);
 const SENSITIVE = new Set(['habits', 'everyday', 'career', 'travel', 'safety']);
 
 /** Loads the structure, names in the current language, tool list and capability profiles. */
@@ -39,12 +39,16 @@ export async function loadAllCategories(lib) {
 
 /** Tools whose verified capabilities include at least one of the needs. */
 export function toolsFor(lib, needs) {
+  // Needs are listed most important first, so earlier matches weigh more.
+  const fit = (tool) => (lib.profiles.tools[tool.id]?.can || []).reduce((sum, c) => sum + (needs.includes(c) ? needs.length - needs.indexOf(c) : 0), 0);
   return lib.tools.filter((tool) => {
     const can = lib.profiles.tools[tool.id]?.can || [];
     // Coding assistants also chat, but only about code: recommend them for coding tasks only.
     if (can.includes('code-ide') && !needs.includes('code-ide')) return false;
     return can.some((c) => needs.includes(c));
-  });
+  }).map((tool, i) => [tool, fit(tool), i])
+    // Tools covering more of the needs come first; otherwise keep the catalogue order.
+    .sort((a, b) => b[1] - a[1] || a[2] - b[2]).map(([tool]) => tool);
 }
 
 /** Groups a category's prompts by subtopic. */
@@ -102,9 +106,12 @@ export function subtopicCard(lib, cid, sid, prompts, texts, { activeKind = 'deta
   const full = `${cid}.${sid}`;
   const cat = lib.index.categories.find((c) => c.id === cid);
   const name = lib.names.subtopics[full];
-  const first = prompts.find((p) => p.kind === activeKind) || prompts[0];
+  const first = prompts.find((p) => p.kind === activeKind) || prompts.find((p) => p.kind === 'spec') || prompts[0];
   const lvl = Math.min(...prompts.map((p) => p.level));
-  return `<article class="card prompt-card reveal" id="p-${esc(full.replace('.', '-'))}" data-sub="${esc(full)}">
+  const tasks = texts.tasks?.[full] || [];
+  const facet = (key) => [...new Set(prompts.flatMap((p) => [].concat(p[key] || [])))].join(' ');
+  return `<article class="card prompt-card reveal" id="p-${esc(full.replace('.', '-'))}" data-sub="${esc(full)}"
+    data-stage="${esc(facet('stage'))}" data-sites="${esc(facet('sites'))}" data-applies="${esc(facet('applies'))}" data-needs="${esc(facet('needs'))}">
     <header class="prompt-head">
       <div>
         ${showCategory ? `<a class="small muted" href="/prompts/${esc(cid)}">${esc(lib.names.categories[cid])}</a>` : ''}
@@ -115,6 +122,9 @@ export function subtopicCard(lib, cid, sid, prompts, texts, { activeKind = 'deta
     <div class="kind-tabs" role="tablist" aria-label="${esc(t('prompts.kindsLabel', { name }))}">
       ${prompts.map((p) => `<button type="button" role="tab" data-kind="${p.kind}" aria-selected="${p.id === first.id}" tabindex="${p.id === first.id ? 0 : -1}" title="${esc(t(`prompts.kindHint.${p.kind}`))}">${esc(t(`prompts.kind.${p.kind}`))}</button>`).join('')}
     </div>
+    ${tasks.length ? `<details class="hint task-chips"><summary>${icon('checkCircle')}${esc(t('prompts.web.tasksTitle', { n: tasks.length }))}</summary>
+      <p class="small muted" style="margin:.4rem 0">${esc(t('prompts.web.tasks'))}</p>
+      <div class="chips" role="group" aria-label="${esc(t('prompts.web.tasksTitle', { n: tasks.length }))}">${tasks.map((x) => `<button type="button" class="chip" data-task="${esc(x)}" aria-pressed="false">${esc(x)}</button>`).join('')}</div></details>` : ''}
     <div class="prompt-panel" role="tabpanel" data-panel>${panelHtml(lib, cid, first, texts)}</div>
     <details class="hint"><summary>${icon('checkCircle')}${esc(t('prompts.verify'))}</summary><p class="small">${esc(texts.verify[full] || '')}</p></details>
     <details class="hint"><summary>${icon('lock')}${esc(t('prompts.caution'))}</summary><p class="small">${esc(t('prompts.cautionText'))}${CREATIVE.has(cid) ? ` ${esc(t('prompts.cautionCreative'))}` : ''}${SENSITIVE.has(cid) ? ` ${esc(t('prompts.cautionSerious'))}` : ''}</p></details>
@@ -129,7 +139,9 @@ export function panelHtml(lib, cid, p, texts) {
   const tip = cid === 'images' && p.result === 'image' ? t('prompts.imageLangTip') : '';
   return `
     ${p.needs.includes('chat') && cid === 'images' ? `<p class="small muted" style="margin:0">${icon('info').replace('<svg', '<svg style="width:15px;height:15px;display:inline;vertical-align:-2px"')} ${esc(t('prompts.forChat'))}</p>` : ''}
+    ${p.applies ? `<p class="small" style="margin:0"><span class="tag">${esc(t(`applies.${p.applies}`))}</span></p>` : ''}
     ${toolChips(lib, p.needs)}
+    ${p.flags?.length ? `<div class="notice warn">${icon('alert')}<div><p class="small" style="margin:0">${esc(t('prompts.flagNote', { list: p.flags.map((f) => t(`prompts.flag.${f}`)).join(', ') }))}</p></div></div>` : ''}
     ${fields.length ? `<fieldset class="fill"><legend class="small label">${esc(t('prompts.fill'))}</legend>
       ${fields.map((f, i) => `<label class="fill-field"><span>${esc(f)}</span><input type="text" data-ph="${esc(f)}" maxlength="400" autocomplete="off" ${i === 0 ? '' : ''}></label>`).join('')}
       <p class="small muted" style="margin:0">${esc(t('prompts.fillHint'))}</p></fieldset>` : ''}
@@ -147,14 +159,16 @@ export function panelHtml(lib, cid, p, texts) {
 }
 
 /** Wires tabs, fill-in fields, copy and edit inside any container of subtopic cards. */
-export function bindPromptCards(root, lib, getCategory) {
+export function bindPromptCards(root, lib, getCategory, { shared = null } = {}) {
   const values = new WeakMap();
+  // Values typed in a card win over the shared project details.
+  const valuesOf = (card) => ({ ...(shared || {}), ...(values.get(card) || {}) });
   const refresh = (card) => {
     const box = card.querySelector('[data-prompt]');
     const pre = box.querySelector('[data-text]');
     if (!pre) return; // in manual edit mode
     const { texts } = getCategory(card.dataset.sub.split('.')[0]);
-    const vals = values.get(card) || {};
+    const vals = valuesOf(card);
     pre.textContent = fill(texts.prompts[box.dataset.prompt], vals);
     const pii = Object.values(vals).some((v) => PII.test(v));
     card.querySelector('.pii').innerHTML = pii ? `<div class="notice warn" role="alert">${icon('alert')}<div><p>${esc(t('builder.piiWarning'))}</p></div></div>` : '';
@@ -166,7 +180,7 @@ export function bindPromptCards(root, lib, getCategory) {
     card.querySelectorAll('[role=tab]').forEach((b) => { const on = b === btn; b.setAttribute('aria-selected', String(on)); b.tabIndex = on ? 0 : -1; });
     card.querySelector('[data-panel]').innerHTML = panelHtml(lib, cid, p, cat.texts);
     // Keep values typed earlier for placeholders with the same name.
-    const vals = values.get(card) || {};
+    const vals = valuesOf(card);
     card.querySelectorAll('[data-ph]').forEach((inp) => { if (vals[inp.dataset.ph]) inp.value = vals[inp.dataset.ph]; });
     refresh(card);
     if (focus) btn.focus();
@@ -176,6 +190,18 @@ export function bindPromptCards(root, lib, getCategory) {
     if (!card) return;
     const tab = e.target.closest('[role=tab][data-kind]');
     if (tab) { selectKind(card, tab, false); return; }
+    const task = e.target.closest('[data-task]');
+    if (task) {
+      const key = t('prompts.web.taskPh');
+      const vals = values.get(card) || {};
+      vals[key] = task.dataset.task;
+      values.set(card, vals);
+      card.querySelectorAll('[data-task]').forEach((b) => b.setAttribute('aria-pressed', String(b === task)));
+      const inp = [...card.querySelectorAll('[data-ph]')].find((i) => i.dataset.ph === key);
+      if (inp) inp.value = task.dataset.task;
+      refresh(card);
+      return;
+    }
     if (e.target.closest('[data-p-copy]')) {
       const box = card.querySelector('[data-prompt]');
       const area = box.querySelector('textarea');
@@ -207,8 +233,9 @@ export function bindPromptCards(root, lib, getCategory) {
     const inp = e.target.closest('[data-ph]');
     if (!inp) return;
     const card = inp.closest('[data-sub]');
+    if (!card) return;
     const vals = values.get(card) || {};
-    vals[inp.dataset.ph] = inp.value;
+    if (inp.value) vals[inp.dataset.ph] = inp.value; else delete vals[inp.dataset.ph];
     values.set(card, vals);
     refresh(card);
   };
@@ -219,8 +246,17 @@ export function bindPromptCards(root, lib, getCategory) {
     const next = tabs[(tabs.indexOf(tab) + (e.key === 'ArrowRight' ? 1 : -1) + tabs.length) % tabs.length];
     selectKind(tab.closest('[data-sub]'), next, true);
   };
+  // Re-applies shared project details to every card (after they change).
+  const sync = () => root.querySelectorAll('[data-sub]').forEach((card) => {
+    const vals = valuesOf(card);
+    card.querySelectorAll('[data-ph]').forEach((inp) => { if (!(values.get(card) || {})[inp.dataset.ph]) inp.value = vals[inp.dataset.ph] || ''; });
+    refresh(card);
+  });
+  if (shared) sync();
   root.addEventListener('click', onClick);
   root.addEventListener('input', onInput);
   root.addEventListener('keydown', onKey);
-  return () => { root.removeEventListener('click', onClick); root.removeEventListener('input', onInput); root.removeEventListener('keydown', onKey); };
+  const cleanup = () => { root.removeEventListener('click', onClick); root.removeEventListener('input', onInput); root.removeEventListener('keydown', onKey); };
+  cleanup.sync = sync;
+  return cleanup;
 }
